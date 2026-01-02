@@ -24,7 +24,17 @@ This week we will be covering Chapter 2 of [the course book](https://opetchey.gi
 
 ## Lecture
 
+In the lecture you'll be asked to record some reaction time data about yourself. Use this google form to record the data: <a href="https://forms.gle/woeVDysV48CbcorB7" target="_blank">
+  Link to Reaction Time Data Form
+</a>
 
+Go to this web page for a tool to record your reaction times: <a href="https://humanbenchmark.com/tests/reactiontime" target="_blank">
+  Link to Reaction Time Tool
+</a>
+
+The resulting dataset can be access and or downloaded from this web page: <a href="https://tinyurl.com/ye255bdm" target="_blank">
+  Link to Reaction Time Dataset
+</a>
 
 
 ## Homework

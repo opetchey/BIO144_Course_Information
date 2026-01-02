@@ -1,0 +1,19 @@
+::: {.callout-warning}
+**Under construction**: This 2026 version of this information is currently being prepared.
+:::
+
+
+# Preface {.unnumbered}
+
+This website contains information about the BIO144 Data Analysis in Biology course at the University of Zurich.
+
+Beware that Owen sometimes makes updates to the information during the semester, so if you have downloaded a copy or taken screenshots, your copy may not exactly match the most current version. However, any changes will be correcting typos or improving explanations. If content does change in an important way Owen will announce this in the lectures, or on OLAT, or by email.
+
+
+## How this website was made
+
+The book was written using a type of RMarkdown. It allows a script with a mix of normal text and R code to produce chapters and a book that has a mixture of text, R code, and R output. Rmarkdown is very useful for making reports, books, presentations, and even websites.
+
+This book is a Quarto book. To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+

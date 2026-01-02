@@ -1,0 +1,54 @@
+
+# Year specific information {.unnumbered}
+
+## 2026 Detailed schedule
+
+| Week number (add 7 to get week of the year) | Week beginning | Lecture (Monday, 8:00-9:45am) | Practical (Thurs or Fri. 1-3pm) |
+| --- | --- | --- | --- |
+| 1 | Feb. 17 | Introduction, motivation, recap, basic visualisation, models, demonstration, fixing computer issues (L1) | Getting started, fixing computuer issues |
+| 2 | Feb. 24 | No lecture due to lots of BC material to do this week (no L2) | Import, wrangle, visualise |
+| 3 | Mar. 3 | Linear Regression Part 1 (L3) | Linear regression (child mortality) and QQ plots. |
+| 4 | Mar. 10 | Linear Regression part2, Multiple linear regression 1 (L4) | More on linear regression, and multiple linear regression. |
+| 5 | Mar. 17 | Binary and categorical explanatory variables, and interactions (L5) | Binary and categorical variables. |
+| 6 | Mar. 24 | ANOVA (L6) | ANOVA |
+| 7 | Mar. 31 | ANCOVA and linear algebra (L7) | ANCOVA and linear algebra |
+| 8 | Apr. 7 | Model selection (L8) | Model selection |
+| 9 | Apr. 14 | Interpreting your model, causality, and cautionary notes (L9) | Interpreting your model, causality, and cautionary notes (Thurs. only) |
+| 10 | Apr. 21 | no lecture | no practical |
+| 11 | Apr. 28 | no lecture | Review and consolidate practical (Fri. only) |
+| 12 | May 5 | Modelling count data (L10) | Modelling count data |
+| 13 | May 12 | Modelling binary data (L11) | Modelling binary data |
+| 14 | May 19 | Measurement error, mixed models, what next. (L12) | Measurement error, mixed models, what next. |
+| 15 | May 26 | no lecture | Review and consolidate practical (Fri. only) |
+
+
+
+## 2026 Locations
+
+Lectures are in Y24-G-45  
+(Lectures will be live-streamed and podcasts will be made available, in any case.)
+
+Practicals are in Y24-G-45.
+
+## 2026 Assessment
+
+Practice examination experience: Date and time to be communicated
+
+Final Examination date and time: Please see this Studium Biology, Modulprufungen im Grundstudium web page and the links therein for the examination dates and other important examination information.
+
+ 
+## 2026 Practice exam
+
+We will share a practice exam with you to experience the exam platform and types of questions in the final exam. We likely make it available and notify you after the spring break.
+
+
+## 2026 Exam viewing
+
+
+If you did not get a 4.0 or higher:
+
+You can view your final examination paper with Dr Frank Pennekamp - date, time and location to be announced by email.
+
+You can view your resit examination paper with Dr Frank Pennekamp - date, time and location to be announced by email.
+
+

@@ -1,0 +1,63 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "BIO144 Course Information (version 2026)"
+  author: "Owen Petchey"
+  date: today
+  reader-mode: true
+
+  page-footer:
+    left: |
+      BIO144 Data Analysis for Biologists, Course Information written by Owen Petchey
+    right: |
+      This website was built with <a href="https://quarto.org/">Quarto</a>.
+  cover-image: cover.png
+  favicon: cover.png
+  site-url: https://opetchey.github.io/BIO144_Course_Book/
+  repo-url: https://github.com/opetchey/BIO144_Course_Book/
+  repo-branch: main
+  repo-actions: [edit, issue]
+
+  chapters:
+    - index.qmd
+    - 1.1-general-information.qmd
+    - 2.1-year-specific-information.qmd
+    - 3.1-learning-objectives.qmd
+    - 4.1-faqs.qmd
+    - 5.1-discussion-forum.qmd
+    - Unit1.qmd
+    - Unit2.qmd
+    - Unit3.qmd
+    - Unit4.qmd
+    - Unit5.qmd
+    - Unit6.qmd
+    - Unit7.qmd
+    - Unit8.qmd
+    - Unit9.qmd
+    - Unit10.qmd
+    - Unit11.qmd
+    - Unit12.qmd   
+    
+   
+
+format:
+  html:
+    theme: cosmo
+    fig-width: 5
+    fig-height: 5
+    fig-align: center
+  pdf:
+    keep-tex: true
+    documentclass: book
+    classoption:
+      - 8pt
+      - a4paper
+    toc-depth: 2
+
+    
+execute: 
+  echo: false
+  
+

@@ -1,0 +1,272 @@
+
+# General information {.unnumbered}
+
+## Aims and learning outcomes
+
+This course will help you develop a solid foundation in answering biological questions with quantitative data. Moreover, the approaches you will learn are generally applicable to using data to solve problems, an increasing important skill in a world more and more dominated by data.
+
+[The Learning Objectives of the course](https://github.com/opetchey/BIO144/raw/master/1_learning_objectives/Weekly_learning_objectives.pdf) tell you what you need to learn and know. Hence, it is very important for you to be very clear about the learning objectives of the course. They will help you know what you're expected to learn and what you will be examined on. If you can achieve all of the learning objectives, you will be very well prepared for a great future in data analysis (and for the exam).
+
+## Course schedule
+
+The course runs during the 14-week spring semester. The course has 12 weeks of new content, and 2 weeks of self-study (no new content). Each of the 12 weeks of new content has a set of learning objectives. Each week has four parts: a lecture, homework, a practical session, and a practice quiz.
+ 
+Lectures are on Monday mornings, 8:00 - 9:45. Practical sessions are on Thursday or Friday afternoons, 13:00 - 14:45.
+
+You'll be assigned to a practical session on either Thursday or Friday. If at any point you wish to change afternoons permanently, contact `studienkoordination@biol.uzh.ch`. If you want to swap days for just one or two weeks, please do so without asking.
+
+Please see the "Year specific information" section below for a detailed course schedule.
+
+
+## What should I already know?
+
+Please see the section in OLAT "Previous Knowledge".
+
+
+## Expected workload
+
+The course is worth 4 credit points, so with 1 CP being approximately 30 hours work, requires around 120 hours study. Approximately one third of this is "in class" and two thirds is self-study, including in-course assessments and preparation for the examination.
+
+## Bring your own laptop
+
+Please bring your laptop to class. There are some power outlets in the lecture theatre, but best will be to make sure that your laptop has sufficient battery charge to last the duration of the class (up to 2 hours), and consider using an external additional battery (powerbar?) if required. Please make sure you know how to use your laptop (some people are sometimes not so sure, perhaps because its new, or they borrow someone else’s.) Your laptop must be able to connect to the wireless internet at UZH.
+
+
+We will be using three computer programmes during class (as well as the usual suspects, such as an internet browser etc.) please make sure you have them:
+
+1. A spreadsheet programme, such as Microsoft Excel, Mac Numbers, or OpenOffice.
+
+
+2. [The R software environment for statistical computing and graphics](https://www.r-project.org). It's worth knowing why we are using R. You can find out by reading Section 4 of the Preface of the Beckerman, Childs, and Petchey Book.
+
+
+3. [Rstudio](https://posit.co/downloads/). We use RStudio to interact with R. Rstudio has lots of features that make working with R much much easier and enjoyable.
+
+If you need any help setting up your laptop with R and RStudio, please look at relevant section of the "Getting R & RStudio" section of the "Previous Knowledge" section of the course. If you still have problems, ask during the first practical.
+
+
+
+## What to do each week
+
+* Attend the lecture.
+
+* After the lecture and before the practical do the homework.
+
+* Come to and do the practical.
+
+* Do the practice quiz.
+
+* Have fun ;)
+
+
+
+## Course texts
+
+The required content of the course is all available in the course book: [BIO144 Course Book](https://opetchey.github.io/BIO144_Course_Book/). The lectures will help you understand the content of the book. The homework and practicals will also help you learn the material. Practice quizzes will help you check your learning, and prepare for the final exam. All of this will also help you develop your skills in R, which will also be required in the final exam. 
+
+There is other optional reading that we may suggest to you during the course. This is listed below. Textbooks for optional reading are in the main library, and should be accessible electronically through the main library.
+
+Optional reading comes from:
+
+* [*Linear Regression, Seminar für Statistik, ETH Zürich*(2008 / 2013) Werner Stahel.](https://github.com/opetchey/BIO144/raw/master/9_assets/Stahel_LinReg.pdf) And here is an [English version of that text](https://github.com/opetchey/BIO144/raw/master/9_assets/Stahel_LinReg_EN.pdf).
+* [*Getting Started with R, An introduction for biologists* (2017, Second Edition) Beckerman, Childs & Petchey.](https://academic.oup.com/book/27290) (**DO NOT USE THE FIRST EDITION!**). The link is to the book on the Oxford University Press website; full access to the book will require you have a UZH ip address (i.e. are on the UZH network or VPN into it).
+* [Insights from Data](https://academic.oup.com/book/39565) with R, by Petchey, et al. (Same access information as the previous book in this list).
+* *The New Statistics with R, An Introduction for Biologists* (2015, First Edition) Hector. [Ebook via UZH library.](https://academic.oup.com/book/32474)
+
+
+
+
+Some other nice (though optional) texts that you might find interesting.
+
+* *Regression; Models, Methods and Applications* (2013 Edition) Fahrmeir, Kneib, Lang & Marx.
+
+
+* *The Analysis of Biological Data* (2015, Second Edition) Whitlock & Schluter.
+
+
+* The Essential Guide to Effect Sizes. Statistical Power, Meta-Analysis, and the Interpretation of Research Results (2010, First Edition) Ellis. [Ebook via UZH library.](http://ezproxy.uzh.ch/login?url=http://dx.doi.org/10.1017/CBO9780511761676)
+
+
+* *Statistics: An Introduction using R* (2011, Second Edition) Crawley.
+
+
+
+
+
+
+## Getting datasets
+
+
+
+You can get the datasets used in the course [here](https://github.com/opetchey/BIO144/tree/master/3_datasets). To download one dataset from that web page, click on the dataset and you then see a webpage with that dataset. Then right click on the "Raw" button, and select "Save As", select location to save to, and press Save. Alternatively you can get a [zip file of all the datasets here](https://github.com/opetchey/BIO144/raw/master/3_datasets/all_datasets_bio144.zip), which you will then need to unpack before use.
+
+
+You can get datasets associated with the book Getting Started with R, by Beckerman, Childs, and Petchey [here](http://r4all.org/books/datasets/).
+
+
+IMPORTANT: if you open the downloaded file in Excel, perhaps to have a look at it, then ***DO NOT, UNDER ANY CIRCUMSTANCES, ASK OR ALLOW EXCEL TO SAVE IT***. (Excel does not like R and will do everything in its power to mess things up for R. Don't let it do that.)
+
+
+
+Here is the data you collected during the first lecture: 
+
+
+[human\_benchmark\_data\_fs25.csv](https://lms.uzh.ch/url/RepositoryEntry/17654940136/CourseFolder/0/path%3D~~human%5Fbenchmark%5Fdata%5FFS25%2Ecsv/0)
+
+
+
+
+## Really important!!!
+
+**Please please please read, understand, and try your very best to remember what is below.**
+
+We will very often be importing data into R using the read.csv or read\_csv function. In the time since the material of the course was written (including texts such as Getting Started with R) the makers of R changed something important about how importing data works. The best solution is for us to make sure we change it back to the old way, so all the course material makes sense!
+
+Here are two things you must always do:
+
+
+When using read.csv always add the argument `as.is = FALSE.  
+For example: dd <- read.csv("my data file.csv", as.is = FALSE)
+
+
+When using read\_csv, always pipe the result into mutate\_if(is.character, factor).  
+For example:  
+dd <- read\_csv("my data file.csv") %>%  
+  mutate\_if(is.character, factor)
+
+
+
+## Attendance
+
+**Attending class is a really good idea!**: "attendance [is] a better predictor of college grades than any other known predictor of academic performance",  Credé, Roch, & Kieszczynka, 2010. [The full article.](https://journals.sagepub.com/doi/abs/10.3102/0034654310362998)
+
+We give you the freedom to use the learning materials and opportunities in the way that suits you best. We strongly believe that attending the practical classes and lectures will be an efficient, fun, and valuable way for you to learn.
+
+We will not be tracking attendance. If you do not come to class (practical or lecture) the only penalty you will potentially experience is loss of some learning opportunity.
+
+**What if I was ill or otherwise unable to attend?** Please use your initiative to catchup. Lectures will be available as podcasts. Ask for help from friends for help with practicals. And whatever else you can think of.
+
+
+## Self study weeks
+
+### Consolidate, review, reinforce, expand!
+
+During approximately two weeks there is no lecture and no practical. During these week you should take the opportunity to consolidate, review, reinforce, expand!
+
+Here is some optional reading you could look at during those weeks: 
+
+* [Retire Statistical Significance](Amrhein_etal2019.pdf)
+* [Interleaf from Whitlock and Schluter: Statistical significanc vs. biological importance](significanceVSimportance_Whitlock.pdf)
+* [Interleaf from Whitlock and Schluter: Correlation vs. causation](correlationVScausation.pdf)
+* [P-Werte in der NZZ (3. April 2016)](NZZ_April2016.pdf) (You will have to zoom in and probably read it on the screen!)
+* And finally, a really thoughtful article in one of the world's leading scientific journals:
+[S. Goodman (2016): Aligning statistical and scientific reasoning](Goodman_2016_Science.pdf)
+
+## Assessment
+
+There will be two assessment-related types of activity:
+
+### 1. Weekly practice quizzes
+
+These are only for you. Your scores do not contribute to anything. The are intended:
+
+* To make sure you know if you’re learning and understanding the material.
+* To motivate you to keep up with the content of the class, and thereby reduce the chance of you falling behind and then having trouble in the final exam.
+* To give you practice with the types of questions that will be in the final examination.
+
+There is no deadline for the practice quizzes. You can do them whenever you like. You can do them multiple times if you like.
+
+### 2. The final exam (and the resit exam)
+
+A final assessment during the module examination period. Your performance in this is the only determinant of your final grade.
+
+**Examination date and time:** Please see the Studium Biology, Modulprufungen im Grundstudium web page and the links therein for the examination dates and other important examination information.
+
+***This information is draft for 2026 and may still be changed.***
+
+Further information:
+
+* The exam will contain about 40 questions. Each will be one of three types: single choice, multiple choice, or numeric. Single choice is a question with several possible answer, of which only one is correct -- you indicate which. Multiple choice is a question with several possible answers; none, 1, 2, 3, or 4 may be correct -- you indicate which. Numeric requires you to enter a number to answer the question.
+* A full mock exam will be available on OLAT.
+* During the exam you are allowed **three sheets of A4 paper** that you may put information on both sides of. You are also permitted to bring a dictionary (it must have no writing in it). No other resources are permitted.
+* You will need to present your UZH card during the exam, to verify your identity.
+* You will need to use your laptop continuously during the two hours of the exam. Some power outlets are available, but best is to make sure you have enough battery power to last the exam. Please ensure your laptop can connect to the internet via wifi.
+* You will take the exam in a special instance of OLAT from within the *Safe Exam Browser* that must be installed on your computer.
+* From within the Safe Exam Browser you will be able to use an RStudio Server.
+* There will be a mandatory practice exam experience including use of the Safe Exam Browser. Details will be sent to you.
+* The exam is in English.
+* You must agree with an Honour Code on OLAT immediately before you take the exam. 
+* You will sit the exam in a lecture theatre on the Irchel Campus.
+* The final exam requires you to analyse some datasets that are provided to you. Some students have reported that they didn't have enough time during the exam, so please ensure that you can do things like importing data quickly and easily.
+* Your working (e.g. any R code your write) is not assessed directly. It is assessed indirectly by whether you answer a question correctly.
+* During the exam, if you have any trouble importing the data, please immediately ask for help. 
+* When answering numeric questions, the default is to give your answer with precision of 2 decimal places. Some questions specify to give the answer to a different number of decimal places. Please be careful to take care of this.
+
+
+## Important information about the "practice exam experience"
+
+The practice examination experience is only to give you experience of the examination interface, the types of questions that can be asked, and to test the examination interface. Do not use the number and type of different types of question as an indicator of anything about the final exam.
+
+[Here are the questions and solutions that are used in the practice exam experience](https://github.com/opetchey/BIO144/raw/master/2_content/xtras/BIO144_exam_preparation_solutions.pdf).
+
+You will be informed by email when the practice exam experience is, and all further details.
+
+
+## Getting help
+
+We aim that you can ask for help about anything and get a useful answer as soon as possible. The following guidelines will help you get fast, useful help. The primary ways to ask for help are:
+
+1. During the practicals on Thursday and Friday. You will get close to instant responses.
+2. Anytime on the Discussion Forum of this OLAT course. We aim that you get a response in less than two days. Anonymous posts are possible.
+3. After lectures.
+
+Of course, please feel free to email Owen directly if you wish. Please don't hesitate to ask for help!
+
+
+### Posting code problems on the Discussion Forum
+
+The Wiki:FAQ contains a page ***How to ask a question so we can easily help***. Please take a look.
+
+### Specialist statistical assistance
+
+I (Owen) am not a statistician. Hence, I might be unable to answer some of your questions about more statistical issues, particularly as we experience more and more complex statistics. To deal with this, Prof. Furrer has agreed to help with about statistics that I cannot answer (or cannot answer fully). Please post them as a new thread in the discussion forum.  Include as much information as possible, including R code and output as appropriate. Please do not contact Prof. Furrer directly. I will then contact Prof. Furrer and feedback the answer to you.
+
+
+## Giving feedback
+
+Your views on the course are really important to us. What works well, what doesn’t work so well, what content is particularly important, what content is not so important, what content is missing?
+
+There are several ways of providing feedback.
+
+1. During the course, you can tell us in person during class, and can make posts on the Forum. Such feedback during the course has the potential to improve the course for you. I.e., we might be able to change something quickly, so your and your fellow students’ experience of the class is improved.
+2. Fill in the "official" course evaluation form. Details to follow.
+3. If have anonymous feedback to give us before or after the official course evaluation then please write on some paper and post it through the University internal mail to us.
+
+
+## Course language
+
+The course will be mostly in English. Many of the TAs speak and understand English and German. Prof. Petchey best understands and speaks English.
+
+Please let us know how we can assist with any challenges this presents.
+
+[Here is a web page that gives most common (and many not so common) statistical terms in a multitude of languages!](http://isi.cbs.nl/glossary/index.htm)
+
+
+## Reference letters
+
+The course instructors and the TAs try to get to know each of you during the course, particularly in the practical classes. That said, it is unlikely we gain enough experience of you to write for you a meaningful letter of reference / recommendation. Better will be to develop relationships during subsequent block courses that can lead to meaningful letters.
+
+
+
+## Example solution scripts
+
+Example solution scripts can be found here at the link below. However, please control your use of these example scripts carefully. Students in previous years have said they felt that they sometimes looked at the solutions to early or too quickly. They are provided because many students over many years have asked for them.
+
+<https://github.com/opetchey/BIO144/tree/master/6_example_scripts>
+
+
+## Lecture podcasts
+
+All lectures will be recorded and made available for later viewing.
+
+

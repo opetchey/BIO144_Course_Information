@@ -1,0 +1,39 @@
+
+# Unit 7 {.unnumbered}
+
+
+## Introduction
+
+Welcome to Week 1 of BIO144! Week 1 is a bit different from other weeks because its focuses on introducing how the course is going to work, collecting some data for us to use, and reviewing some material that it would be good for you to remember from previous courses (or learn here if you don't know it yet!)
+
+In subsequent weeks we will focus more on the data analysis concepts and practice.
+
+However, just like all weeks, there is:
+
+* A chapter of the course book.
+* A "lecture" on Monday.
+* Some homework to ideally do between Monday and the practical on Thursday or Friday.
+* A practical session on Thursday or Friday.
+* A weekly quiz to check your understanding.
+
+
+## Course book
+
+This week we will be covering Chapter 2 of [the course book](https://opetchey.github.io/BIO144_Course_Book/).
+
+
+## Lecture
+
+
+
+
+## Homework
+
+
+
+
+## Practical 
+
+
+
+## Weekly Quiz

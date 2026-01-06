@@ -1,216 +1,214 @@
+# Learning Objectives {.unnumbered}
 
-## Learning Objectives {.unnumbered}
+This document describes the learning objectives for **BIO144: Data Analysis in Biology**.
 
-* Valid only for FS2025
+---
 
-## Overarching learning objectives {-}
+## Course-level learning objectives
 
-By the end of the course you will be able to:
+After successfully completing BIO144, students will be able to:
 
-* Plan how to make use of quantitative data to solve biological problems.
-* Translate a biological question into a quantitative problem.
-* Collect and arrange data for efficient processing.
-* Reliably, accurately and efficiently manage and manipulate data.
-* Make clear and informative visualisations of data.
-* Select, perform, validate, and interpret an appropriate statistical model or test.
-* Understand why and when linear models are useful, and what to do when they are not.
-* Clearly communicate the answer to your biological question.
-* Research and learn about other tools for data analysis.
-* Recognise the limitations of data from experimental and observational studies.
+1. Formulate biological questions as statistical models, identifying appropriate response and explanatory variables.
+2. Use R and RStudio to import, explore, visualise, and analyse biological data reproducibly.
+3. Fit, interpret, and compare statistical models commonly used in biology, including linear models and generalised linear models.
+4. Evaluate model assumptions, diagnose violations, and understand the consequences for inference.
+5. Interpret model output quantitatively and biologically, rather than mechanically reporting p-values.
+6. Communicate statistical results clearly, using figures, tables, and written explanations appropriate for biological audiences.
+7. Read and critically assess quantitative analyses in published biological research.
 
-## Nested learning objectives
+---
 
-Below you will see that some learning objectives refer to sets of previous ones. E.g. "You will be able to do the same as before, but with a difference of some kind". Be sure to cover all of the previous learning objectives referred to.
+## Chapter-level learning objectives
 
-## Units 1 and 2 - Introduction; all about data {-}
+### Introduction
 
-By the end of this week you will be able to:
+After this chapter, students will be able to:
 
-* Describe the aims, importance, and applications of data analysis in biology and biomedicine.
-* Recall and use previous relevant learning.
-* Choose graphical tools appropriate to question and data.
-* Describe what is a model, and what it is not.
-* Identify important features of data, such as skew and correlation.
-* Describe the equation for a straight line.
-* Recall the general workflow for data analysis.
-* Help yourself when R / RStudio.
-* Be able to work with add-on R packages.
-* Fix simple errors in R code.
-* Confidently and reliably read a data file into R / RStudio.
-* Use the dplyr functions `select`, `slice`, `mutate`, `filter`, `arrange`, `group_by`, and `summarise`.
-* Make simple graphs using the ggplot function.
-* Relate the difference between statistical and biological significance.
+* Explain the goals, structure, and expectations of the BIO144 course.
+* Know the prior knowledge and skills required for success in the course.
+* Understand appropriate use of AI tools in data analysis work and during the course.
+* Describe a typical data analysis workflow, from developing question to communicating the answer.
 
-## Unit 3 - Linear Regression Part 1 {-}
+---
 
-By the end of this week you will be able to:
+### R and RStudio
 
-* Describe the type of biological / biomedical question that linear regression could help answer.
-* What we should have done, before we do a linear regression.
-* Understand how the intercept and slope are estimated in linear regression.
-* Plot a suitable graph showing the regression relationship.
-* Fit a linear regression model to data in R / RStudio.
-* Describe the assumptions of linear regression.
-* Evaluation the if the assumptions of are adequately met.
-* Get fitted values, residuals, and arbitrary predictions of a linear regression in R / RStudio.
+After this chapter, students will be able to:
 
-## Unit 4 - Linear regression part 2, and multiple regresion {-}
+* Navigate the RStudio interface and explain the purpose of scripts, the console, and the environment.
+* Run R code and understand basic R syntax.
+* Import data into R and inspect its structure.
+* Know the many ways one can get help with R and RStudio.
+* Understand what are and how to work with add-on packages in R.
+* Perform basic data manipulation operations, including importing, viewing, and various manipulations.
+* Produce simple exploratory data visualisations.
+* Use scripts to support reproducible data analysis workflows.
 
-By the end of this week you will be able to:
+---
 
-Linear Regression Part 2:
+### Simple linear regression – Part 1
 
-* Interpret the biological meaning of the estimated parameters.
-* Quantify how good is the linear regression model.
-* Perform a relevant hypothesis test.
-* Calculate the 95% confidence interval of the estimated coefficients (e.g. intercept and slope).
-* Describe the difference between a confidence range and a prediction range.
-* Be able to calculate yourself the degrees of freedom of error for bivariate regression.
-* Appropriately communicate, using text and graphically, the findings of a questioned answered with linear regression.
-* Perform linear regression in R / Rstudio, including all of the above.
+After this chapter, students will be able to:
 
-Multiple regression:
+* Explain the purpose of simple linear regression in biological data analysis.
+* Understand the mathematical form of a simple linear regression model.
+* Describe how the slope and intercept are calculated.
+* Describe how the error / variation is modelled.
+* State the assumptions underlying simple linear regression.
+* Assess if the assumptions are reasonably met using diagnostic plots.
+* Recognise and remedy common problems encountered when fitting linear regression models.
+* Perform linear regression in R.
 
-* **Do all the things listed for Unit 3, and the previous part of Unit 4, except with multiple predictor / explanatory variables.**
-* In particular, describe the type of biological / biomedical question that multiple linear regression could help answer.
-* Use the four common graphs for assessing validity of model assumptions (i.e. Tukey-Anscombe plot, QQ-plot, scale-location plot, and leverage plot).
-* Use the ggfortify add-on package to easily produce these four diagnostic graphs.
-* In particular, interpret the R model `summary` table for models with multiple predictor variables.
-* Start to recognise the implications of having correlated predictor variables.
 
-## Unit 5 - Binary/categorical explanatory variables, and interactions {-}
+---
 
-* Relate what are binary and factor type predictor / explanatory variables (sometimes called covariates).
-* Start to do all the above for models with binary and factor covariates.
-* In particular, calculated degrees of freedom for error with binary and factor covariates.
-* In particular, use the F-test to compare models with/without a factor covariate.
-* In particular, interpret the R model `summary` and `anova` table for binary and factor covariates.
-* Describe the type of biological / biomedical question that linear regression with interactions among predictor variables could help answer.
-* **Do all the things listed for Unit 2 & 3, except with interactions among multiple predictor / explanatory variables.**
-* In particular, find and interpret the interaction terms in the R model `anova` table.
-* In particular, calculated degrees of freedom for error with interacting predictor variables.
-* Use the four common graphs for assessing validity of model assumptions (i.e. Tukey-Anscombe plot, QQ-plot, scale-location plot, and leverage plot).
-* Recognise and fix two problems: non-normal residuals, and outliers.
+### Simple linear regression – Part 2
 
-## Unit 6 - ANOVA {-}
+After this chapter, students will be able to:
 
-By the end of this week you will be able to:
 
-* Describe the type of biology / biomedical question that one-way ANOVA could help answer.
-* Describe the type of biology / biomedical question that two-way ANOVA (with and without interaction) could help answer.
-* **Do everything as with previous models, with one- and two-way ANOVA.**
-* Understand and perform an F-test (the really important one for ANOVA).
-* Describe what hypothesis is tested by an F-test.
-* Understand what are post-hoc hypothesis tests, when to use them, and when not to.
-* Recognise that ANOVA is just another linear model, as is linear regression, and all the models you've seen so far.
-* In particular, recognise that the model checking strategy is the same as for linear models from the previous weeks. 
+* Understand how to measure how good is the regression (correlation and R-squared).
+* Test and explain if the parameter estimates are compatible with some specific value (t-test).
+* Understand how to find the range of parameters values are compatible with the data (confidence intervals).
+* Understand what are the regression lines compatible with the data (confidence band), and how to construct these in R.
+* Understand what are the plausible values of newly collected data (prediction band) and how to calculate these in R.
+* Interpret the biological meaning of regression coefficients.
+* Know how to communicate the results of a linear regression analysis effectively.
+* Critically assess the strength and limitations of linear regression models.
 
-## Unit 7 - ANCOVA & Matrix alegbra {-}
+---
 
-By the end of this week you will be able to:
+### One-way ANOVA
 
-* Describe the type of biology / biomedical question that one-way ANCOVA could help answer.
-* **Do all the things listed for previous models, except now for ANCOVA.**
-* In particular, interpret the R model `summary` table for ANCOVA type linear models.
-* Recall basic concepts of linear algebra (e.g. vectors, matrices).
-* Do some basic matrix and vector algebra (e.g. matrix multiplication, inversion, transposing etc)
-* Relate why linear algebra is useful in data analysis.
-* Be able to formulate a linear regression model in matrix notation.
-* Do some linear algebra in R.
+After this chapter, students will be able to:
 
-## Unit 8 - Model selection {-}
+* Explain how ANOVA fits within the linear model framework.
+* Fit a one-way ANOVA model using `lm()`.
+* Interpret group means and differences between groups.
+* Explain the concept of variance partitioning.
+* Understand the connection between ANOVA and regression with categorical predictors.
+* Decide when ANOVA is an appropriate modelling approach for biological data.
+* Perform linear regression in R, assess model assumptions, and interpret results in a biological context.
+* Communicate ANOVA results effectively using text, tables, and visualisations.
 
-By the end of this week you will be able to:
+---
 
-* Describe what is model selection.
-* Describe the type of biology / biomedical question that require model selection.
-* Relate why model selection is difficult, fraught with danger, and perhaps more an art than a science.
-* Understand the meaning, use and importance of p-values, AIC, AICc, BIC for model selection
-* Describe what is forward, backward, and automatic selection.
-* Relate the difference between explanatory and predictive models.
-* Understand why automatic model selection procedures are not recommended for explanatory models.
-* Recognise the importance of a priori hypotheses for escaping the nightmare that is model selection in explanatory models.
+### Multiple regression
 
-## Unit 9 - Interpretation, causality, and cautionary notes {-}
+After this chapter, students will be able to:
 
-By the end of this week you will be able to:
+* Understand what is a question that multiple regression can help answer.
+* Know the mathematical form of multiple regression models.
+* Fit linear models with multiple explanatory variables.
+* Assess if model assumptions are reasonably met using diagnostic plots.
+* Assess if the group of explanatory variables significantly explain variation in the response.
+* Describe which variables are associated with the response, and the direction of these associations.
+* Measure the amount of variation explained by the model (R-squared, adjusted R-squared).
+* Assess the relative importance of different explanatory variables.
+* Make conditional predictions from multiple regression models.
+* Understand what is collinearity, and how it affects multiple regression.
+* Use R to fit, diagnose, and interpret multiple regression models.
+* Communicate multiple regression results effectively using text, tables, and visualisations.
 
-* Understanding the P-value.
-* Critique, use and misues of p-values.
-* Debate statistical versus biological significance (i.e. practical relevance).
-* Describe the importance of the statement: "one cannot prove the null hypothesis".
-* Understand that the p-value is useful if it is interpreted properly.
-* Appropriately assess and describe the importance of regression terms.
-* Describe how causality, correlation, and effect are related.
-* Describe what are effect sizes, and appropriately report them.
-* Understand how to decompose r-squared among mulitple predictor variables, including via LMG.
-* Recall the nine Bradford-Hill-Criteria for causal inference.
-* Describe the difference between observational and experimental studies, and its importance for inference.
 
-## Unit 10 - Analysing count data {-}
+---
 
-By the end of this week you will be able to:
+### Interactions
 
-* Describe the type of biological / biomedical questions that involve count data.
-* Relate why using a standard linear model to analyse such data could be a bad idea.
-* Describe how a generalised linear model can differ from a standard linear one.
-* Decribe the meaning of the terms *family*, *linear predictor*, and *link function*.
-* Give the family, linear predictor, and link function most often used for count data.
-* Fit a GLM (generalised linear model) to count data in R / Rstudio.
-* **Do all of the same things as one does for a linear model.**
-* In particular, understand how to interpret the regression coeffcients and check model diagnostics.
-* Understand and perform Chi-squared-tests using the anova function.
-* Say what is different about the model summary table produced by R / RStudio.
-* Understand and check for a common problem with count data: overdispersion.
+After this chapter, students will be able to:
 
-## Unit 11 - Analysing binary data {-}
+* Explain what an interaction between explanatory variables means biologically and mathematically.
+* Fit models that include interaction terms.
+* Interpret interaction coefficients correctly.
+* Visualise and explain how effects depend on the values of other variables.
+* Distinguish additive from non-additive biological effects.
+* Judge when interactions are biologically meaningful and justified.
+* Understand interactions in the context of both categorical and continuous explanatory variables, ANCOVA, two-way ANOVA, and multiple regression.
+* Communicate results involving interactions clearly and accurately.
+* Use R to fit, diagnose, interpret, and communicate models with interactions.
 
-By the end of this week you will be able to:
+---
 
-* Describe the type of biological / biomedical questions that involve binary data.
-* Use a conditional density plot to explore binary data.
-* Relate why using a standard linear or Poisson model to analyse such data could be a bad idea.
-* Recall the use of Chi-squared test for binary data (contingency tables).
-* Understand and calculate an odds, and odds-ratio.
-* Give the family, linear predictor, and link function most often used for binomial/binary data.
-* Express a binary response appropriately to model it in R / RStudio.
-* Fit a GLM (generalised linear model) to binary data in R / Rstudio (i.e. do logistic regression in R).
-* **Do all of the same things as one does for a Poisson model.**
-* In particular, understand how to interpret the regression coeffcients and check model diagnostics.
-* Say what is different about the model summary table produced by R / RStudio.
-* Understand and perform an Chi-squared-test (using the anova function).
-* Understand and check for overdispersion.
+### Generalised linear models for count data
 
-## Unit 12 - Measurement error; repeated measures and random effects; recap and outlook {-}
+After this chapter, students will be able to:
 
-By the end of this week you will be able to:
+* Describe the kinds of biological questions and processes that involve count data.
+* Recognise when, why, and how count data violate the assumptions of linear models.
+* Explain why normal error assumptions are inappropriate for count data.
+* Describe the key components of a generalised linear model.
+* Fit Poisson regression models using `glm()`.
+* Interpret model coefficients on the appropriate scale.
+* Assess whether a Poisson model provides an adequate description of the data.
+* Use R to fit, diagnose, and interpret GLMs for count data.
+* Communicate results from count data analyses effectively.
 
-* Understand that in regression modelling the covariates are assumed to be error-free
-* Understand that this is often not the case
-* Be aware of the effect that the violation of this assumption has
-* Know the most important error structures (classical and Berkson error)
-* Be able to account for classical measurement error in simple cases (linear regression)
-* Know at least one tool in R that can be used for error modelling
-* Identify explanatory variables as better being included in models as *fixed* or as *random* effects.
-* State what is a mixed model.
-* Describe the type of biological / biomedical questions that required mixed models to analyse.
-* Determine if a statistical test is probably pseudoreplicated.
-* In R / RStudio, perform, check and interpret a simple linear mixed model.
-* **Do all of the same things as one does for a linear model.**
-* Say what is different about the model summary table produced by R / RStudio.
-* Describe the type of biological / biomedical questions that require other statistical methods, including:
-    + Time series analysis
-    + Multivariate analysis, including ordination, clustering, and classification
-    + Breakpoint analysis
-    + Nonlinear regression
-    + Structural equation modelling / path analysis
-    + Generalised linear mixed models
-    + Bayesian methods
-    + Generalised addative models
-    + Meta-analysis
-    + Survival analysis
-    + Non-parametric analyses
-    + Spatial analyses / statistics
-    + Power analysis
-    + Randomisation based methods
+---
+
+### Generalised linear models for binary data
+
+After this chapter, students will be able to:
+
+* Identify binary response variables in biological datasets, and be familiar with common examples (e.g., presence–absence, success–failure) and the types of questions they can arise from.
+* Explain why linear models are unsuitable for binary outcomes.
+* Fit logistic regression models using `glm()`.
+* Interpret model coefficients in terms of probabilities and odds.
+* Visualise fitted relationships for binary data.
+* Understand how logistic regression supports biological inference about presence–absence or success–failure outcomes.
+* Use R to fit, diagnose, and interpret GLMs for binary data.
+* Communicate results from binary data analyses effectively.
+
+---
+
+### Ordination and multivariate data
+
+After this chapter, students will be able to:
+
+* Recognise when biological questions involve many response variables simultaneously.
+* Explain the goals of ordination methods.
+* Interpret ordination plots in terms of similarities and differences among observations.
+* Understand ordination as a tool for dimensionality reduction.
+* Critically assess what information ordination methods do and do not provide.
+* Use R to perform basic ordination analyses (i.e., PCA, NMDS).
+* Communicate ordination results effectively using visualisations and text.
+
+---
+
+## Mixed models and what next
+
+### Part 1: Mixed models
+
+After completing this part, students will be able to:
+
+* Recognise biological situations in which data are **grouped, nested, or hierarchical**.
+* Explain why standard linear models may be inappropriate for grouped data.
+* Describe the conceptual difference between **fixed effects** and **random effects**.
+* Understand random effects as a way of modelling **structured sources of variation**.
+* Interpret mixed models as extensions of linear models, rather than as fundamentally different tools.
+* Identify common biological examples where mixed models are appropriate (e.g. repeated measures, individuals within populations, sites within regions).
+* Interpret mixed model output at a conceptual level, focusing on biological meaning rather than technical detail.
+* Appreciate the role of **partial pooling** in balancing information across groups.
+* Recognise the limitations and assumptions of mixed models without needing to master implementation details.
+* Use R to fit simple linear mixed models using the `lme4` package.
+* Communicate results from mixed model analyses effectively, focusing on biological interpretation.
+
+---
+
+### Part 2: What next?
+
+After completing this part, students will be able to:
+
+* Place the statistical models learned in BIO144 within a broader landscape of data analysis methods.
+* Recognise when more advanced models may be required to address biological questions.
+* Identify directions for further learning in statistics and data analysis.
+* Understand that statistical modelling is an **iterative and evolving process**, not a fixed set of rules.
+* Reflect critically on the limits of the models used in the course.
+* Appreciate the importance of biological reasoning alongside statistical tools.
+* Approach future quantitative methods courses and analyses with confidence and curiosity.
+
+---
+
+## Review (L12)
+
+No additional learning objectives.
 

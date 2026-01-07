@@ -19,7 +19,7 @@ However, just like all weeks, there is:
 
 ## Course book
 
-This week we will be covering Chapter 2 of [the course book](https://opetchey.github.io/BIO144_Course_Book/).
+This week we will be covering Chapter 1 of [the course book](https://opetchey.github.io/BIO144_Course_Book/).
 
 
 ## Lecture
@@ -37,15 +37,9 @@ The resulting dataset can be access and or downloaded from this web page: <a hre
 </a>
 
 
-## Homework
+## Homework, Practical, and Weekly Quiz
 
-
-
-
-## Practical 
-
-The practical for Week 1 can be found on this web page: <a href="https://owenpetchey.shinyapps.io/Week1-BIO144/#section-practical-part-1" target="_blank">
-  Link to Week 1 Practical
+These are on this web page: <a href="https://owenpetchey.shinyapps.io/Unit1" target="_blank">
+  Link to Homework, Practical, and Weekly Quiz
 </a>
 
-## Weekly Quiz

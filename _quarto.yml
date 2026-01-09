@@ -15,8 +15,8 @@ book:
       This website was built with <a href="https://quarto.org/">Quarto</a>.
   cover-image: cover.png
   favicon: cover.png
-  site-url: https://opetchey.github.io/BIO144_Course_Book/
-  repo-url: https://github.com/opetchey/BIO144_Course_Book/
+  site-url: https://opetchey.github.io/BIO144_Course_Information/
+  repo-url: https://github.com/opetchey/BIO144_Course_Information/
   repo-branch: main
   repo-actions: [edit, issue]
 

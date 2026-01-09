@@ -214,7 +214,7 @@
     "href": "2.1-year-specific-information.html",
     "title": "Year specific information",
     "section": "",
-    "text": "2026 Detailed schedule",
+    "text": "2026 Detailed schedule\nLecture: Monday, 8:00-9:45am) Practical: Thurs or Fri. 1-3pm)",
     "crumbs": [
       "Year specific information"
     ]
@@ -224,7 +224,7 @@
     "href": "2.1-year-specific-information.html#detailed-schedule",
     "title": "Year specific information",
     "section": "",
-    "text": "Week number (add 7 to get week of the year)\nWeek beginning\nLecture (Monday, 8:00-9:45am)\nPractical (Thurs or Fri. 1-3pm)\n\n\n\n\n1\nFeb. 17\nIntroduction, motivation, recap, basic visualisation, models, demonstration, fixing computer issues (L1)\nGetting started, fixing computuer issues\n\n\n2\nFeb. 24\nNo lecture due to lots of BC material to do this week (no L2)\nImport, wrangle, visualise\n\n\n3\nMar. 3\nLinear Regression Part 1 (L3)\nLinear regression (child mortality) and QQ plots.\n\n\n4\nMar. 10\nLinear Regression part2, Multiple linear regression 1 (L4)\nMore on linear regression, and multiple linear regression.\n\n\n5\nMar. 17\nBinary and categorical explanatory variables, and interactions (L5)\nBinary and categorical variables.\n\n\n6\nMar. 24\nANOVA (L6)\nANOVA\n\n\n7\nMar. 31\nANCOVA and linear algebra (L7)\nANCOVA and linear algebra\n\n\n8\nApr. 7\nModel selection (L8)\nModel selection\n\n\n9\nApr. 14\nInterpreting your model, causality, and cautionary notes (L9)\nInterpreting your model, causality, and cautionary notes (Thurs. only)\n\n\n10\nApr. 21\nno lecture\nno practical\n\n\n11\nApr. 28\nno lecture\nReview and consolidate practical (Fri. only)\n\n\n12\nMay 5\nModelling count data (L10)\nModelling count data\n\n\n13\nMay 12\nModelling binary data (L11)\nModelling binary data\n\n\n14\nMay 19\nMeasurement error, mixed models, what next. (L12)\nMeasurement error, mixed models, what next.\n\n\n15\nMay 26\nno lecture\nReview and consolidate practical (Fri. only)",
+    "text": "Week beginning\nContent\n\n\n\n\nFeb. 16\nU1 Introduction, review, demonstration\n\n\nFeb. 23\nU2 R & RStudio\n\n\nMar. 2\nU3 Regression part 1\n\n\nMar. 9\nU4 Regression part 2\n\n\nMar. 16\nU5 Analysis of variance\n\n\nMar. 23\nU6 Multiple regression\n\n\nMar. 30\nU7 Interactions\n\n\nApr. 6\n– No lecture, no practicals\n\n\nApr. 13\nU8 Count data\n\n\nApr. 20\n– No lecture, review / catch-up practicals\n\n\nApr. 27\nU9 Binary data\n\n\nMay 4\nU10 Ordination\n\n\nMay 11\nU11 Mixed models & What next?\n\n\nMay 18\nU12 Review\n\n\nMay 25\n– No lecture, review / catch-up practicals",
     "crumbs": [
       "Year specific information"
     ]

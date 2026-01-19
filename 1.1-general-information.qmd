@@ -189,6 +189,7 @@ Further information:
 * The exam will contain about 40 questions. Each will be one of three types: single choice, multiple choice, or numeric. Single choice is a question with several possible answer, of which only one is correct -- you indicate which. Multiple choice is a question with several possible answers; none, 1, 2, 3, or 4 may be correct -- you indicate which. Numeric requires you to enter a number to answer the question.
 * A full mock exam will be available on OLAT.
 * During the exam you are allowed **three sheets of A4 paper** that you may put information on both sides of. You are also permitted to bring a dictionary (it must have no writing in it). No other resources are permitted.
+* You are allowed to bring into the exam one translation dictionary (Übersetzungswörterbuch) (e.g., an Englisch–Deutsch-Wörterbuch / English–German dictionary). Examination staff should be allowed to inspect this resource. 
 * You will need to present your UZH card during the exam, to verify your identity.
 * You will need to use your laptop continuously during the two hours of the exam. Some power outlets are available, but best is to make sure you have enough battery power to last the exam. Please ensure your laptop can connect to the internet via wifi.
 * You will take the exam in a special instance of OLAT from within the *Safe Exam Browser* that must be installed on your computer.

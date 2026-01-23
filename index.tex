@@ -1,0 +1,3188 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  letterpaper,
+  8pt,
+  a4paper]{book}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={BIO144 Course Information (version 2026)},
+  pdfauthor={Owen Petchey},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{BIO144 Course Information (version 2026)}
+\author{Owen Petchey}
+\date{2026-01-23}
+\begin{document}
+\frontmatter
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+
+\mainmatter
+\bookmarksetup{startatroot}
+
+\chapter*{Preface}\label{preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+\markboth{Preface}{Preface}
+
+This website contains information about the BIO144 Data Analysis in
+Biology course at the University of Zurich.
+
+Beware that Owen sometimes makes updates to the information during the
+semester, so if you have downloaded a copy or taken screenshots, your
+copy may not exactly match the most current version. However, any
+changes will be correcting typos or improving explanations. If content
+does change in an important way Owen will announce this in the lectures,
+or on OLAT, or by email.
+
+\section*{How this website was made}\label{how-this-website-was-made}
+\addcontentsline{toc}{section}{How this website was made}
+
+\markright{How this website was made}
+
+The book was written using a type of RMarkdown. It allows a script with
+a mix of normal text and R code to produce chapters and a book that has
+a mixture of text, R code, and R output. Rmarkdown is very useful for
+making reports, books, presentations, and even websites.
+
+This book is a Quarto book. To learn more about Quarto books visit
+\url{https://quarto.org/docs/books}.
+
+\bookmarksetup{startatroot}
+
+\chapter*{General information}\label{general-information}
+\addcontentsline{toc}{chapter}{General information}
+
+\markboth{General information}{General information}
+
+\section*{Aims and learning outcomes}\label{aims-and-learning-outcomes}
+\addcontentsline{toc}{section}{Aims and learning outcomes}
+
+\markright{Aims and learning outcomes}
+
+This course will help you develop a solid foundation in answering
+biological questions with quantitative data. Moreover, the approaches
+you will learn are generally applicable to using data to solve problems,
+an increasing important skill in a world more and more dominated by
+data.
+
+\href{https://github.com/opetchey/BIO144/raw/master/1_learning_objectives/Weekly_learning_objectives.pdf}{The
+Learning Objectives of the course} tell you what you need to learn and
+know. Hence, it is very important for you to be very clear about the
+learning objectives of the course. They will help you know what you're
+expected to learn and what you will be examined on. If you can achieve
+all of the learning objectives, you will be very well prepared for a
+great future in data analysis (and for the exam).
+
+\section*{Course schedule}\label{course-schedule}
+\addcontentsline{toc}{section}{Course schedule}
+
+\markright{Course schedule}
+
+The course runs during the 14-week spring semester. The course has 12
+weeks of new content, and 2 weeks of self-study (no new content). Each
+of the 12 weeks of new content has a set of learning objectives. Each
+week has four parts: a lecture, homework, a practical session, and a
+practice quiz.
+
+Lectures are on Monday mornings, 8:00 - 9:45. Practical sessions are on
+Thursday or Friday afternoons, 13:00 - 14:45.
+
+You'll be assigned to a practical session on either Thursday or Friday.
+If at any point you wish to change afternoons permanently, contact
+\texttt{studienkoordination@biol.uzh.ch}. If you want to swap days for
+just one or two weeks, please do so without asking.
+
+Please see the ``Year specific information'' section below for a
+detailed course schedule.
+
+\section*{What should I already know?}\label{what-should-i-already-know}
+\addcontentsline{toc}{section}{What should I already know?}
+
+\markright{What should I already know?}
+
+Please see the section in OLAT ``Previous Knowledge''.
+
+\section*{Expected workload}\label{expected-workload}
+\addcontentsline{toc}{section}{Expected workload}
+
+\markright{Expected workload}
+
+The course is worth 4 credit points, so with 1 CP being approximately 30
+hours work, requires around 120 hours study. Approximately one third of
+this is ``in class'' and two thirds is self-study, including in-course
+assessments and preparation for the examination.
+
+\section*{Bring your own laptop}\label{bring-your-own-laptop}
+\addcontentsline{toc}{section}{Bring your own laptop}
+
+\markright{Bring your own laptop}
+
+Please bring your laptop to class. There are some power outlets in the
+lecture theatre, but best will be to make sure that your laptop has
+sufficient battery charge to last the duration of the class (up to 2
+hours), and consider using an external additional battery (powerbar?) if
+required. Please make sure you know how to use your laptop (some people
+are sometimes not so sure, perhaps because its new, or they borrow
+someone else's.) Your laptop must be able to connect to the wireless
+internet at UZH.
+
+We will be using three computer programmes during class (as well as the
+usual suspects, such as an internet browser etc.) please make sure you
+have them:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  A spreadsheet programme, such as Microsoft Excel, Mac Numbers, or
+  OpenOffice.
+\item
+  \href{https://www.r-project.org}{The R software environment for
+  statistical computing and graphics}. It's worth knowing why we are
+  using R. You can find out by reading Section 4 of the Preface of the
+  Beckerman, Childs, and Petchey Book.
+\item
+  \href{https://posit.co/downloads/}{Rstudio}. We use RStudio to
+  interact with R. Rstudio has lots of features that make working with R
+  much much easier and enjoyable.
+\end{enumerate}
+
+If you need any help setting up your laptop with R and RStudio, please
+look at relevant section of the ``Getting R \& RStudio'' section of the
+``Previous Knowledge'' section of the course. If you still have
+problems, ask during the first practical.
+
+\section*{What to do each week}\label{what-to-do-each-week}
+\addcontentsline{toc}{section}{What to do each week}
+
+\markright{What to do each week}
+
+\begin{itemize}
+\item
+  Attend the lecture.
+\item
+  After the lecture and before the practical do the homework.
+\item
+  Come to and do the practical.
+\item
+  Do the practice quiz.
+\item
+  Have fun ;)
+\end{itemize}
+
+\section*{Course texts}\label{course-texts}
+\addcontentsline{toc}{section}{Course texts}
+
+\markright{Course texts}
+
+The required content of the course is all available in the course book:
+\href{https://opetchey.github.io/BIO144_Course_Book/}{BIO144 Course
+Book}. The lectures will help you understand the content of the book.
+The homework and practicals will also help you learn the material.
+Practice quizzes will help you check your learning, and prepare for the
+final exam. All of this will also help you develop your skills in R,
+which will also be required in the final exam.
+
+There is other optional reading that we may suggest to you during the
+course. This is listed below. Textbooks for optional reading are in the
+main library, and should be accessible electronically through the main
+library.
+
+Optional reading comes from the following books. Also each chapter of
+the course book suggest reading to further your understanding.
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://github.com/opetchey/BIO144/raw/master/9_assets/Stahel_LinReg.pdf}{\emph{Linear
+  Regression, Seminar für Statistik, ETH Zürich}(2008 / 2013) Werner
+  Stahel.} And here is an
+  \href{https://github.com/opetchey/BIO144/raw/master/9_assets/Stahel_LinReg_EN.pdf}{English
+  version of that text}.
+\item
+  \href{https://academic.oup.com/book/27290}{\emph{Getting Started with
+  R, An introduction for biologists} (2017, Second Edition) Beckerman,
+  Childs \& Petchey.} (\textbf{DO NOT USE THE FIRST EDITION!}). The link
+  is to the book on the Oxford University Press website; full access to
+  the book will require you have a UZH ip address (i.e.~are on the UZH
+  network or VPN into it).
+\item
+  \href{https://academic.oup.com/book/39565}{Insights from Data} with R,
+  by Petchey, et al.~(Same access information as the previous book in
+  this list).
+\item
+  \emph{The New Statistics with R, An Introduction for Biologists}
+  (2015, First Edition) Hector.
+  \href{https://academic.oup.com/book/32474}{Ebook via UZH library.}
+\end{itemize}
+
+Some other nice (though optional) texts that you might find interesting.
+
+\begin{itemize}
+\item
+  \emph{Regression; Models, Methods and Applications} (2013 Edition)
+  Fahrmeir, Kneib, Lang \& Marx.
+\item
+  \emph{The Analysis of Biological Data} (2015, Second Edition) Whitlock
+  \& Schluter.
+\item
+  The Essential Guide to Effect Sizes. Statistical Power, Meta-Analysis,
+  and the Interpretation of Research Results (2010, First Edition)
+  Ellis.
+  \href{http://ezproxy.uzh.ch/login?url=http://dx.doi.org/10.1017/CBO9780511761676}{Ebook
+  via UZH library.}
+\item
+  \emph{Statistics: An Introduction using R} (2011, Second Edition)
+  Crawley.
+\end{itemize}
+
+\section*{Getting datasets}\label{getting-datasets}
+\addcontentsline{toc}{section}{Getting datasets}
+
+\markright{Getting datasets}
+
+You can get the datasets used in the course
+\href{https://github.com/opetchey/BIO144/tree/master/3_datasets}{here}.
+To download one dataset from that web page, click on the dataset and you
+then see a webpage with that dataset. Then right click on the ``Raw''
+button, and select ``Save As'', select location to save to, and press
+Save. Alternatively you can get a
+\href{https://github.com/opetchey/BIO144/raw/master/3_datasets/all_datasets_bio144.zip}{zip
+file of all the datasets here}, which you will then need to unpack
+before use.
+
+You can get datasets associated with the book Getting Started with R, by
+Beckerman, Childs, and Petchey
+\href{http://r4all.org/books/datasets/}{here}.
+
+IMPORTANT: if you open the downloaded file in Excel, perhaps to have a
+look at it, then \textbf{\emph{DO NOT, UNDER ANY CIRCUMSTANCES, ASK OR
+ALLOW EXCEL TO SAVE IT}}. (Excel does not like R and will do everything
+in its power to mess things up for R. Don't let it do that.)
+
+Here is the data you collected during the first lecture:
+
+\href{https://lms.uzh.ch/url/RepositoryEntry/17654940136/CourseFolder/0/path\%3D~~human\%5Fbenchmark\%5Fdata\%5FFS25\%2Ecsv/0}{human\_benchmark\_data\_fs25.csv}
+
+\section*{Really important!!!}\label{really-important}
+\addcontentsline{toc}{section}{Really important!!!}
+
+\markright{Really important!!!}
+
+\textbf{Please please please read, understand, and try your very best to
+remember what is below.}
+
+We will very often be importing data into R using the read.csv or
+read\_csv function. In the time since the material of the course was
+written (including texts such as Getting Started with R) the makers of R
+changed something important about how importing data works. The best
+solution is for us to make sure we change it back to the old way, so all
+the course material makes sense!
+
+Here are two things you must always do:
+
+When using read.csv always add the argument `as.is = FALSE.\\
+For example: dd \textless- read.csv(``my data file.csv'', as.is = FALSE)
+
+When using read\_csv, always pipe the result into
+mutate\_if(is.character, factor).\\
+For example:\\
+dd \textless- read\_csv(``my data file.csv'') \%\textgreater\%\\
+mutate\_if(is.character, factor)
+
+\section*{Attendance}\label{attendance}
+\addcontentsline{toc}{section}{Attendance}
+
+\markright{Attendance}
+
+\textbf{Attending class is a really good idea!}: ``attendance {[}is{]} a
+better predictor of college grades than any other known predictor of
+academic performance'', Credé, Roch, \& Kieszczynka, 2010.
+\href{https://journals.sagepub.com/doi/abs/10.3102/0034654310362998}{The
+full article.}
+
+We give you the freedom to use the learning materials and opportunities
+in the way that suits you best. We strongly believe that attending the
+practical classes and lectures will be an efficient, fun, and valuable
+way for you to learn.
+
+We will not be tracking attendance. If you do not come to class
+(practical or lecture) the only penalty you will potentially experience
+is loss of some learning opportunity.
+
+\textbf{What if I was ill or otherwise unable to attend?} Please use
+your initiative to catchup. Lectures will be available as podcasts. Ask
+for help from friends for help with practicals. And whatever else you
+can think of.
+
+\section*{Self study weeks}\label{self-study-weeks}
+\addcontentsline{toc}{section}{Self study weeks}
+
+\markright{Self study weeks}
+
+\subsection*{Consolidate, review, reinforce,
+expand!}\label{consolidate-review-reinforce-expand}
+\addcontentsline{toc}{subsection}{Consolidate, review, reinforce,
+expand!}
+
+During approximately two weeks there is no lecture and no practical.
+During these week you should take the opportunity to consolidate,
+review, reinforce, expand!
+
+Here is some optional reading you could look at during those weeks:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{Amrhein_etal2019.pdf}{Retire Statistical Significance}
+\item
+  \href{significanceVSimportance_Whitlock.pdf}{Interleaf from Whitlock
+  and Schluter: Statistical significanc vs.~biological importance}
+\item
+  \href{correlationVScausation.pdf}{Interleaf from Whitlock and
+  Schluter: Correlation vs.~causation}
+\item
+  \href{NZZ_April2016.pdf}{P-Werte in der NZZ (3. April 2016)} (You will
+  have to zoom in and probably read it on the screen!)
+\item
+  And finally, a really thoughtful article in one of the world's leading
+  scientific journals: \href{Goodman_2016_Science.pdf}{S. Goodman
+  (2016): Aligning statistical and scientific reasoning}
+\end{itemize}
+
+\section*{Assessment}\label{assessment}
+\addcontentsline{toc}{section}{Assessment}
+
+\markright{Assessment}
+
+There will be two assessment-related types of activity:
+
+\subsection*{1. Weekly practice quizzes}\label{weekly-practice-quizzes}
+\addcontentsline{toc}{subsection}{1. Weekly practice quizzes}
+
+These are only for you. Your scores do not contribute to anything. The
+are intended:
+
+\begin{itemize}
+\tightlist
+\item
+  To make sure you know if you're learning and understanding the
+  material.
+\item
+  To motivate you to keep up with the content of the class, and thereby
+  reduce the chance of you falling behind and then having trouble in the
+  final exam.
+\item
+  To give you practice with the types of questions that will be in the
+  final examination.
+\end{itemize}
+
+There is no deadline for the practice quizzes. You can do them whenever
+you like. You can do them multiple times if you like.
+
+\subsection*{2. The final exam (and the resit
+exam)}\label{the-final-exam-and-the-resit-exam}
+\addcontentsline{toc}{subsection}{2. The final exam (and the resit
+exam)}
+
+A final assessment during the module examination period. Your
+performance in this is the only determinant of your final grade.
+
+\textbf{Examination date and time:} Please see the Studium Biology,
+Modulprufungen im Grundstudium web page and the links therein for the
+examination dates and other important examination information.
+
+\textbf{\emph{This information is draft for 2026 and may still be
+changed.}}
+
+Further information:
+
+\begin{itemize}
+\tightlist
+\item
+  The exam will contain about 40 questions. Each will be one of three
+  types: single choice, multiple choice, or numeric. Single choice is a
+  question with several possible answer, of which only one is correct --
+  you indicate which. Multiple choice is a question with several
+  possible answers; none, 1, 2, 3, or 4 may be correct -- you indicate
+  which. Numeric requires you to enter a number to answer the question.
+\item
+  A full mock exam will be available on OLAT.
+\item
+  During the exam you are allowed \textbf{three sheets of A4 paper} that
+  you may put information on both sides of. You are also permitted to
+  bring a dictionary (it must have no writing in it). No other resources
+  are permitted.
+\item
+  You are allowed to bring into the exam one translation dictionary
+  (Übersetzungswörterbuch) (e.g., an Englisch--Deutsch-Wörterbuch /
+  English--German dictionary). Examination staff should be allowed to
+  inspect this resource.
+\item
+  You will need to present your UZH card during the exam, to verify your
+  identity.
+\item
+  You will need to use your laptop continuously during the two hours of
+  the exam. Some power outlets are available, but best is to make sure
+  you have enough battery power to last the exam. Please ensure your
+  laptop can connect to the internet via wifi.
+\item
+  You will take the exam in a special instance of OLAT from within the
+  \emph{Safe Exam Browser} that must be installed on your computer.
+\item
+  From within the Safe Exam Browser you will be able to use an RStudio
+  Server.
+\item
+  There will be a mandatory practice exam experience including use of
+  the Safe Exam Browser. Details will be sent to you.
+\item
+  The exam is in English.
+\item
+  You must agree with an Honour Code on OLAT immediately before you take
+  the exam.
+\item
+  You will sit the exam in a lecture theatre on the Irchel Campus.
+\item
+  The final exam requires you to analyse some datasets that are provided
+  to you. Some students have reported that they didn't have enough time
+  during the exam, so please ensure that you can do things like
+  importing data quickly and easily.
+\item
+  Your working (e.g.~any R code your write) is not assessed directly. It
+  is assessed indirectly by whether you answer a question correctly.
+\item
+  During the exam, if you have any trouble importing the data, please
+  immediately ask for help.
+\item
+  When answering numeric questions, the default is to give your answer
+  with precision of 2 decimal places. Some questions specify to give the
+  answer to a different number of decimal places. Please be careful to
+  take care of this.
+\end{itemize}
+
+\section*{Important information about the ``practice exam
+experience''}\label{important-information-about-the-practice-exam-experience}
+\addcontentsline{toc}{section}{Important information about the
+``practice exam experience''}
+
+\markright{Important information about the ``practice exam experience''}
+
+The practice examination experience is only to give you experience of
+the examination interface, the types of questions that can be asked, and
+to test the examination interface. Do not use the number and type of
+different types of question as an indicator of anything about the final
+exam.
+
+\href{https://github.com/opetchey/BIO144/raw/master/2_content/xtras/BIO144_exam_preparation_solutions.pdf}{Here
+are the questions and solutions that are used in the practice exam
+experience}.
+
+You will be informed by email when the practice exam experience is, and
+all further details.
+
+\section*{Getting help}\label{getting-help}
+\addcontentsline{toc}{section}{Getting help}
+
+\markright{Getting help}
+
+We aim that you can ask for help about anything and get a useful answer
+as soon as possible. The following guidelines will help you get fast,
+useful help. The primary ways to ask for help are:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  During the practicals on Thursday and Friday. You will get close to
+  instant responses.
+\item
+  Anytime on the Discussion Forum of this OLAT course. We aim that you
+  get a response in less than two days. Anonymous posts are possible.
+\item
+  After lectures.
+\end{enumerate}
+
+Of course, please feel free to email Owen directly if you wish. Please
+don't hesitate to ask for help!
+
+\subsection*{Posting code problems on the Discussion
+Forum}\label{posting-code-problems-on-the-discussion-forum}
+\addcontentsline{toc}{subsection}{Posting code problems on the
+Discussion Forum}
+
+The Wiki:FAQ contains a page \textbf{\emph{How to ask a question so we
+can easily help}}. Please take a look.
+
+\subsection*{Specialist statistical
+assistance}\label{specialist-statistical-assistance}
+\addcontentsline{toc}{subsection}{Specialist statistical assistance}
+
+I (Owen) am not a statistician. Hence, I might be unable to answer some
+of your questions about more statistical issues, particularly as we
+experience more and more complex statistics. To deal with this,
+Prof.~Furrer has agreed to help with about statistics that I cannot
+answer (or cannot answer fully). Please post them as a new thread in the
+discussion forum. Include as much information as possible, including R
+code and output as appropriate. Please do not contact Prof.~Furrer
+directly. I will then contact Prof.~Furrer and feedback the answer to
+you.
+
+\section*{Giving feedback}\label{giving-feedback}
+\addcontentsline{toc}{section}{Giving feedback}
+
+\markright{Giving feedback}
+
+Your views on the course are really important to us. What works well,
+what doesn't work so well, what content is particularly important, what
+content is not so important, what content is missing?
+
+There are several ways of providing feedback.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  During the course, you can tell us in person during class, and can
+  make posts on the Forum. Such feedback during the course has the
+  potential to improve the course for you. I.e., we might be able to
+  change something quickly, so your and your fellow students' experience
+  of the class is improved.
+\item
+  Fill in the ``official'' course evaluation form. Details to follow.
+\item
+  If have anonymous feedback to give us before or after the official
+  course evaluation then please write on some paper and post it through
+  the University internal mail to us.
+\end{enumerate}
+
+\section*{Course language}\label{course-language}
+\addcontentsline{toc}{section}{Course language}
+
+\markright{Course language}
+
+The course will be mostly in English. Many of the TAs speak and
+understand English and German. Prof.~Petchey best understands and speaks
+English.
+
+Please let us know how we can assist with any challenges this presents.
+
+\href{http://isi.cbs.nl/glossary/index.htm}{Here is a web page that
+gives most common (and many not so common) statistical terms in a
+multitude of languages!}
+
+\section*{Reference letters}\label{reference-letters}
+\addcontentsline{toc}{section}{Reference letters}
+
+\markright{Reference letters}
+
+The course instructors and the TAs try to get to know each of you during
+the course, particularly in the practical classes. That said, it is
+unlikely we gain enough experience of you to write for you a meaningful
+letter of reference / recommendation. Better will be to develop
+relationships during subsequent block courses that can lead to
+meaningful letters.
+
+\section*{Example solution scripts}\label{example-solution-scripts}
+\addcontentsline{toc}{section}{Example solution scripts}
+
+\markright{Example solution scripts}
+
+Example solution scripts can be found here at the link below. However,
+please control your use of these example scripts carefully. Students in
+previous years have said they felt that they sometimes looked at the
+solutions to early or too quickly. They are provided because many
+students over many years have asked for them.
+
+\url{https://github.com/opetchey/BIO144/tree/master/6_example_scripts}
+
+\section*{Lecture podcasts}\label{lecture-podcasts}
+\addcontentsline{toc}{section}{Lecture podcasts}
+
+\markright{Lecture podcasts}
+
+All lectures will be recorded and made available for later viewing.
+
+\bookmarksetup{startatroot}
+
+\chapter*{Year specific information}\label{year-specific-information}
+\addcontentsline{toc}{chapter}{Year specific information}
+
+\markboth{Year specific information}{Year specific information}
+
+\section*{2026 Detailed schedule}\label{detailed-schedule}
+\addcontentsline{toc}{section}{2026 Detailed schedule}
+
+\markright{2026 Detailed schedule}
+
+Lecture: Monday, 8:00-9:45am) Practical: Thurs or Fri. 1-3pm)
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Week beginning & Content \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Feb.~16 & U1 Introduction, review, demonstration \\
+Feb.~23 & U2 R \& RStudio \\
+Mar.~2 & U3 Regression part 1 \\
+Mar.~9 & U4 Regression part 2 \\
+Mar.~16 & U5 Analysis of variance \\
+Mar.~23 & U6 Multiple regression \\
+Mar.~30 & U7 Interactions \\
+Apr.~6 & -- No lecture, no practicals \\
+Apr.~13 & U8 Count data \\
+Apr.~20 & -- No lecture, review / catch-up practicals \\
+Apr.~27 & U9 Binary data \\
+May 4 & U10 Ordination \\
+May 11 & U11 Mixed models \& What next? \\
+May 18 & U12 Review \\
+May 25 & -- No lecture, review / catch-up practicals \\
+\end{longtable}
+
+\section*{2026 Locations}\label{locations}
+\addcontentsline{toc}{section}{2026 Locations}
+
+\markright{2026 Locations}
+
+Lectures are in Y24-G-45\\
+(Lectures will be live-streamed and podcasts will be made available, in
+any case.)
+
+Practicals are in Y24-G-45.
+
+\section*{2026 Assessment}\label{assessment-1}
+\addcontentsline{toc}{section}{2026 Assessment}
+
+\markright{2026 Assessment}
+
+Practice examination experience: Date and time to be communicated
+
+Final Examination date and time: Please see this Studium Biology,
+Modulprufungen im Grundstudium web page and the links therein for the
+examination dates and other important examination information.
+
+\section*{2026 Practice exam}\label{practice-exam}
+\addcontentsline{toc}{section}{2026 Practice exam}
+
+\markright{2026 Practice exam}
+
+We will share a practice exam with you to experience the exam platform
+and types of questions in the final exam. We likely make it available
+and notify you after the spring break.
+
+\section*{2026 Exam viewing}\label{exam-viewing}
+\addcontentsline{toc}{section}{2026 Exam viewing}
+
+\markright{2026 Exam viewing}
+
+If you did not get a 4.0 or higher:
+
+You can view your final examination paper with Dr Frank Pennekamp -
+date, time and location to be announced by email.
+
+You can view your resit examination paper with Dr Frank Pennekamp -
+date, time and location to be announced by email.
+
+\bookmarksetup{startatroot}
+
+\chapter*{Learning Objectives}\label{learning-objectives}
+\addcontentsline{toc}{chapter}{Learning Objectives}
+
+\markboth{Learning Objectives}{Learning Objectives}
+
+This document describes the learning objectives for \textbf{BIO144: Data
+Analysis in Biology}.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section*{Course-level learning
+objectives}\label{course-level-learning-objectives}
+\addcontentsline{toc}{section}{Course-level learning objectives}
+
+\markright{Course-level learning objectives}
+
+After successfully completing BIO144, students will be able to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Formulate biological questions as statistical models, identifying
+  appropriate response and explanatory variables.
+\item
+  Use R and RStudio to import, explore, visualise, and analyse
+  biological data reproducibly.
+\item
+  Fit, interpret, and compare statistical models commonly used in
+  biology, including linear models and generalised linear models.
+\item
+  Evaluate model assumptions, diagnose violations, and understand the
+  consequences for inference.
+\item
+  Interpret model output quantitatively and biologically, rather than
+  mechanically reporting p-values.
+\item
+  Communicate statistical results clearly, using figures, tables, and
+  written explanations appropriate for biological audiences.
+\item
+  Read and critically assess quantitative analyses in published
+  biological research.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section*{Chapter-level learning
+objectives}\label{chapter-level-learning-objectives}
+\addcontentsline{toc}{section}{Chapter-level learning objectives}
+
+\markright{Chapter-level learning objectives}
+
+\subsection*{Introduction}\label{introduction}
+\addcontentsline{toc}{subsection}{Introduction}
+
+After this chapter, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Explain the goals, structure, and expectations of the BIO144 course.
+\item
+  Know the prior knowledge and skills required for success in the
+  course.
+\item
+  Understand appropriate use of AI tools in data analysis work and
+  during the course.
+\item
+  Describe a typical data analysis workflow, from developing question to
+  communicating the answer.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection*{R and RStudio}\label{r-and-rstudio}
+\addcontentsline{toc}{subsection}{R and RStudio}
+
+After this chapter, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Navigate the RStudio interface and explain the purpose of scripts, the
+  console, and the environment.
+\item
+  Run R code and understand basic R syntax.
+\item
+  Import data into R and inspect its structure.
+\item
+  Know the many ways one can get help with R and RStudio.
+\item
+  Understand what are and how to work with add-on packages in R.
+\item
+  Perform basic data manipulation operations, including importing,
+  viewing, and various manipulations.
+\item
+  Produce simple exploratory data visualisations.
+\item
+  Use scripts to support reproducible data analysis workflows.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection*{Simple linear regression -- Part
+1}\label{simple-linear-regression-part-1}
+\addcontentsline{toc}{subsection}{Simple linear regression -- Part 1}
+
+After this chapter, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Explain the purpose of simple linear regression in biological data
+  analysis.
+\item
+  Understand the mathematical form of a simple linear regression model.
+\item
+  Describe how the slope and intercept are calculated.
+\item
+  Describe how the error / variation is modelled.
+\item
+  State the assumptions underlying simple linear regression.
+\item
+  Assess if the assumptions are reasonably met using diagnostic plots.
+\item
+  Recognise and remedy common problems encountered when fitting linear
+  regression models.
+\item
+  Perform linear regression in R.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection*{Simple linear regression -- Part
+2}\label{simple-linear-regression-part-2}
+\addcontentsline{toc}{subsection}{Simple linear regression -- Part 2}
+
+After this chapter, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Understand how to measure how good is the regression (correlation and
+  R-squared).
+\item
+  Test and explain if the parameter estimates are compatible with some
+  specific value (t-test).
+\item
+  Understand how to find the range of parameters values are compatible
+  with the data (confidence intervals).
+\item
+  Understand what are the regression lines compatible with the data
+  (confidence band), and how to construct these in R.
+\item
+  Understand what are the plausible values of newly collected data
+  (prediction band) and how to calculate these in R.
+\item
+  Interpret the biological meaning of regression coefficients.
+\item
+  Know how to communicate the results of a linear regression analysis
+  effectively.
+\item
+  Critically assess the strength and limitations of linear regression
+  models.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection*{One-way ANOVA}\label{one-way-anova}
+\addcontentsline{toc}{subsection}{One-way ANOVA}
+
+After this chapter, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Explain how ANOVA fits within the linear model framework.
+\item
+  Fit a one-way ANOVA model using \texttt{lm()}.
+\item
+  Interpret group means and differences between groups.
+\item
+  Explain the concept of variance partitioning.
+\item
+  Understand the connection between ANOVA and regression with
+  categorical predictors.
+\item
+  Decide when ANOVA is an appropriate modelling approach for biological
+  data.
+\item
+  Perform linear regression in R, assess model assumptions, and
+  interpret results in a biological context.
+\item
+  Communicate ANOVA results effectively using text, tables, and
+  visualisations.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection*{Multiple regression}\label{multiple-regression}
+\addcontentsline{toc}{subsection}{Multiple regression}
+
+After this chapter, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Understand what is a question that multiple regression can help
+  answer.
+\item
+  Know the mathematical form of multiple regression models.
+\item
+  Fit linear models with multiple explanatory variables.
+\item
+  Assess if model assumptions are reasonably met using diagnostic plots.
+\item
+  Assess if the group of explanatory variables significantly explain
+  variation in the response.
+\item
+  Describe which variables are associated with the response, and the
+  direction of these associations.
+\item
+  Measure the amount of variation explained by the model (R-squared,
+  adjusted R-squared).
+\item
+  Assess the relative importance of different explanatory variables.
+\item
+  Make conditional predictions from multiple regression models.
+\item
+  Understand what is collinearity, and how it affects multiple
+  regression.
+\item
+  Use R to fit, diagnose, and interpret multiple regression models.
+\item
+  Communicate multiple regression results effectively using text,
+  tables, and visualisations.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection*{Interactions}\label{interactions}
+\addcontentsline{toc}{subsection}{Interactions}
+
+After this chapter, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Explain what an interaction between explanatory variables means
+  biologically and mathematically.
+\item
+  Fit models that include interaction terms.
+\item
+  Interpret interaction coefficients correctly.
+\item
+  Visualise and explain how effects depend on the values of other
+  variables.
+\item
+  Distinguish additive from non-additive biological effects.
+\item
+  Judge when interactions are biologically meaningful and justified.
+\item
+  Understand interactions in the context of both categorical and
+  continuous explanatory variables, ANCOVA, two-way ANOVA, and multiple
+  regression.
+\item
+  Communicate results involving interactions clearly and accurately.
+\item
+  Use R to fit, diagnose, interpret, and communicate models with
+  interactions.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection*{Generalised linear models for count
+data}\label{generalised-linear-models-for-count-data}
+\addcontentsline{toc}{subsection}{Generalised linear models for count
+data}
+
+After this chapter, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Describe the kinds of biological questions and processes that involve
+  count data.
+\item
+  Recognise when, why, and how count data violate the assumptions of
+  linear models.
+\item
+  Explain why normal error assumptions are inappropriate for count data.
+\item
+  Describe the key components of a generalised linear model.
+\item
+  Fit Poisson regression models using \texttt{glm()}.
+\item
+  Interpret model coefficients on the appropriate scale.
+\item
+  Assess whether a Poisson model provides an adequate description of the
+  data.
+\item
+  Use R to fit, diagnose, and interpret GLMs for count data.
+\item
+  Communicate results from count data analyses effectively.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection*{Generalised linear models for binary
+data}\label{generalised-linear-models-for-binary-data}
+\addcontentsline{toc}{subsection}{Generalised linear models for binary
+data}
+
+After this chapter, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Identify binary response variables in biological datasets, and be
+  familiar with common examples (e.g., presence--absence,
+  success--failure) and the types of questions they can arise from.
+\item
+  Explain why linear models are unsuitable for binary outcomes.
+\item
+  Fit logistic regression models using \texttt{glm()}.
+\item
+  Interpret model coefficients in terms of probabilities and odds.
+\item
+  Visualise fitted relationships for binary data.
+\item
+  Understand how logistic regression supports biological inference about
+  presence--absence or success--failure outcomes.
+\item
+  Use R to fit, diagnose, and interpret GLMs for binary data.
+\item
+  Communicate results from binary data analyses effectively.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection*{Ordination and multivariate
+data}\label{ordination-and-multivariate-data}
+\addcontentsline{toc}{subsection}{Ordination and multivariate data}
+
+After this chapter, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Recognise when biological questions involve many response variables
+  simultaneously.
+\item
+  Explain the goals of ordination methods.
+\item
+  Interpret ordination plots in terms of similarities and differences
+  among observations.
+\item
+  Understand ordination as a tool for dimensionality reduction.
+\item
+  Critically assess what information ordination methods do and do not
+  provide.
+\item
+  Use R to perform basic ordination analyses (i.e., PCA, NMDS).
+\item
+  Communicate ordination results effectively using visualisations and
+  text.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section*{Mixed models and what next}\label{mixed-models-and-what-next}
+\addcontentsline{toc}{section}{Mixed models and what next}
+
+\markright{Mixed models and what next}
+
+\subsection*{Part 1: Mixed models}\label{part-1-mixed-models}
+\addcontentsline{toc}{subsection}{Part 1: Mixed models}
+
+After completing this part, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Recognise biological situations in which data are \textbf{grouped,
+  nested, or hierarchical}.
+\item
+  Explain why standard linear models may be inappropriate for grouped
+  data.
+\item
+  Describe the conceptual difference between \textbf{fixed effects} and
+  \textbf{random effects}.
+\item
+  Understand random effects as a way of modelling \textbf{structured
+  sources of variation}.
+\item
+  Interpret mixed models as extensions of linear models, rather than as
+  fundamentally different tools.
+\item
+  Identify common biological examples where mixed models are appropriate
+  (e.g.~repeated measures, individuals within populations, sites within
+  regions).
+\item
+  Interpret mixed model output at a conceptual level, focusing on
+  biological meaning rather than technical detail.
+\item
+  Appreciate the role of \textbf{partial pooling} in balancing
+  information across groups.
+\item
+  Recognise the limitations and assumptions of mixed models without
+  needing to master implementation details.
+\item
+  Use R to fit simple linear mixed models using the \texttt{lme4}
+  package.
+\item
+  Communicate results from mixed model analyses effectively, focusing on
+  biological interpretation.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection*{Part 2: What next?}\label{part-2-what-next}
+\addcontentsline{toc}{subsection}{Part 2: What next?}
+
+After completing this part, students will be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Place the statistical models learned in BIO144 within a broader
+  landscape of data analysis methods.
+\item
+  Recognise when more advanced models may be required to address
+  biological questions.
+\item
+  Identify directions for further learning in statistics and data
+  analysis.
+\item
+  Understand that statistical modelling is an \textbf{iterative and
+  evolving process}, not a fixed set of rules.
+\item
+  Reflect critically on the limits of the models used in the course.
+\item
+  Appreciate the importance of biological reasoning alongside
+  statistical tools.
+\item
+  Approach future quantitative methods courses and analyses with
+  confidence and curiosity.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section*{Review (L12)}\label{review-l12}
+\addcontentsline{toc}{section}{Review (L12)}
+
+\markright{Review (L12)}
+
+No additional learning objectives.
+
+\bookmarksetup{startatroot}
+
+\chapter*{FAQs}\label{faqs}
+\addcontentsline{toc}{chapter}{FAQs}
+
+\markboth{FAQs}{FAQs}
+
+\section*{Organization-related FAQ}\label{organization-related-faq}
+\addcontentsline{toc}{section}{Organization-related FAQ}
+
+\markright{Organization-related FAQ}
+
+\subsection*{How to ask a question so we can easily
+help?}\label{how-to-ask-a-question-so-we-can-easily-help}
+\addcontentsline{toc}{subsection}{How to ask a question so we can easily
+help?}
+
+You're probably quite competent at asking questions so that we can
+easily help. But here are a few tips that can help you be even better:
+
+\begin{itemize}
+\item
+  If you're asking a question in the OLAT Forum and include R code,
+  please try to ensure it is easy to read and copy into R.
+\item
+  If you're asking for help about some code that doesn't work, please
+  consider making a ``minimal, reproducible example''. This web page
+  describes what one is and how to make one
+  (\url{https://stackoverflow.com/help/minimal-reproducible-example}).
+\end{itemize}
+
+\subsection*{Is practical attendance
+mandatory?}\label{is-practical-attendance-mandatory}
+\addcontentsline{toc}{subsection}{Is practical attendance mandatory?}
+
+You are free to do the practicals whenever you want, but we encourage
+that you do attend the practical afternoons, especially if you have
+questions!
+
+\subsection*{Can I change which practical afternoon I
+attend?}\label{can-i-change-which-practical-afternoon-i-attend}
+\addcontentsline{toc}{subsection}{Can I change which practical afternoon
+I attend?}
+
+In general it's better that you stick to the afternoon you registered
+for, but if you cannot attend it you can of course join the practical on
+the other day.
+
+\subsection*{Why is the number of attempts for the questions
+limited?}\label{why-is-the-number-of-attempts-for-the-questions-limited}
+\addcontentsline{toc}{subsection}{Why is the number of attempts for the
+questions limited?}
+
+For now, the tests are implemented such that you can take each test
+\textbf{only} once, but you can suspend every test you take. This saves
+your progress within the test and when you get back to it you'll pick up
+exactly where you left it (your progress is saved). You can only take
+the tests once, because if you can take it more than once your progress
+is lost, meaning that you would have to retake even the questions that
+you already answered correctly (OLAT does not allow us to change this).
+
+However, within each test attempt, you get \textbf{2 tries per
+question}:
+
+\begin{itemize}
+\tightlist
+\item
+  For the weekly graded assessments there must be a limited number of
+  tries for the graded assessment questions.
+\item
+  For self-tests in the homework and practical parts this is not set in
+  stone. For now, for almost all questions you get 2 tries because
+  giving more attempts might demotivate some people. This might change
+  in the future.
+\end{itemize}
+
+\subsection*{Are the sections named Extras part of the
+exam?}\label{are-the-sections-named-extras-part-of-the-exam}
+\addcontentsline{toc}{subsection}{Are the sections named Extras part of
+the exam?}
+
+No, they are just for your interest!
+
+\subsection*{Device with enough battery for
+exam}\label{device-with-enough-battery-for-exam}
+\addcontentsline{toc}{subsection}{Device with enough battery for exam}
+
+If you are not certain that the battery of your laptop can last for the
+duration of the final examination, please let us know using the form at
+the end of the course content here on OLAT.
+
+\subsection*{About the Discussion
+Forum}\label{about-the-discussion-forum}
+\addcontentsline{toc}{subsection}{About the Discussion Forum}
+
+Use the discussion forum to ask questions, give tips, make suggestions
+about how the course could be improved\ldots{} or anything else that
+springs to mind while you're taking the course.
+
+However, before posting please check out the Index in the ``Wiki: FAQ''
+section in this course to see whether your question has already been
+answered there and also look at the other forum posts here to see
+whether there is already a discussion thread for your topic. If you
+cannot find what you are looking for, go ahead and post something in
+this forum, we will respond as soon as possible!
+
+Other potential uses of the forum are that you may make a list of
+questions that you want to ask during the class, or a list of things
+that you'd like us to go over again in class, or in more detail in
+lectures or practicals. Then we can look at these in lectures or
+practicals.
+
+One rule: do not post answers to assessment or solutions to exercises.
+Help others find and realise for themselves the answer, but don't post
+the actual answer. If you post comments/questions about graded
+assessments, we will always investigate and take appropriate action.
+This may include deleting or editing your post. Please ask about GAs
+during a practical or email.
+
+Another rule / guideline. Open a new post / thread for a new issue.
+
+\section*{R-related FAQ}\label{r-related-faq}
+\addcontentsline{toc}{section}{R-related FAQ}
+
+\markright{R-related FAQ}
+
+\subsection*{What version of R is
+needed?}\label{what-version-of-r-is-needed}
+\addcontentsline{toc}{subsection}{What version of R is needed?}
+
+It is good practice to keep R up to date, so it is recommended that you
+have the most recent version of R installed. In any case, you should at
+least have the R version 4.0 or newer installed. You can check the
+version by running ``version'' or ``sessionInfo()'' in R.
+
+\subsection*{What packages are needed?}\label{what-packages-are-needed}
+\addcontentsline{toc}{subsection}{What packages are needed?}
+
+Note: this list is incomplete and will be updated in the future.
+
+The packages you need in each unit are usually in the lecture and/or in
+the homework material.
+
+An incomplete list (work in progress):
+
+\begin{itemize}
+\tightlist
+\item
+  tidyverse (contains ggplot2, readr, dplyr, tidyr, etc.)
+\item
+  skimr
+\item
+  ggfortify
+\item
+  \ldots{}
+\end{itemize}
+
+\subsection*{I am having issues installing a
+package}\label{i-am-having-issues-installing-a-package}
+\addcontentsline{toc}{subsection}{I am having issues installing a
+package}
+
+Problems with installing packages are somewhat common. Often, these
+problems be avoided by using
+
+\texttt{install.packages(\ "NAME",\ type\ =\ "binary")}
+
+instead of simply
+
+\texttt{install.packages(\ "NAME",\ )}
+
+The reason is that quite often, packages are available a source
+packages, which must be compiled locally, which is often not possible on
+standard R machines. Therefore, by specifying type = ``binary'', you
+tell R to install the already compiled version, even though it might be
+an older version.
+
+\subsection*{Different output of summary()/str()/etc. function than what
+is shown in
+video}\label{different-output-of-summarystretc.-function-than-what-is-shown-in-video}
+\addcontentsline{toc}{subsection}{Different output of
+summary()/str()/etc. function than what is shown in video}
+
+During the course it will happen that the output that you get from
+function such as summary(), glimpse(), str(), \ldots, will look a bit
+different from the output that you see in the (homework) videos.
+
+Usually, the reason for this is that since R version 4.0.0 (and newer)
+the function read.csv() no longer reads in non-numerical variables as
+factor variables, but instead these variables are read in as character
+variables and functions such as summary(), glimpse(), str(), \ldots{}
+handle character variables differently than they handle factor
+variables.
+
+\subsection*{What does rm(list=ls()) do?}\label{what-does-rmlistls-do}
+\addcontentsline{toc}{subsection}{What does rm(list=ls()) do?}
+
+While working in R we assign stuff to variables, load in data, etc.
+These things are stored in the R ``environment''. The line rm(list=ls())
+deletes everything that is stored in this environment. The reason for
+this is basically that by freeing up space we are on top of things (when
+many different things are stored in the environment it can get messy)
+and are sure that we are not using things from (for instance) a
+previously run script.
+
+The function rm() stand for ``remove'' so it removes everything that we
+give it. In this case we give it a list of things: ls() lists every name
+that is stored in the environment. We usually use it as the first thing
+in a script.
+
+\subsection*{How do I set the number of decimal places
+shown?}\label{how-do-i-set-the-number-of-decimal-places-shown}
+\addcontentsline{toc}{subsection}{How do I set the number of decimal
+places shown?}
+
+Use the round() function to tell R how many decimal places to report and
+what rounding to do. You otherwise cannot know for sure how a number
+displayed in the console has been rounded or not.
+
+\subsection*{What does the predict() function
+do?}\label{what-does-the-predict-function-do}
+\addcontentsline{toc}{subsection}{What does the predict() function do?}
+
+In general, the predict() function takes as argument a model object, for
+instance one fitted with lm(). It then predicts/estimates/calculates the
+response variable based on the values of the covariates (explanatory
+variables) and the estimated coefficients according to the fitted model.
+You can do this by hand (good for understanding).
+
+If you do not specify the data to use for the prediction, it will
+automatically use the data that was used in fitting the model. You can
+also specify the dataset used, which is useful, for instance when you
+have multiple covariates and you want to visualize the relation of one
+specific explanatory variable with the response variable. In that case
+you create a new dataset in which you keep every covariate at constant
+values (e.g.~their mean) with the exception for the one in you are
+interested in. Then you can use this dataset in the predict() function
+and then, if you want, you can plot the relation of that variable with
+the response.
+
+Note: predict() does \textbf{not} fit a model, it evaluates a model with
+some given data
+
+\subsection*{What does the expand.grid() function
+do?}\label{what-does-the-expand.grid-function-do}
+\addcontentsline{toc}{subsection}{What does the expand.grid() function
+do?}
+
+The expand.grid() function is a handy function to create new data, as it
+returns every possible combinations of the input provided. For instance
+expand.grid(a = 1:2, b = 4:5) returns
+
+\begin{verbatim}
+    a b
+1   1 4
+2   2 4
+3   1 5
+4   2 5
+\end{verbatim}
+
+We often use this function to create new data because we want to
+visualize the effect of one particular variable on the response variable
+according to the fitted model. When we have a model with more than 1
+explanatory variable, these variables can vary together and if they do
+the effect of one particular variable on the response variable is more
+difficult to see. Hence to best show the importance of a particular
+variable, we keep all other variables at constant values. These constant
+values should ideally be sensible values, i.e.~keeping the mass at 0
+does not make sense, but it makes more sense to keep at the mean value.
+
+\subsection*{AIC(model) versus
+extractAIC(model)}\label{aicmodel-versus-extractaicmodel}
+\addcontentsline{toc}{subsection}{AIC(model) versus extractAIC(model)}
+
+You can find an explanation of the difference
+\href{https://stats.stackexchange.com/questions/43733/what-is-the-difference-between-aic-and-extractaic-in-r}{here}
+(see the accepted answer)
+
+It does not matter which of the two functions you use, but be sure to
+always use the same function within an analysis/script!
+
+\subsection*{The autoplot function does not show the leverage
+plot}\label{the-autoplot-function-does-not-show-the-leverage-plot}
+\addcontentsline{toc}{subsection}{The autoplot function does not show
+the leverage plot}
+
+When there is one categorical and one continuous variable (and in other
+cases as well), the forth plot shown by the autoplot() function (in the
+ggfortify package) is not the leverage plot that we would usually get.
+See also
+\href{http://r4all.org/posts/diagnostic-plots-of-models-with-categotical-explanatory-variables/}{here}.
+It has to do with how this function is implemented.
+
+If you want to see the usual leverage plot, see the above link to see
+how to achieve that.
+
+The other three plots shown by the function are more important, so it is
+ok that we do not see the leverage plot sometimes.
+
+\subsection*{Cooks distance in leverage
+plot}\label{cooks-distance-in-leverage-plot}
+\addcontentsline{toc}{subsection}{Cooks distance in leverage plot}
+
+I am not aware that autoplot() has a method to show Cook's distance.
+This is not so important. The important thing about that plot is to see
+whether there are data points that have both a large leverage (a big
+impact on the regression fit result) and large residual value. These
+points would be in the top and bottom right corner of the fourth plot.
+If there are such points it can be interesting to repeat the analysis
+without these points to see how the result changes. Note that this plot
+is not needed to check the model assumptions, so for now at least the
+other three plots are more important.
+
+\subsection*{gather() vs pivot\_longer() and spread() vs
+pivot\_wider()}\label{gather-vs-pivot_longer-and-spread-vs-pivot_wider}
+\addcontentsline{toc}{subsection}{gather() vs pivot\_longer() and
+spread() vs pivot\_wider()}
+
+This course was written when \texttt{gather} and \texttt{spread} were
+still the go-to \texttt{tidyr} functions for these tasks (there are base
+\texttt{R} functions for them as well). Since then,
+\texttt{pivot\textbackslash{}\_wider} and
+\texttt{pivot\textbackslash{}\_longer} have been released, which have
+more functionalities and are more flexible. For such simple tasks both
+work perfectly fine, with the advantage that \texttt{spread} and
+\texttt{gather} have slightly more intuitive names and are those more
+easily understood. But of course, as recommended in the help page, the
+newer functions should be used moving forward (at some point this course
+will switch as well).
+
+\subsection*{unique() vs levels()}\label{unique-vs-levels}
+\addcontentsline{toc}{subsection}{unique() vs levels()}
+
+The function \texttt{levels()} only works with factors. In newer
+versions of \texttt{R} variables are read in by
+\texttt{read\textbackslash{}\_csv} as characters instead of factors (see
+also
+\href{https://lms.uzh.ch/auth/RepositoryEntry/17168236698/CourseNode/104350296466146/path\%3DDifferent\%5Foutput\%5Fof\%5Fsummary\%28\%29~~str\%28\%29~~Etc.\%5Ffunction\%5Fthan\%5Fwhat\%5Fis\%5Fshown\%5Fin\%5Fvideo/0}{here}).
+Use the function \texttt{unique()} instead of \texttt{levels()}
+
+\section*{Statistics-related FAQ}\label{statistics-related-faq}
+\addcontentsline{toc}{section}{Statistics-related FAQ}
+
+\markright{Statistics-related FAQ}
+
+\subsection*{What is the difference between fitted and predicted
+values?}\label{what-is-the-difference-between-fitted-and-predicted-values}
+\addcontentsline{toc}{subsection}{What is the difference between fitted
+and predicted values?}
+
+\textbf{Fitted values}: The response values you get when you use the
+observed values of the explanatory variables, i.e.~the ones you used to
+fit the model: the original data
+
+\textbf{Predicted values}: In general, the response values you get when
+you use new observations of the explanatory variables (i.e.~new data).
+Note: if the new data is the same as the original data, then predicted
+values == fitted values.
+
+This being said, it happens that the terms fitted values and predicted
+values are used interchangeably, even though there is a (small)
+difference.
+
+\subsection*{Interpretation of
+p-values}\label{interpretation-of-p-values}
+\addcontentsline{toc}{subsection}{Interpretation of p-values}
+
+The \emph{p}-value is best interpreted as:
+
+The \emph{p}-value is the probability of having a test statistics value
+at least as extreme as the value actually observed (e.g.~the
+\emph{t}-value of the \emph{t}-test or \emph{F}-value of the
+\emph{F}-test) given that the Null hypothesis is correct (often H0:
+parameter=0). If the p-value is below 0.05 we reject H0 and go with H1
+(often H1: parameter =/= 0). The p-value is \textbf{not} the probability
+of H0 being correct.
+
+See also the lecture material.
+
+\subsection*{Interpretation of confidence
+intervals}\label{interpretation-of-confidence-intervals}
+\addcontentsline{toc}{subsection}{Interpretation of confidence
+intervals}
+
+Let's assume we have a simple linear regression with body-fat as the
+response and BMI as the explanatory variable. We find that the slope of
+BMI is 1.75 with a corresponding 95\% confidence interval
+{[}1.55,1.97{]}. This is interpreted as follows:
+
+\begin{itemize}
+\tightlist
+\item
+  ``All true values for beta1 (slope for BMI) between 1.55 and 1.97 are
+  compatible with the observed data''.
+\item
+  To rephrase this slightly, this means: the \textbf{true} slope for BMI
+  could have any value between 1.55 and 1.97 and we would not be
+  surprised to see the data that we have (and thus, if the \textbf{true}
+  slope was outside the interval, it would be surprising to see the data
+  that we have: the estimated slope based on the data does not match the
+  \textbf{true} slope.
+\end{itemize}
+
+\textbf{Note}: I want to stress that it is \textbf{not correct} to say
+that there is a 95\% probability that the \textbf{true} slope is between
+1.55 and 1.96 (see below).
+
+So, with the interpretation given above, if the confidence interval of
+the slope does not cover 0, then a slope of 0 is not compatible with the
+data. In fact, in the case of the 95\% confidence interval this means
+that the p-value is below 0.05, which means that we reject the Null
+hypothesis H0 that the slope for BMI is 0. \textbf{Note}: this is
+neither ``good'' nor ``bad'', it is just what it is: we are just
+interested in the truth.
+
+There is an alternative interpretation of confidence intervals which is
+arguably more precise (but you can use the above for this course). To
+explain it, here are a couple of things that I personally think are good
+to keep in mind:
+
+\begin{itemize}
+\tightlist
+\item
+  The parameter of interest (e.g.~the slope of BMI) is estimated based
+  on the available data, meaning that the estimate is a function of the
+  data. If for instance the experiment is repeated the data will look a
+  little bit different and the estimate will be a little bit different.
+  However: the true value of the parameter of interest (the slope) is
+  the same in both experiments!
+\item
+  The same thing goes for confidence intervals: they are estimated based
+  on the data, so if the data changes a bit, the upper and the lower
+  bound of the confidence interval will be a bit different as well.
+\item
+  An example of wrong interpretation: continuing the example above,
+  let's say we know the true slope of BMI and it is 2. What is the
+  probability that the confidence interval includes the \textbf{true}
+  slope? 0 (!), because 2 is not in {[}1.55,1.97{]}. And what would the
+  probability be if the \textbf{true} slope is 1.6? 1 (!), because 1.6
+  is included in {[}1.55,1.97{]}. \textbf{This is why it is incorrect to
+  say that there is a 95\% probability that the estimated confidence
+  interval contains the true slope}: the \textbf{estimated} confidence
+  interval either contains or it does not contain the true slope.
+\end{itemize}
+
+Now, because of probability theory reasons, a confidence interval is
+best interpreted like this:
+
+\begin{itemize}
+\tightlist
+\item
+  ``If we repeat the entire experiment many times (and thus collect
+  slightly different data each time) and for each experiment we
+  calculate the 95\% confidence interval, then 95\% of the calculated
+  confidence intervals will contain the true parameter value''.
+\item
+  This definition is a bit harder to get, but it basically tells us that
+  it is a measure of uncertainty of the estimated slope.
+\end{itemize}
+
+\subsection*{Model diagnostics residuals versus fitted
+values}\label{model-diagnostics-residuals-versus-fitted-values}
+\addcontentsline{toc}{subsection}{Model diagnostics residuals versus
+fitted values}
+
+This entry is not complete
+
+The central assumption of linear regression is that the errors are
+independent (from each other) and identically distributed (i.i.d.)
+following a normal distribution with mean = 0 and variance = sigma\^{}2.
+We cannot measure the errors directly, but we have estimates of them:
+the residuals. This means that we can check these assumptions based on
+the residuals, because given that they are estimates of the errors and
+that the model is valid the residuals have to be i.i.d. following a
+normal distribution as well. In the figure residuals vs.~fitted values
+we can check for some of these assumptions:
+
+\begin{itemize}
+\tightlist
+\item
+  Mean = 0: the mean has to be zero across all fitted values. So the
+  points in the figure have to be spread approximately symmetrically
+  above and below 0, so that the mean is approximately 0 across all
+  fitted values. If for instance we see that for larger fitted values
+  the mean of the residuals increases or decreases clearly away from 0,
+  then this assumption might be violated.
+\item
+  Variance == sigma\^{}2: constant variance. Similarly to above, the
+  variance has to be independent from the fitted values, meaning that
+  the spread of point below and above 0 needs to be approximately the
+  same across all fitted values. If this is not the case this results in
+  a pattern (e.g.~larger fitted values result in a higher variance in
+  the residuals) and this assumption might be violated.
+\end{itemize}
+
+\subsection*{Difference between binomial and count
+data}\label{difference-between-binomial-and-count-data}
+\addcontentsline{toc}{subsection}{Difference between binomial and count
+data}
+
+For count data we use Poisson regression and for binomial data we use
+binomial regression (commonly called logistic regression)
+
+\begin{itemize}
+\tightlist
+\item
+  Count data come from questions like ``how many times have you voted in
+  your life?'' and the answer can be a positive integer (including 0),
+  while binary data come from questions like ``did you vote last year?''
+  to which the answer can only be yes (1) or no (0).
+\item
+  We get binomial data if we have n (=number of persons) independent
+  Bernoulli trials (i.e.~binary trials), so we would basically count how
+  many people have voted last year out of the n we asked. In other
+  words, if we have 7 yes and 3 no to the question ``did you vote last
+  year?'', they come from 10 different people (sample size n=10), while
+  if to the question ``how many times have you voted in your life?'' we
+  get an answer like ``I've voted 10 times in my life'' this comes from
+  a single person (sample size n=1), so keep this in mind.
+\end{itemize}
+
+\subsection*{Dispersion parameter}\label{dispersion-parameter}
+\addcontentsline{toc}{subsection}{Dispersion parameter}
+
+Why is the value of the estimated dispersion parameter different to
+residual deviation divided by the residual degrees of freedom?
+
+The actual dispersion is based on a weighted version of the residuals:
+
+object is the output of a glm( \ldots{} ``pseudopoisson'') call:
+
+dispersion \textless-
+sum(object\(weights*object\)residuals\^{}2)/object\$df.residual
+
+residuals are not:
+
+deviance.resid \textless- sum(residuals(object, type =
+``deviance'')\^{}2)
+
+E.g.
+
+counts \textless- c(18,17,15,20,10,20,25,13,12)
+
+outcome \textless- gl(3,1,9)
+
+treatment \textless- gl(3,3)
+
+object \textless- glm(counts \textasciitilde{} outcome + treatment,
+family = ``quasipoisson'')
+
+summary(object)
+
+sum(object\(weights*object\)residuals\^{}2)/object\$df.residual
+
+sum(residuals(object, type = ``deviance'')\^{}2)
+
+Next question: why weighted residuals, and how are they weighted :)
+
+\subsection*{Attenuation in linear
+regression}\label{attenuation-in-linear-regression}
+\addcontentsline{toc}{subsection}{Attenuation in linear regression}
+
+In the measurement error lecture in unit 12 there is a method for
+calculating the true slope from the naive (including measurement error)
+slope given on the following slide. Please see the ``Motivating
+example'' section of the
+\url{https://en.wikipedia.org/wiki/Errors-in-variables_models} page on
+Wikipedia for a derivation of the equation show on the slide.
+
+\href{/Image:attenuationslide.png}{\pandocbounded{\includegraphics[keepaspectratio]{attenuationslide.png}}}
+
+\section*{Other student questions from previous years
+(unsorted)}\label{other-student-questions-from-previous-years-unsorted}
+\addcontentsline{toc}{section}{Other student questions from previous
+years (unsorted)}
+
+\markright{Other student questions from previous years (unsorted)}
+
+\subsection*{Gender Imbalance Effect on
+t-test}\label{gender-imbalance-effect-on-t-test}
+\addcontentsline{toc}{subsection}{Gender Imbalance Effect on t-test}
+
+\textbf{Student question (2021)}: I wanted to ask a general question
+related to both the lecture and practical session: how much does gender
+imbalance influence the results of a t-test? Is there a technique to
+test for this possible effect and, in this case, how could one account
+for the imbalance?
+
+\textbf{Answer given}:
+
+In general, an imbalanced dataset can be used for a t-test as long as
+the assumptions of the test are met and there are enough datapoints in
+each of the two compared groups (but in theory the test also works with
+very small sample sizes).
+
+The assumptions of the t-test are that the datapoints are independently
+and identically distributed following a normal distribution. So as long
+as there is no evidence for a violation of these assumptions, you can
+use the test (you will see in the coming weeks how to check whether the
+assumptions are met or not!).
+
+By the way, usually the t-test assumes equal variances between the two
+groups. If they are not (and you set var.equal=FALSE in R) the test will
+have to estimate the variance in both groups and hence there will be
+fewer degrees of freedom left.
+
+Regarding how to counteract data imbalance, one possible option could be
+to create a balanced dataset by randomly subsampling from the more
+abundant group. But as I've said, it is not needed in this case.
+
+More stuff to think about: it is maybe even more important to think
+about whether the data is representative about the population that we
+want to infer something from. I do not know what the gender ratio is in
+the class, but it could be that the data imbalance is there because one
+gender was more willing to participate than the other. If that is the
+case, then there could be a confounding variable that influenced both
+the outcome (the reaction time) and the willingness to participate. For
+instance it could be that in one gender only persons with a fast
+reaction time participated, while in the other group everyone
+participated regardless of reaction times and thus the dataset would not
+be representative of the actual class and the t-test result no longer
+valid.
+
+\textbf{Imbalanced}: means that the two groups that are compared consist
+of an unequal number of datapoints
+
+\subsection*{How to get extreme values}\label{how-to-get-extreme-values}
+\addcontentsline{toc}{subsection}{How to get extreme values}
+
+Student question (2021):
+
+In Unit2 Question3 Exercise1 it is written that it would be complicated
+to progamatically check if the extreme values belong to one single
+individual. I think I have found a way to do so:
+
+extremes \textless- slice(df,-c(1:252)) \#generate empty data frame for
+(i in colnames(df)) \{ print(filter(df,df{[}i{]}==max(df{[}i{]}))) \} df
+is my dataframe.
+
+So my question is if this is a correct approach and if it would lead to
+the correct answer. And my second question is, how can I add the output
+of the statement to the empty data frame I created above? In python I
+would solve it with a list or something similar but I am not quite sure
+how I should or can do it in R.
+
+Looking forward to an answer.
+
+Answer given:
+
+You found a good start to do it! Here is how you could add it to the
+dataframe:
+
+extremes \textless- df \%\textgreater\% slice(0) for (i in colnames(df))
+\{ max \textless- filter(df,df{[}i{]}==max(df{[}i{]})) extremes
+\textless- rbind(extremes, max) \} rbind() stands for ``row bind'' and
+does just that: it binds rows together. There is also cbind(), for
+columns.
+
+Note: It is worth pointing out that in this way you ``only'' get the
+maximum value of every given variable. However, It is a matter of how
+extremes are defined: it could be that the max value of a variable is
+not an extreme because it is perfectly in line with the other values.
+Similarly, there could be more than 1 extreme value for a given
+variable, with respect to the other values. The same goes for small
+values, as those can be extremes as well.
+
+More info: a common definition of extreme values is: smaller than the
+first quartile minus 1.5IQR (the interquartile range) OR larger than the
+third quartile plus 1.5IQR (the interquartile range). The outliers in
+boxplots are for instance calculated in this way. This is not needed for
+what we are doing in the course and what you did is perfectly
+appropriate!
+
+\subsection*{Lecture 3 linear regression Hypothesis and p
+value}\label{lecture-3-linear-regression-hypothesis-and-p-value}
+\addcontentsline{toc}{subsection}{Lecture 3 linear regression Hypothesis
+and p value}
+
+\textbf{Student question (2021):} I am a bit confused\ldots{} In lecture
+3 on slide 31 it is written: „In included is the assumption that the
+data follow the simple linear regression model.`` Then on slide 35 is is
+written that such a little p-value suggests that it is very unlikely to
+see such an slope if there would not be a correlation. But I have heard
+several times before this course that a small p-value suggests to reject
+the Null Hypothesis. Therefore I am confused because shouldn't the Null
+Hypothesis be that there is no correlation and because of the small
+p-value we accept because there is a correlation?
+
+Can somebody help me?
+
+\textbf{Answer given:} I think that you understood it correctly, but you
+just got confused by that sentence on slide 31.
+
+What is meant with ``In H0 included is the assumption that the data
+follow the simple linear regression model'' is that in addition to H0
+there is the assumption that the data can be analyzed with the chosen
+regression model. It can be analyzed like this if the modelling
+assumptions (see slide 25 in lecture 3) are met (you will see in the
+coming weeks how to check whether they are met or not). Only if the
+modelling assumptions are met it makes sense to test the actual H0.
+
+As you correctly understood, the actual Null hypothesis H0 is that the
+slope beta = 0. At the same time, if the slope is 0 it also means that
+the correlation would be 0. But for completeness sake I also want to
+mention that there is a difference between the regression slope and the
+correlation, which is nicely explained here.
+
+\subsection*{Plotting Regression line}\label{plotting-regression-line}
+\addcontentsline{toc}{subsection}{Plotting Regression line}
+
+\textbf{Student question (2021)}: dear BIO144 team, I tried to graph my
+results using code below. However, when I tried to draw the regression
+line using ``geom\_smooth'' ,it gives me 5 different regression line in
+different colors for each country (could not upload the graph here).
+What if I want only one regression line for all my data, and at the same
+time different colors for the continents points?
+
+\begin{verbatim}
+ggplot(health\_filtered, aes(x=logExp, y=logMort, colour=continent))+
+   geom\_point(size=0.8, alpha=0.9)+
+   geom\_smooth(method="lm", se= FALSE)+
+   xlab("Log of Child Mortality")+
+   ylab("Log of healthcare Expenditure")+
+   ylim(0,3)+
+   xlim(1,4)+
+   theme\_light()
+\end{verbatim}
+
+\textbf{Answer given}: You have specified the aesthetic mapping colour =
+continent in the ggplot function. Any aesthetic mapping specified in the
+ggplot function are inherited by all other geoms. I.e. they apply
+automatically to all other geoms, unless we say otherwise. So your
+geom\_smooth is also using the colour = continent aesthetic mapping, and
+so is doing a separate regression for each.
+
+If we want different colours for each point, but one regression, then
+here are two solutions:
+
+\begin{itemize}
+\tightlist
+\item
+  Remove the colour = continent aesthetic mapping from the ggplot
+  function, and put it only in the geom\_point function.
+\end{itemize}
+
+OR
+
+\begin{itemize}
+\tightlist
+\item
+  Remove the inherited colour = continent aesthetic mapping from the
+  geom\_smooth by adding mapping = aes(colour = NULL). i.e.~use
+  geom\_smooth(method=``lm'', mapping = aes(colour = NULL))
+\end{itemize}
+
+\subsection*{Interpreting the table lecture 4 page 29
+2021}\label{interpreting-the-table-lecture-4-page-29-2021}
+\addcontentsline{toc}{subsection}{Interpreting the table lecture 4 page
+29 2021}
+
+\textbf{Student question (2021)}:
+
+The conclusions I get from interpreting the table is that
+
+\begin{itemize}
+\tightlist
+\item
+  bmi has a strong correlation with bodyfat (steep slope)
+\item
+  age probably doesn't have that strong of an influence on bodyfat (only
+  0.13 slope)
+\item
+  the p-values all show significance but in the case of age it might not
+  play an important biological role
+\item
+  the confidence interval of the intercept is rather wide so it could be
+  useful to generate more data points (?)
+\end{itemize}
+
+Did I miss anything or did I get it wrong?
+
+\textbf{Answer given}:
+
+Hi, solid interpretation! Some comments:
+
+\begin{itemize}
+\tightlist
+\item
+  You rise a good point of statistical significance versus effect size
+  (and corresponding clinical significance, in this case). It can happen
+  that a coefficient is estimated to be significantly different from the
+  null effect, but at a same time the estimated coefficient is so small
+  (i.e.~small effect size) that it does not matter.
+\item
+  However, it is not always so easy to determine whether an effect size
+  is big or small and in the case of the covariates \emph{age} and
+  \emph{bmi} I argue that both might be important, and here is why. At
+  first glance the two estimated slopes are very different, with the one
+  for \emph{bmi} being roughly 14 times as big as the one for
+  \emph{age}. Yet, \emph{age} is a continuous variable and the slope
+  means that for every year that passes the \emph{bodyfat} percentage is
+  estimated to increase by 0.13. Hence, after roughly 14 years the
+  \emph{bodyfat} percentage is predicted to increase by 1.82, roughly
+  the same as if the \emph{bmi} would have increased by 1. What I want
+  to say is that 0.13 might not seem much, but it adds up over the
+  years. On the other hand, an increase of 1 of the \emph{bmi} is
+  actually not so little and thus it might be less likely to happen.
+\end{itemize}
+
+Regarding the intercept:
+
+\begin{itemize}
+\tightlist
+\item
+  In general more data would increase the precision of the estimates
+  (i.e.~decrease the standard errors), but it is often not possible to
+  have more data.
+\item
+  Think about what the intercept is in this model. Are we interested in
+  it at all? The answer is ``probably not'': it is the \emph{bodyfat}
+  percentage for when \emph{age=0} and \emph{bmi=0}, both of which are
+  not possible. This is also why the estimated intercept does not make
+  sense (-31 \emph{bodyfat} percentage?). In this model we are only
+  interested in the estimated slopes.
+\end{itemize}
+
+In any case, good start with interpretation! You could further try to
+interpret the confidence intervals (in the sense: what do they mean?).
+
+More info: related to the point above, another thing to keep in mind
+when interpreting coefficients are the units of the variables. For
+\emph{age} it's years, so as I wrote above one unit increase in
+\emph{age} (i.e.~1 more year) results in an expected increase of
+\emph{bodyfat} percentage by 0.13. If however the unit of the variable
+age was \emph{decades} instead of years, then the slope would have been
+estimated to be (about) 10\emph{0.13=1.3 and in this case it would have
+roughly been the same as for }bmi* and our first ``impression'' of its
+size would have been different.
+
+\subsection*{Overdispersion Index}\label{overdispersion-index}
+\addcontentsline{toc}{subsection}{Overdispersion Index}
+
+\textbf{Student question (2021)}: In the GSWR book it says only to worry
+about dispersion if the dispersion index is above 2, but in the mock
+exam it said that there is overdispersion even though the index was
+below 2. Does that mean there is always overdispersion if the index is
+above 1 but you just don't worry about it?
+
+\textbf{Answer given}: Hi. Yes if the the dispersion parameter is
+\textgreater1 it is overdispersion, but how much larger than 1 it has to
+be to become problematic is up for debate. I cannot put it better than
+what is written in the book:
+
+``\emph{What if the dispersion index had been 1.2, 1.5, 2.0, or even 10?
+When should you start to worry about overdispersion? That is a tricky
+question to answer. One common rule of thumb is that when the index is
+greater than 2, it is time to start worrying. Like all rules of thumb,
+this is only meant to be used as a rough guide. In reality, the worry
+threshold depends on things like sample size and the nature of the
+overdispersion.}''
+
+\subsection*{IC10 Abalone - quasipoisson and
+cor}\label{ic10-abalone---quasipoisson-and-cor}
+\addcontentsline{toc}{subsection}{IC10 Abalone - quasipoisson and cor}
+
+\textbf{Student question (2021)}: I was wondering why there's no AIC
+when doing the dropterm function for a full model with
+family=quasipoisson? dropterm(full\_glm\_quasi, sorted=TRUE)
+
+Also I did not quite understand the last line in the sample solution
+script:
+
+\begin{verbatim}
+ cor(cbind(x=fitted(noViscera), y=fitted(lm\_model)))
+\end{verbatim}
+
+how does this work and what does the result mean?
+
+\textbf{Answer given}: The short answer is this: you might remember that
+to be calculated, the AIC needs the likelihood. I don't think that we
+formally defined the likelihood in this course, so it's ok if you do not
+really know what it is. What is important here is that for the GLM with
+quasi-Poisson the likelihood is no longer defined and thus the AIC
+cannot be calculated. I do not actually know whether \texttt{dropterm}
+is useful in this case (note that the exercise does not ask you to use
+it with the quasi-Poisson model, it only asks you to change the selected
+Poisson model to a quasi-Poisson model).
+
+Regarding the second question: with
+
+\begin{verbatim}
+`cor(cbind(x=fitted(noViscera), y=fitted(lm\_model)))` 
+\end{verbatim}
+
+a matrix with two columns is passed to \texttt{cor}, and from the help
+page of \texttt{cor} we know that in this case the correlations between
+the columns are calculated (x vs x, x vs y, y vs x and y vs y, hence 4
+values). The values on the diagonal of the produced correlation matrix
+are obviously 1, because we correlated respectively x vs x and y vs y.
+The values on the off-diagonals are the one of interest and are the same
+because x vs y and y vs x is the same. As there are only 2 columns in
+this case, I find it easier to just use
+\texttt{cor(fitted(noViscera),\ fitted(lm\textbackslash{}\_model))},
+i.e.~to just pass the 2 vectors separately, in which case only the
+correlation between the two vectors is calculated. As the correlation
+between the fitted values of the two models is almost 1 (it is
+\texttt{0.9733156}) you rightfully state that there is no practical
+difference in the predicted values between the two models (but the glm
+is still the model that should be used because the response is count
+data).
+
+\subsection*{Exercise 7c correlation between
+parameters}\label{exercise-7c-correlation-between-parameters}
+\addcontentsline{toc}{subsection}{Exercise 7c correlation between
+parameters}
+
+\textbf{Student question (2021)}: the scatter plot of the Betas
+indicates a possible correlation between B0 and B1 as well as between B0
+and B2. On the other hand, B1 and B2 do not seem to correlate. can you
+help me understand why.
+
+Is it correct to interpret this the following way: keeping one point
+fixed (say B2), then the variation in the intercept will define the
+variation in B1?
+
+\textbf{Answer given}: This is what I think is going on:
+
+\begin{itemize}
+\tightlist
+\item
+  First, B1 and B2 are not correlated because x1 and x2 are not
+  correlated either, so their coefficients are independent from each
+  other.
+\item
+  Second, by adding random noise to the response y it can happen that
+  the apparent relation between e.g.~x1 and x weakens (slope B1 closer
+  to 0) or strengthens (the opposite). At the same time because the data
+  (x1) did not change if the slope (B1) changes then the intercept (B0)
+  changes as well, otherwise the regression line would not fit the data.
+  It's not so easy to explain, maybe it helps if you try to draw it
+  (i.e.~add more noise and see what happens to the intercept and the
+  slope). The same goes for B2 and B0.
+\end{itemize}
+
+\subsection*{Question about Linear Model from Practical
+4}\label{question-about-linear-model-from-practical-4}
+\addcontentsline{toc}{subsection}{Question about Linear Model from
+Practical 4}
+
+\textbf{Student question (2021):}
+
+I have a question about the practical we did in week 4, the one with the
+milk data set.
+
+So there we used the following linear model:
+
+lm(formula = kcal.per.g \textasciitilde{} neocortex.perc + mass, data =
+milkdat)
+
+Now inf we check the table you gave us in the ``useful table'' section
+from Lesson 7, this would constitute Case D: same slope and different
+intercepts.
+
+Now in the Practical from week 4 one question is:
+
+What is the estimated slope of the relationship between kcal.per.g and
+mass?
+
+And the answer is -0.0054
+
+Second question is: What is the estimated slope of the relationship
+between kcal.per.g and neocortex.perc?
+
+And the answer is 0.018
+
+So obviously there's a contradiction here. Because in the table it says
+if we use the ``+'' in the linear model, so a model without interaction,
+the slopes for the two relationships between explanatory variables and
+response variable should be the same. But this is not the case here.
+
+So is there a mistake I do in thinking? I would be very glad if you
+could clear this up!
+
+\textbf{Answer given:}
+
+The ``useful table'' is based on an ANCOVA (topic of week 7), i.e.~there
+is a continuous variable (\texttt{density}) and a categorical variable
+(\texttt{season}). The slope is for \texttt{density} and in the case of
+no interaction (i.e.~a ``+'' between the explanatory variables) the
+slope associated with \texttt{density} is the same for all values of
+\texttt{season}. For the categorical variable, \texttt{k-1} (\texttt{k}
+being the number of levels of the variable) intercepts are estimated.
+
+In the milk example, \texttt{neocortex.perc} and\texttt{mass} are both
+continuous variables, meaning that for both a slope is estimated
+separately. Hence the questions are ``What is the estimated slope of the
+relationship between kcal.per.g and \textbf{mass?}'' and ``What is the
+estimated slope of the relationship between kcal.per.g and
+\textbf{neocortex.perc}?''
+
+Note that an interaction between two continuous variables would also be
+possible. It would mean that the slope of one continuous variable on the
+response variable changes as the values of a second continuous change.
+
+\textbf{Follow-up question}:
+
+So does this mean that if I have both continuous variables, if I do a
+linear model with ``+'' (no interaction) in the summary table I get one
+intercept for the alphabetically first explanatory variable, then the 2
+slopes of the 2 explanatory variables? And in the case of ANCOVA (hence
+one continuous variable and one categorical variable) I get the
+intercept for the alphabetically first explanatory variable, and then
+the slope which is the same, and then the difference between the first
+intercept (the reference) and the intercept of the 2nd explanatory
+variable (alphabetically second)? Is this correct?
+
+\textbf{Answer given:}
+
+Almost\ldots{} The intercept is not for the continuous variables. It
+would be what you say it is if you would have a categorical variable. I
+suggest that you try to write down the model to help you interpret the
+summary table until you're more confident with it. In this case with
+y=kcal.per.g and x1=neocortex.perc and x2=mass the model is:
+
+y\_i =\beta\_0 + \beta\_1x\_i\^{}\{(1)\} +
+\beta\_2x\_i\^{}\{(2)\}+\epsilon\_i So you are estimating 1 intercept
+(beta0) and 2 slopes (one for each explanatory variable, beta1 and
+beta2). Note that the intercept is basically the value of y\_i (minus
+the error) when both x1=0 and x2=0, that is when both the neocortex.perc
+and the mass is =0.
+
+You could try to write down the model in the case you also have a
+categorical variable
+
+\subsection*{ANOVA vs Multiple linear
+Regression}\label{anova-vs-multiple-linear-regression}
+\addcontentsline{toc}{subsection}{ANOVA vs Multiple linear Regression}
+
+\textbf{Student question (2021)}:
+
+Hello I'm a bit confused when I have to test with an ANOVA and when with
+a multiple linear regression. For example: The Yield of Hybrid Mais
+example in lecture 6 compares the differences of means of the
+groups(categorical variable). The Earthworm example is also a
+categorical (explanatory) variable and there we test with a multiple
+linear regression.
+
+(we convert the categorical variable into a dummy variable but still
+could I test there also with an ANOVA?)
+
+\textbf{Answer given}:
+
+Hi. ANOVA and (multiple) linear regression are both linear models that
+investigate the relation between explanatory variables and a response
+variable. In fact, ANOVA can be seen as a special case of linear
+regression in which the \textbf{all} explanatory variables are
+categorical.
+
+In general, if there is a categorical variable (for instance, in a
+ANOVA) we do not directly look at the \texttt{summary()} table (which
+gives coefficient estimates and corresponding \emph{t}-test results) but
+we look at the \texttt{anova()} table which gives the estimated SS, MS
+and corresponding \emph{F}-test results. What is the difference? In the
+\texttt{summary()} table each coefficient is separately tested with a
+\emph{t}-test against the Null hypothesis that it is 0. For a
+categorical variable with \emph{k} levels this means \emph{k-1} tests
+(\emph{k-1} dummy variables) and if \(k\) is large we run into the
+\href{https://en.wikipedia.org/wiki/Multiple_comparisons_problem}{multiple
+comparison problem}. So, instead of testing each level of that
+categorical variable separately we run 1 single test (the \emph{F}-test)
+that tells us whether at least 2 levels are different from each other
+(see slide 17 lecture 6). Afterwards we can look at the estimated
+coefficients with \texttt{summary()}. For continuous variables we can
+directly look at the \texttt{summary()} output. In the earthworm
+example, there were tow explanatory variables, 1 categorical (Gattung)
+and 1 continuous (Magenumf). For the former you first look at the
+\texttt{anova()}table, for the latter you can directly look at the
+\texttt{summary()} table.
+
+\subsection*{Self test question 8 Spread and shape of
+distributions}\label{self-test-question-8-spread-and-shape-of-distributions}
+\addcontentsline{toc}{subsection}{Self test question 8 Spread and shape
+of distributions}
+
+\textbf{Student question (2021)}:
+
+I find the question 8 of Spread and shape of distributions in the self
+test not well formulated. The tail is the thinner part of the curve, so
+if there is a long tail of high values it could mean that the data are
+more concentrate in the lower part and therefore have a mena lower then
+the median.
+
+\textbf{Answer given}:
+
+Hi! I can understand that it can be confusing. In statistics, what is
+meant with ``long tail of high values'' (sometimes also called ``fat
+tail'' or ``heavy tail'') is that there is a bigger probability of
+getting (very) large values when compared to the reference distribution
+(often a normal or an exponential distribution). See for instance
+\href{https://en.wikipedia.org/wiki/Fat-tailed_distribution}{here}. So
+the sentence ``A distribution of data with a long tail of high values''
+always means that high values are more frequent than they would be in
+the distribution of reference.
+
+As you correctly identified, the mean is not a
+\href{https://en.wikipedia.org/wiki/Robust_statistics\#Examples}{robust}
+measure as its value is influenced by extreme values in the data, while
+the median is more robust. So in the case of a distribution of data with
+a long tail of high values, the mean is bigger than the median.
+
+\subsection*{ggpair() graph exclusions}\label{ggpair-graph-exclusions}
+\addcontentsline{toc}{subsection}{ggpair() graph exclusions}
+
+\textbf{Student question (2021)}:
+
+Dear BIO144 teammates. In unit 2, excercise 1, Question number 7, for
+looking at relationships among variables we use the code ggpairs().
+However, as you all have seen, it gives us all the graphs. It has some
+cons including some of them are not needed for answering this question
+and also the graphs are so small that it is hard to see the
+relationship. Therefore I was wondering is there a way to exclude all
+the graphs rather than the ones that we need?(the ones that show the
+relationship of bodyfat with all other variables)
+
+\textbf{Answer given}:
+
+Hi! You could do it like this:
+
+\begin{verbatim}
+bodyfat\_dataset %>%
+ select(bodyfat, age, abdomen, height, weight) %>% 
+ ggpairs()
+\end{verbatim}
+
+\subsection*{Lecture4 page32}\label{lecture4-page32}
+\addcontentsline{toc}{subsection}{Lecture4 page32}
+
+\textbf{Student question (2021)}:
+
+Could someone please look at our answers for the questions on this page?
+we are not sure if our answers are correct and which other
+interpretations are possible.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  x1 is an important explanatory variable because if only x1 is used,
+  then R2 and the adjusted R2 are high and the p-value is small (what
+  means that the slope for x1 is differs significantly from zero(?))
+\item
+  same answer for x2
+\item
+  In this model, we only need x1 or x2, not both. Reason: the R2 becomes
+  not much higher if we use both compared to the situation where we only
+  use one of them. x1 and x2 are also positively correlated: if x1
+  increases, then x2 will increase too.
+\item
+  Interpretation: There is a positive correlation between y and each of
+  the two x's: if x1 or x2 increases, then the catheter length will
+  increase too.
+\end{enumerate}
+
+Thank you very much in advance for your answer.
+
+\textbf{Answer given}:
+
+\begin{itemize}
+\tightlist
+\item
+  I think that your answer for questions 1 and 2 are fine (but see
+  answer to question 3, which is relevant here as well).
+\item
+  \textbf{Question 3}: you will see this later in the course (so for now
+  it is completely fine to just answer these questions as good as you
+  can and if you want to you can ask, like you did), but the answer to
+  this question is less straightforward and depends on our goals. In
+  general, in regression there are 2 goals: \textbf{to predict} and
+  \textbf{to explain}.
+\item
+  \textbf{To predict} means that we want to be able to predict the
+  response variable y as good as we can, and we do not really care how
+  we achieve this (i.e.~which variables we use) and we might just look
+  at the adjusted r-squared value and pick the model with the highest
+  value. There is a mistake on slide 31 and the adjusted r-squared for
+  the model with both x1 and x2 is not shown, but it is 0.76. So in this
+  case we would probably just take the model with just x2 (adjusted
+  r-squared: 0.78)
+\item
+  \textbf{To explain} means that we are interested in the relation
+  between the explanatory variables and the response variable (e.g.~what
+  does a unit increase in x1 mean for y?). In this context, we can for
+  instance fit two separate models for the two explanatory variables, or
+  if we are only interested in one of the two, we just use that one. As
+  I said, you will see this again later in the course.
+\item
+  \textbf{Question 4}: with this new information and what I already
+  wrote above please try again on your own to interpret the model with
+  both x1 and x2 (e.g.~are the slopes estimated to be significant?).
+\end{itemize}
+
+I hope this clears things up a little bit. You will see that things will
+get clearer as you progress through the course as these things will come
+up more than once. But feel free to ask for further clarifications.
+
+\subsection*{Anova Degrees of Freedom}\label{anova-degrees-of-freedom}
+\addcontentsline{toc}{subsection}{Anova Degrees of Freedom}
+
+\textbf{Student question (2021)}:
+
+Hello, I am quite confused about the degrees of freedom in Anova. In the
+BC reading it says that the degree of freedom is the number of groups
+one has. For the one-way anova example in the lecture, this would mean 4
+so 20-4 = 16. However, in the slides it say the degree of freedom is
+n-1, which would result in 19. When should I use which method or in
+other words, when asked for the degrees of freedom of an Anova, which
+number would be expected at an exam? Thanks for your help!
+
+\textbf{Answer given}: There is more than one type of degree of freedom
+involved, so first some theory: If you look at slide 18 lecture 6, you
+can see that it is the total variability
+
+SS\_\{total\} that has \textbf{n-1} degrees of freedom (i.e.~we need 1
+degree of freedom to calculate it). In Anova, we partition this total
+variability into the explained variability by the model
+
+SS\_\{between\textasciitilde groups\} and into the residual variability
+
+SS\_\{within\textasciitilde groups\} That is:
+
+SS\_\{total\}=
+SS\_\{between\textsubscript{groups\}+SS\_\{within}groups\} To calculate
+the explained variability we need \textbf{g-1} degrees of freedom (with
+\textbf{g} the number of groups) which leaves us with \textbf{n-1
+-(g-1)=n-g} degrees of freedom for the residual variability. We then
+test with the \emph{F}-test whether the explained variability is
+significant. Under \emph{H0} the calculated test statistics
+
+F=\frac{MS\_G}{MS\_E} follows a \emph{F}-distribution with degrees of
+freedom \textbf{g-1} and \textbf{n-g}, i.e.~
+
+F\sim F\_\{g-1,n-g\} so that's why we need those degrees of freedom.
+
+Now, notice that the degrees of freedom used for the explained
+variability is \textbf{g-1}, i.e.~one less than there are groups.
+\textbf{In addition to this}, the intercept of the model is estimated as
+well, which uses up another degree of freedom. Hence the total number of
+degrees of freedom used by the anova model is \textbf{g-1+1=g}, and the
+remaining degrees of freedom are \textbf{n-g} (or as in your example
+\textbf{20-4=16}). Note that the intercept does not come into play in
+the variance decomposition for the \emph{F}-test, hence it is not listed
+in ANOVA table on slide 18.
+
+I hope this clears things up a little.
+
+\subsection*{Unit 10 Abalone Age 1}\label{unit-10-abalone-age-1}
+\addcontentsline{toc}{subsection}{Unit 10 Abalone Age 1}
+
+\textbf{Student question (2021)}:
+
+I have a question concerning the interpretation of the data and I was a
+bit confused with the terms of over-dispersion and under-dispersion. In
+the interpretation of the data it says:
+
+``So, interestingly, and rather unusually for biological data, the data
+is \textbf{under-dispersed}, and''This is another example of a model
+being \textbf{anti-conservative}.''
+
+And in the summary table we can see quite \textbf{low p-values}.
+
+But in the lecture slides (lecture 10, slide 38) we learned that ``When
+there is unaccounted over-dispersion, the p-values that are calculated
+are usually too small!'' And on slide 41, which talks about
+\textbf{under-dispersion}, it says ``In that case, your p-values are
+usually \textbf{too large}, that is, the results are
+\textbf{conservative}''
+
+So I don't understand the correct connection between
+over/under-dispersion, low/high p-values and (anti-)/conservative.
+
+\textbf{Answer given}:
+
+It is just a matter of slightly unlucky placement: the sentence ``This
+is another example of a model being anti-conservative.'' comes after a
+horizontal line (denoting a new topic/paragraph/etc.) and is preceded by
+the sentence ``\textbf{So the poisson glm had fewer significant terms
+than the lm.}'' (\textbf{Note}: this refers to the old version on
+openedx, and not to the version on Olat). Hence it refers to that
+sentence and has nothing to do with whether the model is over- or
+underdispersed. In fact, there are many reasons for why something
+(p-value, confidence interval, etc.) can be (anti-)conservative, one
+being that a wrong model is used: the lm is the wrong model (because
+it's count data) and it produced smaller p-value than the glm, thus
+\emph{in this case} (!) the lm is anti-conservative. What is written
+about the dispersion parameter in the slides is correct.
+
+\subsection*{Unit 10 Abalone Age 2}\label{unit-10-abalone-age-2}
+\addcontentsline{toc}{subsection}{Unit 10 Abalone Age 2}
+
+\textbf{Student question (2021)}:
+
+I have a question concerning the interpretation of the data and I was a
+bit confused with the terms of over-dispersion and under-dispersion. In
+the interpretation of the data it says:
+
+``So, interestingly, and rather unusually for biological data, the data
+is \textbf{under-dispersed}, and''This is another example of a model
+being \textbf{anti-conservative}.''
+
+And in the summary table we can see quite \textbf{low p-values}.
+
+But in the lecture slides (lecture 10, slide 38) we learned that ``When
+there is unaccounted over-dispersion, the p-values that are calculated
+are usually too small!'' And on slide 41, which talks about
+\textbf{under-dispersion}, it says ``In that case, your p-values are
+usually \textbf{too large}, that is, the results are
+\textbf{conservative}''
+
+So I don't understand the correct connection between
+over/under-dispersion, low/high p-values and (anti-)/conservative.
+
+\textbf{Answer given}:
+
+It is just a matter of slightly unlucky placement: the sentence ``This
+is another example of a model being anti-conservative.'' comes after a
+horizontal line (denoting a new topic/paragraph/etc.) and is preceded by
+the sentence ``\textbf{So the poisson glm had fewer significant terms
+than the lm.}'' (\textbf{Note}: this refers to the old version on
+openedx, and not to the version on Olat). Hence it refers to that
+sentence and has nothing to do with whether the model is over- or
+underdispersed. In fact, there are many reasons for why something
+(p-value, confidence interval, etc.) can be (anti-)conservative, one
+being that a wrong model is used: the lm is the wrong model (because
+it's count data) and it produced smaller p-value than the glm, thus
+\emph{in this case} (!) the lm is anti-conservative. What is written
+about the dispersion parameter in the slides is correct.
+
+\subsection*{Chr vs Factors}\label{chr-vs-factors}
+\addcontentsline{toc}{subsection}{Chr vs Factors}
+
+\textbf{Student question (2021)}:
+
+When I import my data, I often have ``chr'' rather than ``factor''. This
+was the case for country and continent in the healthcare\_financing.csv.
+
+Should I do something specific to get the data directly as factor? If
+not, is there a way to change all them at once, rather than to change
+them one after the other using as.factor?
+
+\textbf{Answer given}:
+
+As of R 4.0.0. variables are read into R as characters instead of
+factors. Ahead of this course it was decided that we keep it like this
+because linear models can be fitted with both types. So it is suggested
+that you do not change the variables to factors (in fact, the only time
+you might/will want to change them is when you want to change the levels
+within a factor\ldots{} and for now at least this is not needed!). If
+nevertheless you want to change characters to factors, it might actually
+be good to do that one variable at a time as you will only convert only
+want you need to convert and it gives you more control over it.
+
+PS: if you really want to convert all characters to factors, you can do
+this (but again, no need to do it!)
+
+\begin{verbatim}
+dd <- dd %>% mutate(across(where(is\_character),as\_factor)) 
+\end{verbatim}
+
+\subsection*{Changing reference in earthworm video
+example}\label{changing-reference-in-earthworm-video-example}
+\addcontentsline{toc}{subsection}{Changing reference in earthworm video
+example}
+
+\textbf{Student question (2021)}:
+
+In the earthworm analysis of the correlation between log.gewicht and
+Gattung. Is it correct to think that if the reference Gattung had been
+``N'' , which seems to have a similar mean than Oc, then the p-value in
+the linear regression model would only have been significant for L but
+would not have been significant for Oc? I am assuming that the means for
+N and Oc are statistically similar.
+
+\textbf{Answer given}:
+
+Yes, exactly. You can change the reference level with the following
+code, then run the model with that new Gattung variable, and check the
+summary table. (You must install the forcats package to use the
+fct\_relevel function.)
+
+library(forcats)
+
+\begin{verbatim}
+ dd <- dd %>%
+     mutate(Gattung\_refN\_ = fct\_relevel(Gattung, "N", after = 0))
+\end{verbatim}
+
+\subsection*{Decomposing R\^{}2}\label{decomposing-r2}
+\addcontentsline{toc}{subsection}{Decomposing R\^{}2}
+
+Student question (2021):
+
+I have a question concerning the decomposition of R\^{}2. In the lecture
+we learned that we should calculate the relative importance with the
+package relaimpo and the function calc.relimp. However, in the IC
+material, we learned how to calculate it more manually (R\^{}2 of
+model\_both - R\^{}2 of model\_weight). These two methods do not produce
+the same result so when should we use which method? Or did I understand
+something incorrectly in general?
+
+Answer given:
+
+There is more than one way to calculate relative importances of
+variables and the various methods differ in the the produced results. If
+you will be asked to calculate them, you will be told which approach to
+use.
+
+\bookmarksetup{startatroot}
+
+\chapter*{Discussion Forum}\label{discussion-forum}
+\addcontentsline{toc}{chapter}{Discussion Forum}
+
+\markboth{Discussion Forum}{Discussion Forum}
+
+Please use the discussion forum in OLAT, here.
+
+\bookmarksetup{startatroot}
+
+\chapter*{Unit 1}\label{unit-1}
+\addcontentsline{toc}{chapter}{Unit 1}
+
+\markboth{Unit 1}{Unit 1}
+
+\section*{Introduction}\label{introduction-1}
+\addcontentsline{toc}{section}{Introduction}
+
+\markright{Introduction}
+
+Welcome to Week 1 of BIO144! Week 1 is a bit different from other weeks
+because its focuses on introducing how the course is going to work,
+collecting some data for us to use, and reviewing some material that it
+would be good for you to remember from previous courses (or learn here
+if you don't know it yet!)
+
+In subsequent weeks we will focus more on the data analysis concepts and
+practice.
+
+However, just like all weeks, there is:
+
+\begin{itemize}
+\tightlist
+\item
+  A chapter of the course book.
+\item
+  A ``lecture'' on Monday.
+\item
+  Some homework to ideally do between Monday and the practical on
+  Thursday or Friday.
+\item
+  A practical session on Thursday or Friday.
+\item
+  A weekly quiz to check your understanding.
+\end{itemize}
+
+\section*{Course book}\label{course-book}
+\addcontentsline{toc}{section}{Course book}
+
+\markright{Course book}
+
+This week we will be covering Chapter 1 of
+\href{https://opetchey.github.io/BIO144_Course_Book/}{the course book}.
+
+\section*{Lecture}\label{lecture}
+\addcontentsline{toc}{section}{Lecture}
+
+\markright{Lecture}
+
+In the lecture you'll be asked to record some reaction time data about
+yourself. Use this google form to record the data: Link to Reaction Time
+Data Form
+
+Go to this web page for a tool to record your reaction times: Link to
+Reaction Time Tool
+
+The resulting dataset can be access and or downloaded from this web
+page: Link to Reaction Time Dataset
+
+\section*{Homework, Practical, and Weekly
+Quiz}\label{homework-practical-and-weekly-quiz}
+\addcontentsline{toc}{section}{Homework, Practical, and Weekly Quiz}
+
+\markright{Homework, Practical, and Weekly Quiz}
+
+These are on this web page: Link to Homework, Practical, and Weekly Quiz
+
+\bookmarksetup{startatroot}
+
+\chapter*{Unit 2}\label{unit-2}
+\addcontentsline{toc}{chapter}{Unit 2}
+
+\markboth{Unit 2}{Unit 2}
+
+\section*{Introduction}\label{introduction-2}
+\addcontentsline{toc}{section}{Introduction}
+
+\markright{Introduction}
+
+Welcome to Week 2 of BIO144!
+
+\section*{Course book}\label{course-book-1}
+\addcontentsline{toc}{section}{Course book}
+
+\markright{Course book}
+
+This week we will be covering Chapter 2 of
+\href{https://opetchey.github.io/BIO144_Course_Book/}{the course book}.
+
+\section*{Lecture}\label{lecture-1}
+\addcontentsline{toc}{section}{Lecture}
+
+\markright{Lecture}
+
+Please attend the lecture. If for any reason you can't, please watch the
+podcast, which is available on OLAT.
+
+\section*{Homework, Practical, and Weekly
+Quiz}\label{homework-practical-and-weekly-quiz-1}
+\addcontentsline{toc}{section}{Homework, Practical, and Weekly Quiz}
+
+\markright{Homework, Practical, and Weekly Quiz}
+
+These are on this web page: Link to Homework, Practical, and Weekly Quiz
+
+\bookmarksetup{startatroot}
+
+\chapter*{Unit 3}\label{unit-3}
+\addcontentsline{toc}{chapter}{Unit 3}
+
+\markboth{Unit 3}{Unit 3}
+
+\section*{Introduction}\label{introduction-3}
+\addcontentsline{toc}{section}{Introduction}
+
+\markright{Introduction}
+
+Welcome to Week 3 of BIO144!
+
+\section*{Course book}\label{course-book-2}
+\addcontentsline{toc}{section}{Course book}
+
+\markright{Course book}
+
+This week we will be covering Chapter 3 of
+\href{https://opetchey.github.io/BIO144_Course_Book/}{the course book}.
+
+\section*{Lecture}\label{lecture-2}
+\addcontentsline{toc}{section}{Lecture}
+
+\markright{Lecture}
+
+\section*{Homework, Practical, and Weekly
+Quiz}\label{homework-practical-and-weekly-quiz-2}
+\addcontentsline{toc}{section}{Homework, Practical, and Weekly Quiz}
+
+\markright{Homework, Practical, and Weekly Quiz}
+
+These are on this web page: Link to Homework, Practical, and Weekly Quiz
+
+\bookmarksetup{startatroot}
+
+\chapter*{Unit 4}\label{unit-4}
+\addcontentsline{toc}{chapter}{Unit 4}
+
+\markboth{Unit 4}{Unit 4}
+
+\section*{Introduction}\label{introduction-4}
+\addcontentsline{toc}{section}{Introduction}
+
+\markright{Introduction}
+
+Welcome to Week 4 of BIO144!
+
+\section*{Course book}\label{course-book-3}
+\addcontentsline{toc}{section}{Course book}
+
+\markright{Course book}
+
+This week we will be covering Chapter 4 of
+\href{https://opetchey.github.io/BIO144_Course_Book/}{the course book}.
+
+\section*{Lecture}\label{lecture-3}
+\addcontentsline{toc}{section}{Lecture}
+
+\markright{Lecture}
+
+\section*{Homework, Practical, and Weekly
+Quiz}\label{homework-practical-and-weekly-quiz-3}
+\addcontentsline{toc}{section}{Homework, Practical, and Weekly Quiz}
+
+\markright{Homework, Practical, and Weekly Quiz}
+
+These are on this web page: Link to Homework, Practical, and Weekly Quiz
+
+\bookmarksetup{startatroot}
+
+\chapter*{Unit 5}\label{unit-5}
+\addcontentsline{toc}{chapter}{Unit 5}
+
+\markboth{Unit 5}{Unit 5}
+
+\section*{Introduction}\label{introduction-5}
+\addcontentsline{toc}{section}{Introduction}
+
+\markright{Introduction}
+
+Welcome to Week 5 of BIO144!
+
+\section*{Course book}\label{course-book-4}
+\addcontentsline{toc}{section}{Course book}
+
+\markright{Course book}
+
+This week we will be covering Chapter 5 of
+\href{https://opetchey.github.io/BIO144_Course_Book/}{the course book}.
+
+\section*{Lecture}\label{lecture-4}
+\addcontentsline{toc}{section}{Lecture}
+
+\markright{Lecture}
+
+\section*{Homework, Practical, and Weekly
+Quiz}\label{homework-practical-and-weekly-quiz-4}
+\addcontentsline{toc}{section}{Homework, Practical, and Weekly Quiz}
+
+\markright{Homework, Practical, and Weekly Quiz}
+
+These are on this web page: Link to Homework, Practical, and Weekly Quiz
+
+\bookmarksetup{startatroot}
+
+\chapter*{Unit 6}\label{unit-6}
+\addcontentsline{toc}{chapter}{Unit 6}
+
+\markboth{Unit 6}{Unit 6}
+
+\section*{Introduction}\label{introduction-6}
+\addcontentsline{toc}{section}{Introduction}
+
+\markright{Introduction}
+
+Welcome to Week 6 of BIO144!
+
+\section*{Course book}\label{course-book-5}
+\addcontentsline{toc}{section}{Course book}
+
+\markright{Course book}
+
+This week we will be covering Chapter 6 of
+\href{https://opetchey.github.io/BIO144_Course_Book/}{the course book}.
+
+\section*{Lecture}\label{lecture-5}
+\addcontentsline{toc}{section}{Lecture}
+
+\markright{Lecture}
+
+\section*{Homework, Practical, and Weekly
+Quiz}\label{homework-practical-and-weekly-quiz-5}
+\addcontentsline{toc}{section}{Homework, Practical, and Weekly Quiz}
+
+\markright{Homework, Practical, and Weekly Quiz}
+
+These are on this web page: Link to Homework, Practical, and Weekly Quiz
+
+\bookmarksetup{startatroot}
+
+\chapter*{Unit 7}\label{unit-7}
+\addcontentsline{toc}{chapter}{Unit 7}
+
+\markboth{Unit 7}{Unit 7}
+
+\section*{Introduction}\label{introduction-7}
+\addcontentsline{toc}{section}{Introduction}
+
+\markright{Introduction}
+
+Welcome to Week 7 of BIO144!
+
+\section*{Course book}\label{course-book-6}
+\addcontentsline{toc}{section}{Course book}
+
+\markright{Course book}
+
+This week we will be covering Chapter 7 of
+\href{https://opetchey.github.io/BIO144_Course_Book/}{the course book}.
+
+\section*{Lecture}\label{lecture-6}
+\addcontentsline{toc}{section}{Lecture}
+
+\markright{Lecture}
+
+\section*{Homework, Practical, and Weekly
+Quiz}\label{homework-practical-and-weekly-quiz-6}
+\addcontentsline{toc}{section}{Homework, Practical, and Weekly Quiz}
+
+\markright{Homework, Practical, and Weekly Quiz}
+
+These are on this web page: Link to Homework, Practical, and Weekly Quiz
+
+\bookmarksetup{startatroot}
+
+\chapter*{Unit 8}\label{unit-8}
+\addcontentsline{toc}{chapter}{Unit 8}
+
+\markboth{Unit 8}{Unit 8}
+
+\section*{Introduction}\label{introduction-8}
+\addcontentsline{toc}{section}{Introduction}
+
+\markright{Introduction}
+
+Welcome to Week 8 of BIO144!
+
+\section*{Course book}\label{course-book-7}
+\addcontentsline{toc}{section}{Course book}
+
+\markright{Course book}
+
+This week we will be covering Chapter 8 of
+\href{https://opetchey.github.io/BIO144_Course_Book/}{the course book}.
+
+\section*{Lecture}\label{lecture-7}
+\addcontentsline{toc}{section}{Lecture}
+
+\markright{Lecture}
+
+\section*{Homework, Practical, and Weekly
+Quiz}\label{homework-practical-and-weekly-quiz-7}
+\addcontentsline{toc}{section}{Homework, Practical, and Weekly Quiz}
+
+\markright{Homework, Practical, and Weekly Quiz}
+
+These are on this web page: Link to Homework, Practical, and Weekly Quiz
+
+\bookmarksetup{startatroot}
+
+\chapter*{Unit 9}\label{unit-9}
+\addcontentsline{toc}{chapter}{Unit 9}
+
+\markboth{Unit 9}{Unit 9}
+
+\section*{Introduction}\label{introduction-9}
+\addcontentsline{toc}{section}{Introduction}
+
+\markright{Introduction}
+
+Welcome to Week 9 of BIO144!
+
+\section*{Course book}\label{course-book-8}
+\addcontentsline{toc}{section}{Course book}
+
+\markright{Course book}
+
+This week we will be covering Chapter 9 of
+\href{https://opetchey.github.io/BIO144_Course_Book/}{the course book}.
+
+\section*{Lecture}\label{lecture-8}
+\addcontentsline{toc}{section}{Lecture}
+
+\markright{Lecture}
+
+\section*{Homework, Practical, and Weekly
+Quiz}\label{homework-practical-and-weekly-quiz-8}
+\addcontentsline{toc}{section}{Homework, Practical, and Weekly Quiz}
+
+\markright{Homework, Practical, and Weekly Quiz}
+
+These are on this web page: Link to Homework, Practical, and Weekly Quiz
+
+\bookmarksetup{startatroot}
+
+\chapter*{Unit 10}\label{unit-10}
+\addcontentsline{toc}{chapter}{Unit 10}
+
+\markboth{Unit 10}{Unit 10}
+
+\section*{Introduction}\label{introduction-10}
+\addcontentsline{toc}{section}{Introduction}
+
+\markright{Introduction}
+
+Welcome to Week 10 of BIO144!
+
+\section*{Course book}\label{course-book-9}
+\addcontentsline{toc}{section}{Course book}
+
+\markright{Course book}
+
+This week we will be covering Chapter 10 of
+\href{https://opetchey.github.io/BIO144_Course_Book/}{the course book}.
+
+\section*{Lecture}\label{lecture-9}
+\addcontentsline{toc}{section}{Lecture}
+
+\markright{Lecture}
+
+\section*{Homework, Practical, and Weekly
+Quiz}\label{homework-practical-and-weekly-quiz-9}
+\addcontentsline{toc}{section}{Homework, Practical, and Weekly Quiz}
+
+\markright{Homework, Practical, and Weekly Quiz}
+
+These are on this web page: Link to Homework, Practical, and Weekly Quiz
+
+\bookmarksetup{startatroot}
+
+\chapter*{Unit 11}\label{unit-11}
+\addcontentsline{toc}{chapter}{Unit 11}
+
+\markboth{Unit 11}{Unit 11}
+
+\section*{Introduction}\label{introduction-11}
+\addcontentsline{toc}{section}{Introduction}
+
+\markright{Introduction}
+
+Welcome to Week 11 of BIO144!
+
+\section*{Course book}\label{course-book-10}
+\addcontentsline{toc}{section}{Course book}
+
+\markright{Course book}
+
+This week we will be covering Chapter 11 of
+\href{https://opetchey.github.io/BIO144_Course_Book/}{the course book}.
+
+\section*{Lecture}\label{lecture-10}
+\addcontentsline{toc}{section}{Lecture}
+
+\markright{Lecture}
+
+\section*{Homework, Practical, and Weekly
+Quiz}\label{homework-practical-and-weekly-quiz-10}
+\addcontentsline{toc}{section}{Homework, Practical, and Weekly Quiz}
+
+\markright{Homework, Practical, and Weekly Quiz}
+
+These are on this web page: Link to Homework, Practical, and Weekly Quiz
+
+\bookmarksetup{startatroot}
+
+\chapter*{Unit 12}\label{unit-12}
+\addcontentsline{toc}{chapter}{Unit 12}
+
+\markboth{Unit 12}{Unit 12}
+
+\section*{Introduction}\label{introduction-12}
+\addcontentsline{toc}{section}{Introduction}
+
+\markright{Introduction}
+
+Welcome to Week 12 of BIO144!
+
+\section*{Course book}\label{course-book-11}
+\addcontentsline{toc}{section}{Course book}
+
+\markright{Course book}
+
+This week we will be covering Chapter 12 of
+\href{https://opetchey.github.io/BIO144_Course_Book/}{the course book}.
+
+\section*{Lecture}\label{lecture-11}
+\addcontentsline{toc}{section}{Lecture}
+
+\markright{Lecture}
+
+\section*{Homework, Practical, and Weekly
+Quiz}\label{homework-practical-and-weekly-quiz-11}
+\addcontentsline{toc}{section}{Homework, Practical, and Weekly Quiz}
+
+\markright{Homework, Practical, and Weekly Quiz}
+
+These are on this web page: Link to Homework, Practical, and Weekly Quiz
+
+
+\backmatter
+
+
+\end{document}

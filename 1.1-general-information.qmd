@@ -66,7 +66,7 @@ The required content of the course is all available in the course book: [BIO144 
 
 There is other optional reading that we may suggest to you during the course. This is listed below. Textbooks for optional reading are in the main library, and should be accessible electronically through the main library.
 
-Optional reading comes from:
+Optional reading comes from the following books. Also each chapter of the course book suggest reading to further your understanding.
 
 * [*Linear Regression, Seminar für Statistik, ETH Zürich*(2008 / 2013) Werner Stahel.](https://github.com/opetchey/BIO144/raw/master/9_assets/Stahel_LinReg.pdf) And here is an [English version of that text](https://github.com/opetchey/BIO144/raw/master/9_assets/Stahel_LinReg_EN.pdf).
 * [*Getting Started with R, An introduction for biologists* (2017, Second Edition) Beckerman, Childs & Petchey.](https://academic.oup.com/book/27290) (**DO NOT USE THE FIRST EDITION!**). The link is to the book on the Oxford University Press website; full access to the book will require you have a UZH ip address (i.e. are on the UZH network or VPN into it).

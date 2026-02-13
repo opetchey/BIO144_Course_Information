@@ -64,7 +64,27 @@
     "href": "1.1-general-information.html#bring-your-own-laptop",
     "title": "General information",
     "section": "Bring your own laptop",
-    "text": "Bring your own laptop\nPlease bring your laptop to class. There are some power outlets in the lecture theatre, but best will be to make sure that your laptop has sufficient battery charge to last the duration of the class (up to 2 hours), and consider using an external additional battery (powerbar?) if required. Please make sure you know how to use your laptop (some people are sometimes not so sure, perhaps because its new, or they borrow someone else’s.) Your laptop must be able to connect to the wireless internet at UZH.\nWe will be using three computer programmes during class (as well as the usual suspects, such as an internet browser etc.) please make sure you have them:\n\nA spreadsheet programme, such as Microsoft Excel, Mac Numbers, or OpenOffice.\nThe R software environment for statistical computing and graphics. It’s worth knowing why we are using R. You can find out by reading Section 4 of the Preface of the Beckerman, Childs, and Petchey Book.\nRstudio. We use RStudio to interact with R. Rstudio has lots of features that make working with R much much easier and enjoyable.\n\nIf you need any help setting up your laptop with R and RStudio, please look at relevant section of the “Getting R & RStudio” section of the “Previous Knowledge” section of the course. If you still have problems, ask during the first practical.",
+    "text": "Bring your own laptop\nPlease bring your laptop to class. There are some power outlets in the lecture theatre, but best will be to make sure that your laptop has sufficient battery charge to last the duration of the class (up to 2 hours), and consider using an external additional battery (powerbar?) if required. Please make sure you know how to use your laptop (some people are sometimes not so sure, perhaps because its new, or they borrow someone else’s.) Your laptop must be able to connect to the wireless internet at UZH.",
+    "crumbs": [
+      "General information"
+    ]
+  },
+  {
+    "objectID": "1.1-general-information.html#software",
+    "href": "1.1-general-information.html#software",
+    "title": "General information",
+    "section": "Software",
+    "text": "Software\nWe will be using three computer programmes during class (as well as the usual suspects, such as an internet browser etc.) please make sure you have them:\n\nA spreadsheet programme, such as Microsoft Excel, Mac Numbers, or OpenOffice.\nThe R software environment for statistical computing and graphics. It’s worth knowing why we are using R. You can find out by reading Section 4 of the Preface of the Beckerman, Childs, and Petchey Book.\nRstudio. We use RStudio to interact with R. Rstudio has lots of features that make working with R much much easier and enjoyable.\n\nIf you need any help setting up your laptop with R and RStudio, please look at relevant section of the “Getting R & RStudio” section of the “Previous Knowledge” section of the course. If you still have problems, ask during the first practical.",
+    "crumbs": [
+      "General information"
+    ]
+  },
+  {
+    "objectID": "1.1-general-information.html#rstudio-server",
+    "href": "1.1-general-information.html#rstudio-server",
+    "title": "General information",
+    "section": "RStudio server",
+    "text": "RStudio server\nIn the final exam you will have to use RStudio server. You are welcome to use it during the course also. You can access it at the following URL: https://rstudio.mnf.uzh.ch/. You can log in with your UZH username and password.",
     "crumbs": [
       "General information"
     ]

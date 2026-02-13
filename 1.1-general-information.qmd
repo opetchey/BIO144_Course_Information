@@ -31,6 +31,7 @@ The course is worth 4 credit points, so with 1 CP being approximately 30 hours w
 
 Please bring your laptop to class. There are some power outlets in the lecture theatre, but best will be to make sure that your laptop has sufficient battery charge to last the duration of the class (up to 2 hours), and consider using an external additional battery (powerbar?) if required. Please make sure you know how to use your laptop (some people are sometimes not so sure, perhaps because its new, or they borrow someone else’s.) Your laptop must be able to connect to the wireless internet at UZH.
 
+## Software
 
 We will be using three computer programmes during class (as well as the usual suspects, such as an internet browser etc.) please make sure you have them:
 
@@ -44,7 +45,9 @@ We will be using three computer programmes during class (as well as the usual su
 
 If you need any help setting up your laptop with R and RStudio, please look at relevant section of the "Getting R & RStudio" section of the "Previous Knowledge" section of the course. If you still have problems, ask during the first practical.
 
+## RStudio server
 
+In the final exam you will have to use RStudio server. You are welcome to use it during the course also. You can access it at the following URL: <https://rstudio.mnf.uzh.ch/>. You can log in with your UZH username and password.
 
 ## What to do each week
 

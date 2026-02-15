@@ -235,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#course-level-learning-objectives" id="toc-course-level-learning-objectives" class="nav-link active" data-scroll-target="#course-level-learning-objectives">Course-level learning objectives</a></li>
-  <li><a href="#chapter-level-learning-objectives" id="toc-chapter-level-learning-objectives" class="nav-link" data-scroll-target="#chapter-level-learning-objectives">Chapter-level learning objectives</a>
+  <li><a href="#unit-level-learning-objectives" id="toc-unit-level-learning-objectives" class="nav-link" data-scroll-target="#unit-level-learning-objectives">Unit-level learning objectives</a>
   <ul class="collapse">
   <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#r-and-rstudio" id="toc-r-and-rstudio" class="nav-link" data-scroll-target="#r-and-rstudio">R and RStudio</a></li>
@@ -247,11 +247,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#generalised-linear-models-for-count-data" id="toc-generalised-linear-models-for-count-data" class="nav-link" data-scroll-target="#generalised-linear-models-for-count-data">Generalised linear models for count data</a></li>
   <li><a href="#generalised-linear-models-for-binary-data" id="toc-generalised-linear-models-for-binary-data" class="nav-link" data-scroll-target="#generalised-linear-models-for-binary-data">Generalised linear models for binary data</a></li>
   <li><a href="#ordination-and-multivariate-data" id="toc-ordination-and-multivariate-data" class="nav-link" data-scroll-target="#ordination-and-multivariate-data">Ordination and multivariate data</a></li>
-  </ul></li>
-  <li><a href="#mixed-models-and-what-next" id="toc-mixed-models-and-what-next" class="nav-link" data-scroll-target="#mixed-models-and-what-next">Mixed models and what next</a>
-  <ul class="collapse">
-  <li><a href="#part-1-mixed-models" id="toc-part-1-mixed-models" class="nav-link" data-scroll-target="#part-1-mixed-models">Part 1: Mixed models</a></li>
-  <li><a href="#part-2-what-next" id="toc-part-2-what-next" class="nav-link" data-scroll-target="#part-2-what-next">Part 2: What next?</a></li>
+  <li><a href="#mixed-models-and-what-next" id="toc-mixed-models-and-what-next" class="nav-link" data-scroll-target="#mixed-models-and-what-next">Mixed models and what next</a></li>
   </ul></li>
   <li><a href="#review-l12" id="toc-review-l12" class="nav-link" data-scroll-target="#review-l12">Review (L12)</a></li>
   </ul>
@@ -291,15 +287,14 @@ ul.task-list li input[type="checkbox"] {
 <li>Evaluate model assumptions, diagnose violations, and understand the consequences for inference.</li>
 <li>Interpret model output quantitatively and biologically, rather than mechanically reporting p-values.</li>
 <li>Communicate statistical results clearly, using figures, tables, and written explanations appropriate for biological audiences.</li>
-<li>Read and critically assess quantitative analyses in published biological research.</li>
 </ol>
 <hr>
 </section>
-<section id="chapter-level-learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="chapter-level-learning-objectives">Chapter-level learning objectives</h2>
+<section id="unit-level-learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="unit-level-learning-objectives">Unit-level learning objectives</h2>
 <section id="introduction" class="level3">
 <h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<p>After this chapter, students will be able to:</p>
+<p>After this unit, students will be able to:</p>
 <ul>
 <li>Explain the goals, structure, and expectations of the BIO144 course.</li>
 <li>Know the prior knowledge and skills required for success in the course.</li>
@@ -310,7 +305,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="r-and-rstudio" class="level3">
 <h3 class="anchored" data-anchor-id="r-and-rstudio">R and RStudio</h3>
-<p>After this chapter, students will be able to:</p>
+<p>After this unit, students will be able to:</p>
 <ul>
 <li>Navigate the RStudio interface and explain the purpose of scripts, the console, and the environment.</li>
 <li>Run R code and understand basic R syntax.</li>
@@ -325,7 +320,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="simple-linear-regression-part-1" class="level3">
 <h3 class="anchored" data-anchor-id="simple-linear-regression-part-1">Simple linear regression – Part 1</h3>
-<p>After this chapter, students will be able to:</p>
+<p>After this unit, students will be able to:</p>
 <ul>
 <li>Explain the purpose of simple linear regression in biological data analysis.</li>
 <li>Understand the mathematical form of a simple linear regression model.</li>
@@ -334,13 +329,13 @@ ul.task-list li input[type="checkbox"] {
 <li>State the assumptions underlying simple linear regression.</li>
 <li>Assess if the assumptions are reasonably met using diagnostic plots.</li>
 <li>Recognise and remedy common problems encountered when fitting linear regression models.</li>
-<li>Perform linear regression in R.</li>
+<li>Use R to perform these tasks.</li>
 </ul>
 <hr>
 </section>
 <section id="simple-linear-regression-part-2" class="level3">
 <h3 class="anchored" data-anchor-id="simple-linear-regression-part-2">Simple linear regression – Part 2</h3>
-<p>After this chapter, students will be able to:</p>
+<p>After this unit, students will be able to:</p>
 <ul>
 <li>Understand how to measure how good is the regression (correlation and R-squared).</li>
 <li>Test and explain if the parameter estimates are compatible with some specific value (t-test).</li>
@@ -355,7 +350,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="one-way-anova" class="level3">
 <h3 class="anchored" data-anchor-id="one-way-anova">One-way ANOVA</h3>
-<p>After this chapter, students will be able to:</p>
+<p>After this unit, students will be able to:</p>
 <ul>
 <li>Explain how ANOVA fits within the linear model framework.</li>
 <li>Fit a one-way ANOVA model using <code>lm()</code>.</li>
@@ -363,14 +358,14 @@ ul.task-list li input[type="checkbox"] {
 <li>Explain the concept of variance partitioning.</li>
 <li>Understand the connection between ANOVA and regression with categorical predictors.</li>
 <li>Decide when ANOVA is an appropriate modelling approach for biological data.</li>
-<li>Perform linear regression in R, assess model assumptions, and interpret results in a biological context.</li>
+<li>Perform ANOVA in R, assess model assumptions, and interpret results in a biological context.</li>
 <li>Communicate ANOVA results effectively using text, tables, and visualisations.</li>
 </ul>
 <hr>
 </section>
 <section id="multiple-regression" class="level3">
 <h3 class="anchored" data-anchor-id="multiple-regression">Multiple regression</h3>
-<p>After this chapter, students will be able to:</p>
+<p>After this unit, students will be able to:</p>
 <ul>
 <li>Understand what is a question that multiple regression can help answer.</li>
 <li>Know the mathematical form of multiple regression models.</li>
@@ -389,7 +384,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="interactions" class="level3">
 <h3 class="anchored" data-anchor-id="interactions">Interactions</h3>
-<p>After this chapter, students will be able to:</p>
+<p>After this unit, students will be able to:</p>
 <ul>
 <li>Explain what an interaction between explanatory variables means biologically and mathematically.</li>
 <li>Fit models that include interaction terms.</li>
@@ -405,12 +400,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="generalised-linear-models-for-count-data" class="level3">
 <h3 class="anchored" data-anchor-id="generalised-linear-models-for-count-data">Generalised linear models for count data</h3>
-<p>After this chapter, students will be able to:</p>
+<p>After this unit, students will be able to:</p>
 <ul>
 <li>Describe the kinds of biological questions and processes that involve count data.</li>
 <li>Recognise when, why, and how count data violate the assumptions of linear models.</li>
 <li>Explain why normal error assumptions are inappropriate for count data.</li>
-<li>Describe the key components of a generalised linear model.</li>
+<li>Describe the key components of a generalised linear model (GLM): the linear predictor, the distribution family, and the link function.</li>
 <li>Fit Poisson regression models using <code>glm()</code>.</li>
 <li>Interpret model coefficients on the appropriate scale.</li>
 <li>Assess whether a Poisson model provides an adequate description of the data.</li>
@@ -421,7 +416,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="generalised-linear-models-for-binary-data" class="level3">
 <h3 class="anchored" data-anchor-id="generalised-linear-models-for-binary-data">Generalised linear models for binary data</h3>
-<p>After this chapter, students will be able to:</p>
+<p>After this unit, students will be able to:</p>
 <ul>
 <li>Identify binary response variables in biological datasets, and be familiar with common examples (e.g., presence–absence, success–failure) and the types of questions they can arise from.</li>
 <li>Explain why linear models are unsuitable for binary outcomes.</li>
@@ -436,7 +431,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="ordination-and-multivariate-data" class="level3">
 <h3 class="anchored" data-anchor-id="ordination-and-multivariate-data">Ordination and multivariate data</h3>
-<p>After this chapter, students will be able to:</p>
+<p>After this unit, students will be able to:</p>
 <ul>
 <li>Recognise when biological questions involve many response variables simultaneously.</li>
 <li>Explain the goals of ordination methods.</li>
@@ -448,11 +443,10 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-</section>
-<section id="mixed-models-and-what-next" class="level2">
-<h2 class="anchored" data-anchor-id="mixed-models-and-what-next">Mixed models and what next</h2>
-<section id="part-1-mixed-models" class="level3">
-<h3 class="anchored" data-anchor-id="part-1-mixed-models">Part 1: Mixed models</h3>
+<section id="mixed-models-and-what-next" class="level3">
+<h3 class="anchored" data-anchor-id="mixed-models-and-what-next">Mixed models and what next</h3>
+<section id="part-1-mixed-models" class="level4">
+<h4 class="anchored" data-anchor-id="part-1-mixed-models">Part 1: Mixed models</h4>
 <p>After completing this part, students will be able to:</p>
 <ul>
 <li>Recognise biological situations in which data are <strong>grouped, nested, or hierarchical</strong>.</li>
@@ -469,8 +463,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-<section id="part-2-what-next" class="level3">
-<h3 class="anchored" data-anchor-id="part-2-what-next">Part 2: What next?</h3>
+<section id="part-2-what-next" class="level4">
+<h4 class="anchored" data-anchor-id="part-2-what-next">Part 2: What next?</h4>
 <p>After completing this part, students will be able to:</p>
 <ul>
 <li>Place the statistical models learned in BIO144 within a broader landscape of data analysis methods.</li>
@@ -482,6 +476,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Approach future quantitative methods courses and analyses with confidence and curiosity.</li>
 </ul>
 <hr>
+</section>
 </section>
 </section>
 <section id="review-l12" class="level2">

@@ -14,15 +14,14 @@ After successfully completing BIO144, students will be able to:
 4. Evaluate model assumptions, diagnose violations, and understand the consequences for inference.
 5. Interpret model output quantitatively and biologically, rather than mechanically reporting p-values.
 6. Communicate statistical results clearly, using figures, tables, and written explanations appropriate for biological audiences.
-7. Read and critically assess quantitative analyses in published biological research.
 
 ---
 
-## Chapter-level learning objectives
+## Unit-level learning objectives
 
 ### Introduction
 
-After this chapter, students will be able to:
+After this unit, students will be able to:
 
 * Explain the goals, structure, and expectations of the BIO144 course.
 * Know the prior knowledge and skills required for success in the course.
@@ -33,7 +32,7 @@ After this chapter, students will be able to:
 
 ### R and RStudio
 
-After this chapter, students will be able to:
+After this unit, students will be able to:
 
 * Navigate the RStudio interface and explain the purpose of scripts, the console, and the environment.
 * Run R code and understand basic R syntax.
@@ -48,7 +47,7 @@ After this chapter, students will be able to:
 
 ### Simple linear regression – Part 1
 
-After this chapter, students will be able to:
+After this unit, students will be able to:
 
 * Explain the purpose of simple linear regression in biological data analysis.
 * Understand the mathematical form of a simple linear regression model.
@@ -57,14 +56,14 @@ After this chapter, students will be able to:
 * State the assumptions underlying simple linear regression.
 * Assess if the assumptions are reasonably met using diagnostic plots.
 * Recognise and remedy common problems encountered when fitting linear regression models.
-* Perform linear regression in R.
+* Use R to perform these tasks.
 
 
 ---
 
 ### Simple linear regression – Part 2
 
-After this chapter, students will be able to:
+After this unit, students will be able to:
 
 
 * Understand how to measure how good is the regression (correlation and R-squared).
@@ -80,7 +79,7 @@ After this chapter, students will be able to:
 
 ### One-way ANOVA
 
-After this chapter, students will be able to:
+After this unit, students will be able to:
 
 * Explain how ANOVA fits within the linear model framework.
 * Fit a one-way ANOVA model using `lm()`.
@@ -88,14 +87,14 @@ After this chapter, students will be able to:
 * Explain the concept of variance partitioning.
 * Understand the connection between ANOVA and regression with categorical predictors.
 * Decide when ANOVA is an appropriate modelling approach for biological data.
-* Perform linear regression in R, assess model assumptions, and interpret results in a biological context.
+* Perform ANOVA in R, assess model assumptions, and interpret results in a biological context.
 * Communicate ANOVA results effectively using text, tables, and visualisations.
 
 ---
 
 ### Multiple regression
 
-After this chapter, students will be able to:
+After this unit, students will be able to:
 
 * Understand what is a question that multiple regression can help answer.
 * Know the mathematical form of multiple regression models.
@@ -115,7 +114,7 @@ After this chapter, students will be able to:
 
 ### Interactions
 
-After this chapter, students will be able to:
+After this unit, students will be able to:
 
 * Explain what an interaction between explanatory variables means biologically and mathematically.
 * Fit models that include interaction terms.
@@ -131,12 +130,12 @@ After this chapter, students will be able to:
 
 ### Generalised linear models for count data
 
-After this chapter, students will be able to:
+After this unit, students will be able to:
 
 * Describe the kinds of biological questions and processes that involve count data.
 * Recognise when, why, and how count data violate the assumptions of linear models.
 * Explain why normal error assumptions are inappropriate for count data.
-* Describe the key components of a generalised linear model.
+* Describe the key components of a generalised linear model (GLM): the linear predictor, the distribution family, and the link function.
 * Fit Poisson regression models using `glm()`.
 * Interpret model coefficients on the appropriate scale.
 * Assess whether a Poisson model provides an adequate description of the data.
@@ -147,7 +146,7 @@ After this chapter, students will be able to:
 
 ### Generalised linear models for binary data
 
-After this chapter, students will be able to:
+After this unit, students will be able to:
 
 * Identify binary response variables in biological datasets, and be familiar with common examples (e.g., presence–absence, success–failure) and the types of questions they can arise from.
 * Explain why linear models are unsuitable for binary outcomes.
@@ -162,7 +161,7 @@ After this chapter, students will be able to:
 
 ### Ordination and multivariate data
 
-After this chapter, students will be able to:
+After this unit, students will be able to:
 
 * Recognise when biological questions involve many response variables simultaneously.
 * Explain the goals of ordination methods.
@@ -174,9 +173,9 @@ After this chapter, students will be able to:
 
 ---
 
-## Mixed models and what next
+### Mixed models and what next
 
-### Part 1: Mixed models
+#### Part 1: Mixed models
 
 After completing this part, students will be able to:
 
@@ -194,7 +193,7 @@ After completing this part, students will be able to:
 
 ---
 
-### Part 2: What next?
+#### Part 2: What next?
 
 After completing this part, students will be able to:
 

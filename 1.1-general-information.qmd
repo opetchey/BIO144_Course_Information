@@ -5,7 +5,7 @@
 
 This course will help you develop a solid foundation in answering biological questions with quantitative data. Moreover, the approaches you will learn are generally applicable to using data to solve problems, an increasing important skill in a world more and more dominated by data.
 
-[The Learning Objectives of the course](https://github.com/opetchey/BIO144/raw/master/1_learning_objectives/Weekly_learning_objectives.pdf) tell you what you need to learn and know. Hence, it is very important for you to be very clear about the learning objectives of the course. They will help you know what you're expected to learn and what you will be examined on. If you can achieve all of the learning objectives, you will be very well prepared for a great future in data analysis (and for the exam).
+[The Learning Objectives of the course](https://opetchey.github.io/BIO144_Course_Information/3.1-learning-objectives.html) tell you what you need to learn and know. Hence, it is very important for you to be very clear about the learning objectives of the course. They will help you know what you're expected to learn and what you will be examined on. If you can achieve all of the learning objectives, you will be very well prepared for a great future in data analysis (and for the exam).
 
 ## Course schedule
 
@@ -29,21 +29,21 @@ The course is worth 4 credit points, so with 1 CP being approximately 30 hours w
 
 ## Bring your own laptop
 
-Please bring your laptop to class. There are some power outlets in the lecture theatre, but best will be to make sure that your laptop has sufficient battery charge to last the duration of the class (up to 2 hours), and consider using an external additional battery (powerbar?) if required. Please make sure you know how to use your laptop (some people are sometimes not so sure, perhaps because its new, or they borrow someone else’s.) Your laptop must be able to connect to the wireless internet at UZH.
+Please bring your laptop to class. There are some power outlets in the lecture theatre, but best will be to make sure that your laptop has sufficient battery charge to last the duration of the class (up to 2 hours), and consider using an external additional battery (powerbar?) if required. Please make sure you know how to use your laptop (some people are sometimes not so sure, perhaps because its new.) Your laptop must be able to connect to the wireless internet at UZH.
 
 ## Software
 
-We will be using three computer programmes during class (as well as the usual suspects, such as an internet browser etc.) please make sure you have them:
+We will be using three computer programmes during class (as well as the usual suspects, such as an internet browser etc.). Please make sure you have them:
 
-1. A spreadsheet programme, such as Microsoft Excel, Mac Numbers, or OpenOffice.
+1. A spreadsheet programme, such as Microsoft Excel, Apple Numbers, or OpenOffice.
 
 
-2. [The R software environment for statistical computing and graphics](https://www.r-project.org). It's worth knowing why we are using R. You can find out by reading Section 4 of the Preface of the Beckerman, Childs, and Petchey Book.
+2. [The R software environment for statistical computing and graphics](https://www.r-project.org).
 
 
 3. [Rstudio](https://posit.co/downloads/). We use RStudio to interact with R. Rstudio has lots of features that make working with R much much easier and enjoyable.
 
-If you need any help setting up your laptop with R and RStudio, please look at relevant section of the "Getting R & RStudio" section of the "Previous Knowledge" section of the course. If you still have problems, ask during the first practical.
+If you need any help setting up your laptop with R and RStudio, please look at relevant section of the "Getting R & RStudio" section of the "Previous Knowledge" section of the course. If you still have problems, no worries... ask for help during the first practical.
 
 ## RStudio server
 
@@ -111,37 +111,16 @@ IMPORTANT: if you open the downloaded file in Excel, perhaps to have a look at i
 
 
 
-Here is the data you collected during the first lecture: 
-
-
-[human\_benchmark\_data\_fs25.csv](https://lms.uzh.ch/url/RepositoryEntry/17654940136/CourseFolder/0/path%3D~~human%5Fbenchmark%5Fdata%5FFS25%2Ecsv/0)
-
-
-
-
-## Really important!!!
-
-**Please please please read, understand, and try your very best to remember what is below.**
-
-We will very often be importing data into R using the read.csv or read\_csv function. In the time since the material of the course was written (including texts such as Getting Started with R) the makers of R changed something important about how importing data works. The best solution is for us to make sure we change it back to the old way, so all the course material makes sense!
-
-Here are two things you must always do:
-
-
-When using read.csv always add the argument `as.is = FALSE.  
-For example: dd <- read.csv("my data file.csv", as.is = FALSE)
-
-
-When using read\_csv, always pipe the result into mutate\_if(is.character, factor).  
-For example:  
-dd <- read\_csv("my data file.csv") %>%  
-  mutate\_if(is.character, factor)
 
 
 
 ## Attendance
 
-**Attending class is a really good idea!**: "attendance [is] a better predictor of college grades than any other known predictor of academic performance",  Credé, Roch, & Kieszczynka, 2010. [The full article.](https://journals.sagepub.com/doi/abs/10.3102/0034654310362998)
+**Attending class is a really good idea!**:
+
+"*attendance [is] a better predictor of college grades than any other known predictor of academic performance*",
+
+Credé, Roch, & Kieszczynka, 2010. [The full article.](https://journals.sagepub.com/doi/abs/10.3102/0034654310362998)
 
 We give you the freedom to use the learning materials and opportunities in the way that suits you best. We strongly believe that attending the practical classes and lectures will be an efficient, fun, and valuable way for you to learn.
 
@@ -154,7 +133,7 @@ We will not be tracking attendance. If you do not come to class (practical or le
 
 ### Consolidate, review, reinforce, expand!
 
-During approximately two weeks there is no lecture and no practical. During these week you should take the opportunity to consolidate, review, reinforce, expand!
+During approximately two weeks there is no new content. During these week you should take the opportunity to consolidate, review, reinforce, expand!
 
 Here is some optional reading you could look at during those weeks: 
 
@@ -191,25 +170,27 @@ Further information:
 
 * The exam will contain about 40 questions. Each will be one of three types: single choice, multiple choice, or numeric. Single choice is a question with several possible answer, of which only one is correct -- you indicate which. Multiple choice is a question with several possible answers; none, 1, 2, 3, or 4 may be correct -- you indicate which. Numeric requires you to enter a number to answer the question.
 * A full mock exam will be available on OLAT.
-* During the exam you are allowed **three sheets of A4 paper** that you may put information on both sides of. You are also permitted to bring a dictionary (it must have no writing in it). No other resources are permitted.
+* During the exam you are allowed **three sheets of A4 paper** that you may put information on both sides of.
 * You are allowed to bring into the exam one translation dictionary (Übersetzungswörterbuch) (e.g., an Englisch–Deutsch-Wörterbuch / English–German dictionary). Examination staff should be allowed to inspect this resource. 
 * You will need to present your UZH card during the exam, to verify your identity.
-* You will need to use your laptop continuously during the two hours of the exam. Some power outlets are available, but best is to make sure you have enough battery power to last the exam. Please ensure your laptop can connect to the internet via wifi.
+* You will take the exam on your laptop.
+* You will need to use your laptop continuously during the two hours of the exam. Some power outlets are available, but best is to make sure you have enough battery power to last the exam.
+* Your laptop must connect to the internet via wifi.
 * You will take the exam in a special instance of OLAT from within the *Safe Exam Browser* that must be installed on your computer.
-* From within the Safe Exam Browser you will be able to use an RStudio Server.
+* From within the Safe Exam Browser you will be able to use RStudio Server.
 * There will be a mandatory practice exam experience including use of the Safe Exam Browser. Details will be sent to you.
 * The exam is in English.
 * You must agree with an Honour Code on OLAT immediately before you take the exam. 
-* You will sit the exam in a lecture theatre on the Irchel Campus.
+* You will sit the exam in a lecture theater on the Irchel Campus.
 * The final exam requires you to analyse some datasets that are provided to you. Some students have reported that they didn't have enough time during the exam, so please ensure that you can do things like importing data quickly and easily.
 * Your working (e.g. any R code your write) is not assessed directly. It is assessed indirectly by whether you answer a question correctly.
 * During the exam, if you have any trouble importing the data, please immediately ask for help. 
 * When answering numeric questions, the default is to give your answer with precision of 2 decimal places. Some questions specify to give the answer to a different number of decimal places. Please be careful to take care of this.
 
 
-## Important information about the "practice exam experience"
+## Important information about the "mandatory practice exam experience"
 
-The practice examination experience is only to give you experience of the examination interface, the types of questions that can be asked, and to test the examination interface. Do not use the number and type of different types of question as an indicator of anything about the final exam.
+This experience is mandatory so that we and you can know that the exam system works on your computer, and if not we can fix any issues before the examination. It also gives you experience of the system. Do not use the number and type of different types of question as an indicator of anything about the final exam.
 
 [Here are the questions and solutions that are used in the practice exam experience](https://github.com/opetchey/BIO144/raw/master/2_content/xtras/BIO144_exam_preparation_solutions.pdf).
 
@@ -218,13 +199,13 @@ You will be informed by email when the practice exam experience is, and all furt
 
 ## Getting help
 
-We aim that you can ask for help about anything and get a useful answer as soon as possible. The following guidelines will help you get fast, useful help. The primary ways to ask for help are:
+We aim that you can ask for help about anything and get a useful answer as soon as possible. The following guidelines will help you get fast and useful help. The primary ways to ask for help are:
 
-1. During the practicals on Thursday and Friday. You will get close to instant responses.
+1. During the practicals on Thursday and Friday.
 2. Anytime on the Discussion Forum of this OLAT course. We aim that you get a response in less than two days. Anonymous posts are possible.
-3. After lectures.
+3. During and after lectures.
 
-Of course, please feel free to email Owen directly if you wish. Please don't hesitate to ask for help!
+Of course, please feel free to email Owen directly if you wish (but he may ask you to post on the Forum if he feels that would be better). Please don't hesitate to ask for help!
 
 
 ### Posting code problems on the Discussion Forum
@@ -233,7 +214,7 @@ The Wiki:FAQ contains a page ***How to ask a question so we can easily help***. 
 
 ### Specialist statistical assistance
 
-I (Owen) am not a statistician. Hence, I might be unable to answer some of your questions about more statistical issues, particularly as we experience more and more complex statistics. To deal with this, Prof. Furrer has agreed to help with about statistics that I cannot answer (or cannot answer fully). Please post them as a new thread in the discussion forum.  Include as much information as possible, including R code and output as appropriate. Please do not contact Prof. Furrer directly. I will then contact Prof. Furrer and feedback the answer to you.
+I (Owen) am not a statistician. Hence, I might be unable to answer some of your questions about more statistical issues, particularly as we experience more and more complex statistics. To deal with this, Prof. Furrer has agreed to help with about statistics that I cannot answer (or cannot answer fully). Please post them as a new thread in the discussion forum.  Include as much information as possible, including R code and output as appropriate. Please do not contact Prof. Furrer directly. We will then contact Prof. Furrer and feedback the answer to you.
 
 
 ## Giving feedback
@@ -264,7 +245,7 @@ The course instructors and the TAs try to get to know each of you during the cou
 
 ## Example solution scripts
 
-Example solution scripts can be found here at the link below. However, please control your use of these example scripts carefully. Students in previous years have said they felt that they sometimes looked at the solutions to early or too quickly. They are provided because many students over many years have asked for them.
+Some example solution scripts can be found here at the link below. However, in 2026 these are not necessarily up to date, so please beware. Also, please control your use of these example scripts carefully. Students in previous years have said they felt that they sometimes looked at the solutions to early or too quickly. They are provided because many students over many years have asked for them.
 
 <https://github.com/opetchey/BIO144/tree/master/6_example_scripts>
 

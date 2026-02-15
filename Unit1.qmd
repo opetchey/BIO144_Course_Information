@@ -24,6 +24,8 @@ This week we will be covering Chapter 1 of [the course book](https://opetchey.gi
 
 ## Lecture
 
+[Here are the slides for the lecture.](assets/Week1_lecture_slides.pdf).
+
 In the lecture you'll be asked to record some reaction time data about yourself. Use this google form to record the data: <a href="https://forms.gle/woeVDysV48CbcorB7" target="_blank">
   Link to Reaction Time Data Form
 </a>

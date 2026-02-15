@@ -39,5 +39,4 @@ The resulting dataset can be access and or downloaded from this web page: <a hre
 
 ## Homework, Practical, and Weekly Quiz
 
-Available [here](https://rstudio.mnf.uzh.ch:3939/content/1913b078-b142-457f-8f08-8d66cc562490).
-
+Available [here](https://rstudio.mnf.uzh.ch:3939/content/1913b078-b142-457f-8f08-8d66cc562490). You will need to be on a UZH network to access this link, so if you are not on campus, you will need to connect to the UZH VPN first.

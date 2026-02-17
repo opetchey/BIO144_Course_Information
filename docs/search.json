@@ -114,7 +114,7 @@
     "href": "1.1-general-information.html#getting-datasets",
     "title": "General information",
     "section": "Getting datasets",
-    "text": "Getting datasets\nYou can get the datasets used in the course here. To download one dataset from that web page, click on the dataset and you then see a webpage with that dataset. Then right click on the “Raw” button, and select “Save As”, select location to save to, and press Save. Alternatively you can get a zip file of all the datasets here, which you will then need to unpack before use.\nYou can get datasets associated with the book Getting Started with R, by Beckerman, Childs, and Petchey here.\nIMPORTANT: if you open the downloaded file in Excel, perhaps to have a look at it, then DO NOT, UNDER ANY CIRCUMSTANCES, ASK OR ALLOW EXCEL TO SAVE IT. (Excel does not like R and will do everything in its power to mess things up for R. Don’t let it do that.)",
+    "text": "Getting datasets\nVarious datasets are used in the course.\nDatasets used in the homework and practical are available as a zip file here: zip file of all the datasets here, which you will then need to unpack before use.\nDatasets used in the course book are available in a different zip file, which is provided in the course book (Preface).\nDatasets associated with the book Getting Started with R, by Beckerman, Childs, and Petchey here.\nIMPORTANT: if you open the downloaded file in Excel, perhaps to have a look at it, then DO NOT, UNDER ANY CIRCUMSTANCES, ASK OR ALLOW EXCEL TO SAVE IT. (Excel does not like R and will do everything in its power to mess things up for R. Don’t let it do that.)",
     "crumbs": [
       "General information"
     ]

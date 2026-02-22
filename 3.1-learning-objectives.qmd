@@ -2,6 +2,8 @@
 
 This document describes the learning objectives for **BIO144: Data Analysis in Biology**.
 
+The learning objective are what you must know (i.e., could appear in the exam). As well the "must know" being described in the learning objectives, the content of each chapter of the course book is "must know".
+
 ---
 
 ## Course-level learning objectives

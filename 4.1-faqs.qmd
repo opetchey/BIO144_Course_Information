@@ -25,14 +25,6 @@ You are free to do the practicals whenever you want, but we encourage that you d
 In general it's better that you stick to the afternoon you registered for, but if you cannot attend it you can of course join the practical on the other day.
 
 
-### Why is the number of attempts for the questions limited?
-
-For now, the tests are implemented such that you can take each test **only** once, but you can suspend every test you take. This saves your progress within the test and when you get back to it you'll pick up exactly where you left it (your progress is saved). You can only take the tests once, because if you can take it more than once your progress is lost, meaning that you would have to retake even the questions that you already answered correctly (OLAT does not allow us to change this). 
-
-However, within each test attempt, you get **2 tries per question**:
-
--  For the weekly graded assessments there must be a limited number of tries for the graded assessment questions.
--  For self-tests in the homework and practical parts this is not set in stone. For now, for almost all questions you get 2 tries because giving more attempts might demotivate some people. This might change in the future.
 
 
 ### Are the sections named Extras part of the exam?
@@ -53,7 +45,7 @@ However, before posting please check out the Index in the "Wiki: FAQ" section in
 
 Other potential uses of the forum are that you may make a list of questions that you want to ask during the class, or a list of things that you'd like us to go over again in class, or in more detail in lectures or practicals. Then we can look at these in lectures or practicals.
 
-One rule: do not post answers to assessment or solutions to exercises. Help others find and realise for themselves the answer, but don't post the actual answer. If you post comments/questions about graded assessments, we will always investigate and take appropriate action. This may include deleting or editing your post. Please ask about GAs during a practical or email.
+One rule: do not post answers to assessment or solutions to exercises. Help others find and realise for themselves the answer, but don't post the actual answer. This may include deleting or editing your post. Please ask about GAs during a practical or email.
 
 Another rule / guideline. Open a new post / thread for a new issue.
 

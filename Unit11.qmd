@@ -19,4 +19,4 @@ Please attend the lecture. If for any reason you can't, please watch the podcast
 
 ## Homework, Practical, and Weekly Quiz
 
-Not yet available.
+Available [here](https://rstudio.mnf.uzh.ch:3939/content/f916093b-9fa2-4dde-977a-3eec00e5c9cf). You will need to be on a UZH network to access this link, so if you are not on campus, you will need to connect to the UZH VPN first.

@@ -171,7 +171,7 @@ A final assessment during the module examination period. Your performance in thi
 Further information:
 
 * The exam will contain about 40 questions. Each will be one of three types: single choice, multiple choice, or numeric. Single choice is a question with several possible answer, of which only one is correct -- you indicate which. Multiple choice is a question with several possible answers; none, 1, 2, 3, or 4 may be correct -- you indicate which. Numeric requires you to enter a number to answer the question.
-* A full mock exam will be available on OLAT.
+* A mock exam will be available on OLAT. The mock exam is intended to give you experience with the types of questions that will be in the final examination. It will be similar in terms of the types of questions and structure, and is intended to be similar in difficulty.
 * During the exam you are allowed **three sheets of A4 paper** that you may put information on both sides of.
 * You are allowed to bring into the exam one translation dictionary (Übersetzungswörterbuch) (e.g., an Englisch–Deutsch-Wörterbuch / English–German dictionary). Examination staff should be allowed to inspect this resource. 
 * You will need to present your UZH card during the exam, to verify your identity.

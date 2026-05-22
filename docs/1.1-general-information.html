@@ -268,6 +268,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#reference-letters" id="toc-reference-letters" class="nav-link" data-scroll-target="#reference-letters">Reference letters</a></li>
   <li><a href="#example-solution-scripts" id="toc-example-solution-scripts" class="nav-link" data-scroll-target="#example-solution-scripts">Example solution scripts</a></li>
   <li><a href="#lecture-podcasts" id="toc-lecture-podcasts" class="nav-link" data-scroll-target="#lecture-podcasts">Lecture podcasts</a></li>
+  <li><a href="#probeprüfung-practice-exam-experience" id="toc-probeprüfung-practice-exam-experience" class="nav-link" data-scroll-target="#probeprüfung-practice-exam-experience">Probeprüfung (Practice exam experience)</a>
+  <ul class="collapse">
+  <li><a href="#passkeys-for-authentication" id="toc-passkeys-for-authentication" class="nav-link" data-scroll-target="#passkeys-for-authentication">Passkeys for authentication</a></li>
+  <li><a href="#check-that-you-can-use-the-safe-exam-browser" id="toc-check-that-you-can-use-the-safe-exam-browser" class="nav-link" data-scroll-target="#check-that-you-can-use-the-safe-exam-browser">Check that you can use the Safe Exam Browser</a></li>
+  <li><a href="#check-that-you-can-log-in-to-the-exam-environment" id="toc-check-that-you-can-log-in-to-the-exam-environment" class="nav-link" data-scroll-target="#check-that-you-can-log-in-to-the-exam-environment">Check that you can log in to the exam environment</a></li>
+  <li><a href="#check-that-you-can-log-in-to-rstudio-server-from-within-the-exam-environment" id="toc-check-that-you-can-log-in-to-rstudio-server-from-within-the-exam-environment" class="nav-link" data-scroll-target="#check-that-you-can-log-in-to-rstudio-server-from-within-the-exam-environment">Check that you can log in to RStudio server from within the exam environment</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/opetchey/BIO144_Course_Information/edit/main/1.1-general-information.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/opetchey/BIO144_Course_Information/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -486,8 +493,78 @@ ul.task-list li input[type="checkbox"] {
 <section id="lecture-podcasts" class="level2">
 <h2 class="anchored" data-anchor-id="lecture-podcasts">Lecture podcasts</h2>
 <p>All lectures will be recorded and made available for later viewing.</p>
+</section>
+<section id="probeprüfung-practice-exam-experience" class="level2">
+<h2 class="anchored" data-anchor-id="probeprüfung-practice-exam-experience">Probeprüfung (Practice exam experience)</h2>
+<p>In mid to late May there will be a mandatory practice exam experience. This is to make sure that you can use the system that will be used for the final exam, and to give you experience with it.</p>
+<p>The most important aims of the Probeprüfung are:</p>
+<ol type="1">
+<li>Check you can use the Safe Exam Browser on your computer, and if not to fix any issues before the examination.</li>
+<li>Check that you can log in to the exam environment.</li>
+<li>Check that you can log in to RStudio server from within the exam environment.</li>
+</ol>
+<p>Please note that you can do 1. and 2. independent of the Probeprüfung, and you are encouraged to do so. You can make a <a href="https://www.zi.uzh.ch/de/support/e-learning-and-examination/students/online-exams/seb-test-runs.html">SEB-Testlauf with details here</a>. You can make a <a href="https://www.zi.uzh.ch/de/support/e-learning-and-examination/students/online-exams/exam-overview.html">SEB Funktionstest with details here – search for BIO144</a>.</p>
+<p><a href="https://www.zi.uzh.ch/en/support/e-learning-and-examination/students/online-exams">ZI information about online exams – very useful for you to read and understand.</a></p>
+<section id="passkeys-for-authentication" class="level3">
+<h3 class="anchored" data-anchor-id="passkeys-for-authentication">Passkeys for authentication</h3>
+<p>Passkeys for authentication do not work with SEB in general. This means that if you have a passkey for UZH-Login (Rstudio) or edu-ID-Login (OLAT), login for these may fail. Therefore, passkeys have to be removed for UZH-Login (Rstudio) &amp; edu-ID-Login (OLAT). Please see the section below for instructions on how to do this (you must remove them from both accounts, UZH-Login and edu-ID-Login, and in both cases you must remove them in your authenticator app and on the Microsoft website).</p>
+</section>
+<section id="check-that-you-can-use-the-safe-exam-browser" class="level3">
+<h3 class="anchored" data-anchor-id="check-that-you-can-use-the-safe-exam-browser">Check that you can use the Safe Exam Browser</h3>
+<p>The Probeprüfung involves you starting the Safe Exam Browser (SEB) by clicking on a link in a website. If this works correctly the SEB will start up and you will be presented with log in prompt.</p>
+<p>Things that can go wrong, and possible solutions:</p>
+<ul>
+<li>You may have clicked the wrong link. Try again, and make sure you click the correct link.</li>
+<li>You may be told your SEB version is wrong. If so, update your SEB to the required version and try again. More info can be found here <a href="https://www.zi.uzh.ch/de/support/e-learning-and-examination/students/online-exams/seb/installation.html">SEB installation</a></li>
+<li>You may have some other issue… contact ZI Support for help.</li>
+</ul>
+</section>
+<section id="check-that-you-can-log-in-to-the-exam-environment" class="level3">
+<h3 class="anchored" data-anchor-id="check-that-you-can-log-in-to-the-exam-environment">Check that you can log in to the exam environment</h3>
+<p>After the SEB starts, it should open and prompt you to login with your Switch Edu-ID credentials. Do this.</p>
+<p>Things that can go wrong, and possible solutions:</p>
+<ul>
+<li>You may have entered the wrong username or password. Try again, and make sure you enter the correct username and password.</li>
+<li>After you enter your username and password, a window opens and the process of authenticating starts but then stalls. This is probably caused by you having a passkey configured. See below for detailed instructions on how to fix this issue.</li>
+<li>You may have some other issue… contact ZI Support for help.</li>
+</ul>
+</section>
+<section id="check-that-you-can-log-in-to-rstudio-server-from-within-the-exam-environment" class="level3">
+<h3 class="anchored" data-anchor-id="check-that-you-can-log-in-to-rstudio-server-from-within-the-exam-environment">Check that you can log in to RStudio server from within the exam environment</h3>
+<p>Once logged in you will see the exam environment where you must first confirm that you have read the Ehrenkodex. Only after you confirm the Ehrenkodex can you start the exam. Once you start the exam, you will see 40 questions. In each question there is a link to RStudio. It is very important that you check that you can log in to RStudio server from within the exam environment, and if not to fix any issues before the examination.</p>
+<p>Things that can go wrong, and possible solutions:</p>
+<ul>
+<li>The exam won’t start. Check that you have confirmed the Ehrenkodex. If not, do so and try again.</li>
+<li>The username and or password you use to log in to RStudio server is not recognised. The username and password are <em>NOT</em> the same as your Switch Edu-ID username and password. Try again, and make sure you enter the correct username and password. These are the username and password you use to log in to your email.</li>
+<li>After you enter your username and password, a window opens and the process of authenticating starts but then stalls. This is probably caused by you having a passkey configured. See below for detailed instructions on how to fix this issue.</li>
+</ul>
+<p><strong>How to fix the issue of authentication stalling when trying to log in to RStudio server from within the exam environment</strong></p>
+<p>Login to OLAT and RStudio in Safe Exam Browser will not work if you have a passkey configured for your UZH Microsoft account.</p>
+<p>Before making any changes, always ensure that you have at least one backup authentication method available. Otherwise you may lock yourself out of your account.</p>
+<p>You can check your authentication methods here (outside SEB, in a normal browser): https://mysignins.microsoft.com/security-info</p>
+<p>Additional UZH instructions for MFA setup are here: https://www.zi.uzh.ch/en/support/Outlook-und-Kollaboration-Office-365/setup-multifactor-authentification.html#Set_up_Multifactor_Authentication</p>
+<p>Then follow these steps:</p>
+<ol type="1">
+<li>Open the (Microsoft) Authenticator app.</li>
+<li>Select the University of Zurich UZH account.</li>
+<li>Tap the gear icon / Settings.</li>
+<li>Select Delete passkey.</li>
+<li>Confirm deletion of the passkey.</li>
+</ol>
+<p>Next, also check that no passkeys remain configured in your Microsoft account:</p>
+<ol type="1">
+<li>Open https://mysignins.microsoft.com/security-info</li>
+<li>Review the listed authentication methods.</li>
+<li>Remove any remaining passkeys associated with your UZH account.</li>
+</ol>
+<p>Then:</p>
+<ol type="1">
+<li>Restart the mock exam from the exam overview page.</li>
+<li>Try logging in to RStudio again.</li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

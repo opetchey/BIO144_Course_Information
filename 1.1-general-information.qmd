@@ -262,6 +262,10 @@ Please note that you can do 1. and 2. independent of the Probeprüfung, and you 
 
 [ZI information about online exams -- very useful for you to read and understand.](https://www.zi.uzh.ch/en/support/e-learning-and-examination/students/online-exams)
 
+### Required wifi network
+
+In the final on-site exam you should use a UZH-network ("uzh" or "uzh-5ghz") because these are the most reliable. Therefore, to best replicate final exam conditions, it is recommended to use these networks also for the Probeprüfung. If you wish to not use one of these for the Probeprüfung (e.g., so you can be off-site for the Probeprüfung), everything should still work.
+
 ### Passkeys for authentication
 
 Passkeys for authentication do not work with SEB in general. This means that if you have a passkey for UZH-Login (Rstudio) or edu-ID-Login (OLAT), login for these may fail. Therefore, passkeys have to be removed for UZH-Login (Rstudio) & edu-ID-Login (OLAT). Please see the section below for instructions on how to do this (you must remove them from both accounts, UZH-Login and edu-ID-Login, and in both cases you must remove them in your authenticator app and on the Microsoft website).

@@ -190,14 +190,6 @@ Further information:
 * When answering numeric questions, the default is to give your answer with precision of 2 decimal places. Some questions specify to give the answer to a different number of decimal places. Please be careful to take care of this.
 
 
-## Important information about the "mandatory practice exam experience"
-
-This experience is mandatory so that we and you can know that the exam system works on your computer, and if not we can fix any issues before the examination. It also gives you experience of the system. Do not use the number and type of different types of question as an indicator of anything about the final exam.
-
-[Here are the questions and solutions that are used in the practice exam experience](https://github.com/opetchey/BIO144/raw/master/2_content/xtras/BIO144_exam_preparation_solutions.pdf).
-
-You will be informed by email when the practice exam experience is, and all further details.
-
 
 ## Getting help
 

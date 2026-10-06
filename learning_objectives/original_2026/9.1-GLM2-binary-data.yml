@@ -1,0 +1,59 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Wording below is the ORIGINAL 2026 wording, not yet revised.
+# bloom and type tags are provisional; review_note flags revision needs.
+
+unit: 9
+title: "Generalised linear models for binary data"
+book_chapter: "9.1-GLM2-binary-data.qmd"
+course_info_page: "Unit9.qmd"
+status: draft            # draft | reviewed | locked
+version: "2026-original"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO9.1.1
+    text: "Identify binary response variables in biological datasets, and be familiar with common examples (e.g., presence–absence, success–failure) and the types of questions they can arise from."
+    bloom: [understand]
+    type: concept
+    review_note: "Vague verb; rewrite with an observable verb. Combines several skills; consider splitting."
+
+  - id: LO9.1.2
+    text: "Explain why linear models are unsuitable for binary outcomes."
+    bloom: [understand]
+    type: concept
+
+  - id: LO9.1.3
+    text: "Fit logistic regression models using `glm()`."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO9.1.4
+    text: "Interpret model coefficients in terms of probabilities and odds."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO9.1.5
+    text: "Visualise fitted relationships for binary data."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO9.1.6
+    text: "Understand how logistic regression supports biological inference about presence–absence or success–failure outcomes."
+    bloom: [understand]
+    type: concept
+    review_note: "Vague verb; rewrite with an observable verb."
+
+  - id: LO9.1.7
+    text: "Use R to fit, diagnose, and interpret GLMs for binary data."
+    bloom: [apply]
+    type: analysis
+    review_note: "Combines several skills; consider splitting. Overlaps with objectives above."
+
+  - id: LO9.1.8
+    text: "Communicate results from binary data analyses effectively."
+    bloom: [create]
+    type: concept
+    review_note: "Producing written/visual communication is not assessed in the exam format; reword (e.g. recognise a correct statement) or mark as not examined."

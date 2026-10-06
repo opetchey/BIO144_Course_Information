@@ -1,0 +1,57 @@
+# Course-level learning objectives: single source of truth.
+# Revised draft for 2027. Original 2026 wording: BIO144_Course_Information/3.1-learning-objectives.qmd
+# Objectives are ordered as the steps of an analysis: question, model choice, planning, data, fitting, checking, interpreting, evaluating, reporting.
+# `chapters` lists the chapters whose objectives build towards each course-level objective.
+
+course: "BIO144"
+title: "Data Analysis in Biology"
+status: reviewed            # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After successfully completing BIO144, students will be able to:"
+
+objectives:
+  - id: CLO1
+    text: "Translate a biological question into a statistical model by identifying the response variable, the explanatory variables and the structure of the data."
+    bloom: [apply, analyse]
+    chapters: ["1", "3", "6", "7", "11.1"]
+
+  - id: CLO2
+    text: "Choose an appropriate model (linear model, generalised linear model, mixed model or ordination) for a given question, type of response variable and study design, and justify the choice."
+    bloom: [evaluate]
+    chapters: ["3", "5", "6", "8", "9", "10", "11.1", "11.2"]
+
+  - id: CLO3
+    text: "Explain degrees of freedom, calculate them for the models used in the course, and work out the residual degrees of freedom expected from a planned study design and model before the data are collected."
+    bloom: [understand, apply]
+    chapters: ["3", "4", "5", "6", "7", "8", "9", "11.1", "12"]
+
+  - id: CLO4
+    text: "Use R and RStudio to import, explore, manipulate and visualise biological data in a reproducible script."
+    bloom: [apply]
+    chapters: ["2"]
+
+  - id: CLO5
+    text: "Fit these models in R and obtain parameter estimates, their uncertainty, predictions and hypothesis tests."
+    bloom: [apply]
+    chapters: ["3", "4", "5", "6", "7", "8", "9", "10", "11.1"]
+
+  - id: CLO6
+    text: "Use diagnostics to evaluate whether model assumptions are reasonably met, and judge the consequences of violations for the conclusions."
+    bloom: [analyse, evaluate]
+    chapters: ["3", "5", "6", "8", "9"]
+
+  - id: CLO7
+    text: "Interpret model results quantitatively and in biological terms, focusing on effect sizes and their uncertainty rather than on p-values alone."
+    bloom: [analyse]
+    chapters: ["4", "5", "6", "7", "8", "9", "10", "11.1"]
+
+  - id: CLO8
+    text: "Evaluate whether an analysis supports a stated biological claim, recognising limitations such as correlation versus causation, extrapolation and pseudoreplication."
+    bloom: [evaluate]
+    chapters: ["4", "6", "10", "11.1", "11.2"]
+
+  - id: CLO9
+    text: "Recognise clear, correct and complete reporting of statistical results in text, tables and figures."
+    bloom: [analyse]
+    chapters: ["4", "5", "6", "7", "8", "9", "11.1"]

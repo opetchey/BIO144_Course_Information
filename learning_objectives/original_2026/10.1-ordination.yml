@@ -1,0 +1,52 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Wording below is the ORIGINAL 2026 wording, not yet revised.
+# bloom and type tags are provisional; review_note flags revision needs.
+
+unit: 10
+title: "Ordination and multivariate data"
+book_chapter: "10.1-ordination.qmd"
+course_info_page: "Unit10.qmd"
+status: draft            # draft | reviewed | locked
+version: "2026-original"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO10.1.1
+    text: "Recognise when biological questions involve many response variables simultaneously."
+    bloom: [understand]
+    type: concept
+
+  - id: LO10.1.2
+    text: "Explain the goals of ordination methods."
+    bloom: [understand]
+    type: concept
+
+  - id: LO10.1.3
+    text: "Interpret ordination plots in terms of similarities and differences among observations."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO10.1.4
+    text: "Understand ordination as a tool for dimensionality reduction."
+    bloom: [understand]
+    type: concept
+    review_note: "Vague verb; rewrite with an observable verb."
+
+  - id: LO10.1.5
+    text: "Critically assess what information ordination methods do and do not provide."
+    bloom: [evaluate]
+    type: concept
+
+  - id: LO10.1.6
+    text: "Use R to perform basic ordination analyses (i.e., PCA, NMDS)."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO10.1.7
+    text: "Communicate ordination results effectively using visualisations and text."
+    bloom: [create]
+    type: concept
+    review_note: "Producing written/visual communication is not assessed in the exam format; reword (e.g. recognise a correct statement) or mark as not examined."

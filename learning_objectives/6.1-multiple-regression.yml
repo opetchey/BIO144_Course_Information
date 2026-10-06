@@ -1,0 +1,89 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Revised draft for 2027; original 2026 wording is in original_2026/.
+# bloom and type tags are provisional; review_note flags items to check.
+
+unit: 6
+title: "Multiple regression"
+book_chapter: "6.1-multiple-regression.qmd"
+course_info_page: "Unit6.qmd"
+status: reviewed            # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO6.1.1
+    text: "Identify biological questions that require a model with more than one explanatory variable."
+    bloom: [understand]
+    type: concept
+
+  - id: LO6.1.2
+    text: "Write the multiple regression model as an equation, and explain what each coefficient represents."
+    bloom: [understand]
+    type: concept
+
+  - id: LO6.1.3
+    text: "Use R to fit a multiple regression with `lm()`."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO6.1.4
+    text: "Use diagnostic plots to judge whether the assumptions of a multiple regression are reasonably met."
+    bloom: [analyse, evaluate]
+    type: analysis
+
+  - id: LO6.1.5
+    text: "Calculate the model and residual degrees of freedom of a multiple regression, counting k − 1 degrees of freedom for a categorical explanatory variable with k levels, and use them in the F-test and in adjusted R²."
+    bloom: [apply]
+    type: concept
+    review_note: "Fixed 2027: 6.1 now defines p as parameters beyond the intercept (k − 1 for a categorical variable) and uses n − p − 1 for the CI."
+
+  - id: LO6.1.6
+    text: "Use the overall F-test to judge whether the explanatory variables together explain variation in the response."
+    bloom: [apply, analyse]
+    type: analysis
+
+  - id: LO6.1.7
+    text: "Interpret each coefficient as the association between that explanatory variable and the response with the other explanatory variables held constant, including its direction and size."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO6.1.8
+    text: "Use R to obtain R² and adjusted R², and explain why adjusted R² is needed when comparing models with different numbers of explanatory variables."
+    bloom: [apply, understand]
+    type: analysis
+
+  - id: LO6.1.9
+    text: "Compare the importance of explanatory variables measured on different scales using standardised coefficients, and explain what is lost by standardising."
+    bloom: [evaluate]
+    type: analysis
+
+  - id: LO6.1.10
+    text: "Use `predict()` to make predictions for given values of all explanatory variables."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO6.1.11
+    text: "Explain what collinearity is, detect it (e.g. correlations among explanatory variables, variance inflation factors), and describe its consequences for coefficient estimates and their uncertainty."
+    bloom: [understand, analyse]
+    type: analysis
+
+  - id: LO6.1.12
+    text: "Use the residual degrees of freedom of two nested models in an F-test comparing them."
+    bloom: [apply]
+    type: analysis
+    review_note: "In the book this appears in the collinearity section (assessing the importance of a variable in the presence of collinearity)."
+
+  - id: LO6.1.13
+    text: "Explain what a confounding variable is, how including a measured confounder in a multiple regression reduces bias in the estimated effect of another variable, and why this cannot prove causation."
+    bloom: [understand]
+    type: concept
+    review_note: "New content added 2027: 6.1 section 'Confounding: why we include other explanatory variables'."
+
+  - id: LO6.1.14
+    text: "Recognise a correct and complete statement of multiple regression results."
+    bloom: [analyse]
+    type: concept
+

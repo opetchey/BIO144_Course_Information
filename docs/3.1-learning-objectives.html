@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Objectives – BIO144 Course Information (version 2026)</title>
+<title>Learning Objectives – BIO144 Course Information (version 2027, draft)</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">BIO144 Course Information (version 2026)</a> 
+      <a href="./">BIO144 Course Information (version 2027, draft)</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/opetchey/BIO144_Course_Information/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
@@ -129,6 +129,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./1.1-general-information.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">General information</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1.2-previous-knowledge.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Previous knowledge</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -240,19 +246,20 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#course-level-learning-objectives" id="toc-course-level-learning-objectives" class="nav-link active" data-scroll-target="#course-level-learning-objectives">Course-level learning objectives</a></li>
   <li><a href="#unit-level-learning-objectives" id="toc-unit-level-learning-objectives" class="nav-link" data-scroll-target="#unit-level-learning-objectives">Unit-level learning objectives</a>
   <ul class="collapse">
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#r-and-rstudio" id="toc-r-and-rstudio" class="nav-link" data-scroll-target="#r-and-rstudio">R and RStudio</a></li>
-  <li><a href="#simple-linear-regression-part-1" id="toc-simple-linear-regression-part-1" class="nav-link" data-scroll-target="#simple-linear-regression-part-1">Simple linear regression – Part 1</a></li>
-  <li><a href="#simple-linear-regression-part-2" id="toc-simple-linear-regression-part-2" class="nav-link" data-scroll-target="#simple-linear-regression-part-2">Simple linear regression – Part 2</a></li>
-  <li><a href="#one-way-anova" id="toc-one-way-anova" class="nav-link" data-scroll-target="#one-way-anova">One-way ANOVA</a></li>
-  <li><a href="#multiple-regression" id="toc-multiple-regression" class="nav-link" data-scroll-target="#multiple-regression">Multiple regression</a></li>
-  <li><a href="#interactions" id="toc-interactions" class="nav-link" data-scroll-target="#interactions">Interactions</a></li>
-  <li><a href="#generalised-linear-models-for-count-data" id="toc-generalised-linear-models-for-count-data" class="nav-link" data-scroll-target="#generalised-linear-models-for-count-data">Generalised linear models for count data</a></li>
-  <li><a href="#generalised-linear-models-for-binary-data" id="toc-generalised-linear-models-for-binary-data" class="nav-link" data-scroll-target="#generalised-linear-models-for-binary-data">Generalised linear models for binary data</a></li>
-  <li><a href="#ordination-and-multivariate-data" id="toc-ordination-and-multivariate-data" class="nav-link" data-scroll-target="#ordination-and-multivariate-data">Ordination and multivariate data</a></li>
-  <li><a href="#mixed-models-and-what-next" id="toc-mixed-models-and-what-next" class="nav-link" data-scroll-target="#mixed-models-and-what-next">Mixed models and what next</a></li>
+  <li><a href="#introduction-chapter-1" id="toc-introduction-chapter-1" class="nav-link" data-scroll-target="#introduction-chapter-1">Introduction (Chapter 1)</a></li>
+  <li><a href="#r-and-rstudio-chapter-2" id="toc-r-and-rstudio-chapter-2" class="nav-link" data-scroll-target="#r-and-rstudio-chapter-2">R and RStudio (Chapter 2)</a></li>
+  <li><a href="#simple-linear-regression-part-1-chapter-3" id="toc-simple-linear-regression-part-1-chapter-3" class="nav-link" data-scroll-target="#simple-linear-regression-part-1-chapter-3">Simple linear regression – Part 1 (Chapter 3)</a></li>
+  <li><a href="#simple-linear-regression-part-2-chapter-4" id="toc-simple-linear-regression-part-2-chapter-4" class="nav-link" data-scroll-target="#simple-linear-regression-part-2-chapter-4">Simple linear regression – Part 2 (Chapter 4)</a></li>
+  <li><a href="#one-way-anova-chapter-5" id="toc-one-way-anova-chapter-5" class="nav-link" data-scroll-target="#one-way-anova-chapter-5">One-way ANOVA (Chapter 5)</a></li>
+  <li><a href="#multiple-regression-chapter-6" id="toc-multiple-regression-chapter-6" class="nav-link" data-scroll-target="#multiple-regression-chapter-6">Multiple regression (Chapter 6)</a></li>
+  <li><a href="#interactions-chapter-7" id="toc-interactions-chapter-7" class="nav-link" data-scroll-target="#interactions-chapter-7">Interactions (Chapter 7)</a></li>
+  <li><a href="#generalised-linear-models-for-count-data-chapter-8" id="toc-generalised-linear-models-for-count-data-chapter-8" class="nav-link" data-scroll-target="#generalised-linear-models-for-count-data-chapter-8">Generalised linear models for count data (Chapter 8)</a></li>
+  <li><a href="#generalised-linear-models-for-binary-data-chapter-9" id="toc-generalised-linear-models-for-binary-data-chapter-9" class="nav-link" data-scroll-target="#generalised-linear-models-for-binary-data-chapter-9">Generalised linear models for binary data (Chapter 9)</a></li>
+  <li><a href="#ordination-and-multivariate-data-chapter-10" id="toc-ordination-and-multivariate-data-chapter-10" class="nav-link" data-scroll-target="#ordination-and-multivariate-data-chapter-10">Ordination and multivariate data (Chapter 10)</a></li>
+  <li><a href="#mixed-models-chapter-11.1" id="toc-mixed-models-chapter-11.1" class="nav-link" data-scroll-target="#mixed-models-chapter-11.1">Mixed models (Chapter 11.1)</a></li>
+  <li><a href="#what-next-chapter-11.2" id="toc-what-next-chapter-11.2" class="nav-link" data-scroll-target="#what-next-chapter-11.2">What next? (Chapter 11.2)</a></li>
+  <li><a href="#review-planning-and-implementing-statistical-analyses-chapter-12" id="toc-review-planning-and-implementing-statistical-analyses-chapter-12" class="nav-link" data-scroll-target="#review-planning-and-implementing-statistical-analyses-chapter-12">Review: planning and implementing statistical analyses (Chapter 12)</a></li>
   </ul></li>
-  <li><a href="#review-l12" id="toc-review-l12" class="nav-link" data-scroll-target="#review-l12">Review (L12)</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/opetchey/BIO144_Course_Information/edit/main/3.1-learning-objectives.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/opetchey/BIO144_Course_Information/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -279,215 +286,257 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>This document describes the learning objectives for <strong>BIO144: Data Analysis in Biology</strong>.</p>
-<p>The learning objective are what you must know (i.e., could appear in the exam). As well the “must know” being described in the learning objectives, the content of each chapter of the course book is “must know”.</p>
+<p>The learning objectives describe what you must be able to do, and so what could appear in the exam. As well as the learning objectives, the content of each chapter of the course book is “must know”.</p>
 <hr>
 <section id="course-level-learning-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="course-level-learning-objectives">Course-level learning objectives</h2>
+<p><em>Version 2027.0-draft (reviewed): these learning objectives may still change.</em></p>
 <p>After successfully completing BIO144, students will be able to:</p>
 <ol type="1">
-<li>Formulate biological questions as statistical models, identifying appropriate response and explanatory variables.</li>
-<li>Use R and RStudio to import, explore, visualise, and analyse biological data reproducibly.</li>
-<li>Fit, interpret, and compare statistical models commonly used in biology, including linear models and generalised linear models.</li>
-<li>Evaluate model assumptions, diagnose violations, and understand the consequences for inference.</li>
-<li>Interpret model output quantitatively and biologically, rather than mechanically reporting p-values.</li>
-<li>Communicate statistical results clearly, using figures, tables, and written explanations appropriate for biological audiences.</li>
+<li>Translate a biological question into a statistical model by identifying the response variable, the explanatory variables and the structure of the data.</li>
+<li>Choose an appropriate model (linear model, generalised linear model, mixed model or ordination) for a given question, type of response variable and study design, and justify the choice.</li>
+<li>Explain degrees of freedom, calculate them for the models used in the course, and work out the residual degrees of freedom expected from a planned study design and model before the data are collected.</li>
+<li>Use R and RStudio to import, explore, manipulate and visualise biological data in a reproducible script.</li>
+<li>Fit these models in R and obtain parameter estimates, their uncertainty, predictions and hypothesis tests.</li>
+<li>Use diagnostics to evaluate whether model assumptions are reasonably met, and judge the consequences of violations for the conclusions.</li>
+<li>Interpret model results quantitatively and in biological terms, focusing on effect sizes and their uncertainty rather than on p-values alone.</li>
+<li>Evaluate whether an analysis supports a stated biological claim, recognising limitations such as correlation versus causation, extrapolation and pseudoreplication.</li>
+<li>Recognise clear, correct and complete reporting of statistical results in text, tables and figures.</li>
 </ol>
 <hr>
 </section>
 <section id="unit-level-learning-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="unit-level-learning-objectives">Unit-level learning objectives</h2>
-<section id="introduction" class="level3">
-<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<section id="introduction-chapter-1" class="level3">
+<h3 class="anchored" data-anchor-id="introduction-chapter-1">Introduction (Chapter 1)</h3>
 <p>After this unit, students will be able to:</p>
-<ul>
-<li>Explain the goals, structure, and expectations of the BIO144 course.</li>
-<li>Know the prior knowledge and skills required for success in the course.</li>
-<li>Understand appropriate use of AI tools in data analysis work and during the course.</li>
-<li>Describe a typical data analysis workflow, from developing question to communicating the answer.</li>
-</ul>
-<hr>
+<ol type="1">
+<li>Describe how the lectures, course book, practicals, homework, weekly quizzes and final exam of BIO144 fit together. <em>(not examined)</em></li>
+<li>Identify the prior knowledge and skills assumed at the start of the course, and where to revise them. <em>(not examined)</em></li>
+<li>Describe the steps of a data analysis workflow, from formulating a question to communicating the answer, and explain why the presentation and analysis should be planned before the data are collected.</li>
+<li>Describe the four principles for high-quality data analysis: a focused question with planned sampling and analysis; a model that accounts for the distribution and dependence of the data; emphasis on effect sizes and biological relevance; and reporting that makes the research reproducible.</li>
+<li>Explain the advantages of doing a data analysis with a script in R, such as being repeatable, readable and sharable.</li>
+<li>Distinguish appropriate from inappropriate uses of AI assistants in learning data analysis and in BIO144 assessments.</li>
+<li>Recognise and use the course notation for samples, populations and linear models (e.g.&nbsp;the sample mean, sample and population standard deviation, parameter estimates and residuals).</li>
+</ol>
 </section>
-<section id="r-and-rstudio" class="level3">
-<h3 class="anchored" data-anchor-id="r-and-rstudio">R and RStudio</h3>
+<section id="r-and-rstudio-chapter-2" class="level3">
+<h3 class="anchored" data-anchor-id="r-and-rstudio-chapter-2">R and RStudio (Chapter 2)</h3>
 <p>After this unit, students will be able to:</p>
-<ul>
-<li>Navigate the RStudio interface and explain the purpose of scripts, the console, and the environment.</li>
-<li>Run R code and understand basic R syntax.</li>
-<li>Import data into R and inspect its structure.</li>
-<li>Know the many ways one can get help with R and RStudio.</li>
-<li>Understand what are and how to work with add-on packages in R.</li>
-<li>Perform basic data manipulation operations, including importing, viewing, and various manipulations.</li>
-<li>Produce simple exploratory data visualisations.</li>
-<li>Use scripts to support reproducible data analysis workflows.</li>
-</ul>
-<hr>
+<ol type="1">
+<li>Explain the purpose of the script, the console and the environment in RStudio.</li>
+<li>Write and run R code in a script, using objects, functions and arguments correctly.</li>
+<li>Install and load add-on packages, and explain the difference between installing and loading a package.</li>
+<li>Use R’s help system and other resources to find out how a function works and what arguments it takes.</li>
+<li>Import a dataset into R and inspect its structure, including the variable names and variable types.</li>
+<li>Convert variables to factors, and set or change the reference level of a categorical variable.</li>
+<li>Manipulate data in R: select variables, filter observations, create new variables, and calculate summaries by group.</li>
+<li>Produce exploratory graphs (e.g.&nbsp;histograms, scatterplots, box plots) to inspect distributions of and relationships between variables.</li>
+<li>Identify and fix common errors in R code (e.g.&nbsp;typos, misspelled variable names, packages not loaded).</li>
+<li>Organise an analysis as a script within an RStudio project, with meaningful names for datasets and model objects, that reproduces all results when run from top to bottom.</li>
+</ol>
 </section>
-<section id="simple-linear-regression-part-1" class="level3">
-<h3 class="anchored" data-anchor-id="simple-linear-regression-part-1">Simple linear regression – Part 1</h3>
+<section id="simple-linear-regression-part-1-chapter-3" class="level3">
+<h3 class="anchored" data-anchor-id="simple-linear-regression-part-1-chapter-3">Simple linear regression – Part 1 (Chapter 3)</h3>
 <p>After this unit, students will be able to:</p>
-<ul>
-<li>Explain the purpose of simple linear regression in biological data analysis.</li>
-<li>Understand the mathematical form of a simple linear regression model.</li>
-<li>Describe how the slope and intercept are calculated.</li>
-<li>Describe how the error / variation is modelled.</li>
-<li>State the assumptions underlying simple linear regression.</li>
-<li>Assess if the assumptions are reasonably met using diagnostic plots.</li>
-<li>Recognise and remedy common problems encountered when fitting linear regression models.</li>
-<li>Use R to perform these tasks.</li>
-</ul>
-<hr>
+<ol type="1">
+<li>Explain when simple linear regression is an appropriate tool for a biological question.</li>
+<li>Write the simple linear regression model as an equation, and identify the intercept, slope and error term.</li>
+<li>Explain the least squares principle by which the intercept and slope are estimated.</li>
+<li>Calculate fitted values and residuals from a regression equation and data.</li>
+<li>Explain what degrees of freedom are: the number of independent pieces of information left for estimating variation after the model parameters have been estimated, so that the residual degrees of freedom equal the number of observations minus the number of estimated parameters.</li>
+<li>Explain why the residual variance of a simple linear regression is estimated by dividing the residual sum of squares by n − 2, and calculate the residual degrees of freedom.</li>
+<li>Explain why few residual degrees of freedom are a problem: imprecise estimates of the residual variance, larger critical t-values and so wider confidence intervals and less power, a risk of fitting noise, and difficulty checking assumptions.</li>
+<li>Describe how the error term is modelled: normally distributed, with mean zero and constant variance.</li>
+<li>State the assumptions of simple linear regression.</li>
+<li>Use R to fit a simple linear regression with <code>lm()</code> and obtain the estimated intercept and slope.</li>
+<li>Use diagnostic plots to judge whether the assumptions of a linear regression are reasonably met, and identify which assumption is violated if not.</li>
+<li>Explain leverage and Cook’s distance, and identify influential observations.</li>
+<li>Identify common problems in a regression (e.g.&nbsp;non-linearity, non-constant variance, influential observations) and select an appropriate remedy (e.g.&nbsp;a transformation).</li>
+<li>Interpret the coefficients of a regression with a log-transformed response and/or explanatory variable (e.g.&nbsp;as proportional or multiplicative effects).</li>
+<li>Explain what makes a model linear (linear in its parameters), so that models with transformed variables can still be fitted with <code>lm()</code>.</li>
+</ol>
 </section>
-<section id="simple-linear-regression-part-2" class="level3">
-<h3 class="anchored" data-anchor-id="simple-linear-regression-part-2">Simple linear regression – Part 2</h3>
+<section id="simple-linear-regression-part-2-chapter-4" class="level3">
+<h3 class="anchored" data-anchor-id="simple-linear-regression-part-2-chapter-4">Simple linear regression – Part 2 (Chapter 4)</h3>
 <p>After this unit, students will be able to:</p>
-<ul>
-<li>Understand how to measure how good is the regression (correlation and R-squared).</li>
-<li>Test and explain if the parameter estimates are compatible with some specific value (t-test).</li>
-<li>Understand how to find the range of parameters values are compatible with the data (confidence intervals).</li>
-<li>Understand what are the regression lines compatible with the data (confidence band), and how to construct these in R.</li>
-<li>Understand what are the plausible values of newly collected data (prediction band) and how to calculate these in R.</li>
-<li>Interpret the biological meaning of regression coefficients.</li>
-<li>Know how to communicate the results of a linear regression analysis effectively.</li>
-<li>Critically assess the strength and limitations of linear regression models.</li>
-</ul>
-<hr>
+<ol type="1">
+<li>Explain what the correlation coefficient (r) and R² each measure, and how they differ.</li>
+<li>Explain R² as the proportion of the total sum of squares explained by the model, and calculate it from the sums of squares.</li>
+<li>Use R to obtain r and R² for a simple linear regression, and interpret their values.</li>
+<li>Identify the null hypothesis tested by the t-test of a regression slope.</li>
+<li>Explain what a p-value is, and calculate the t-statistic of a slope as its estimate divided by its standard error.</li>
+<li>Explain how the number of degrees of freedom changes the t-distribution, and why fewer residual degrees of freedom give wider confidence intervals and larger p-values for the same t-statistic.</li>
+<li>Use R to test whether the estimated slope is compatible with zero or another specified value, and draw the appropriate conclusion.</li>
+<li>Use the residual degrees of freedom (n − 2) to obtain the critical t-value for a confidence interval and the p-value for a slope, and identify the degrees of freedom in R output.</li>
+<li>Use R to obtain a 95% confidence interval for the slope and intercept, and interpret it.</li>
+<li>Distinguish a confidence band from a prediction band, and explain why the prediction band is wider.</li>
+<li>Use <code>predict()</code> to calculate the expected value of the response, with its confidence interval or prediction interval, for a new value of the explanatory variable.</li>
+<li>Interpret the slope and intercept in the biological units of the study, including whether the intercept is biologically meaningful.</li>
+<li>Recognise a correct and complete statement of regression results that reports the estimate, its uncertainty and the test result.</li>
+<li>Evaluate whether a regression analysis supports a stated biological claim, considering R² versus statistical significance, extrapolation beyond the data, model diagnostics, and correlation versus causation.</li>
+</ol>
 </section>
-<section id="one-way-anova" class="level3">
-<h3 class="anchored" data-anchor-id="one-way-anova">One-way ANOVA</h3>
+<section id="one-way-anova-chapter-5" class="level3">
+<h3 class="anchored" data-anchor-id="one-way-anova-chapter-5">One-way ANOVA (Chapter 5)</h3>
 <p>After this unit, students will be able to:</p>
-<ul>
-<li>Explain how ANOVA fits within the linear model framework.</li>
-<li>Fit a one-way ANOVA model using <code>lm()</code>.</li>
-<li>Interpret group means and differences between groups.</li>
-<li>Explain the concept of variance partitioning.</li>
-<li>Understand the connection between ANOVA and regression with categorical predictors.</li>
-<li>Decide when ANOVA is an appropriate modelling approach for biological data.</li>
-<li>Perform ANOVA in R, assess model assumptions, and interpret results in a biological context.</li>
-<li>Communicate ANOVA results effectively using text, tables, and visualisations.</li>
-</ul>
-<hr>
+<ol type="1">
+<li>Explain one-way ANOVA as a linear model with a single categorical explanatory variable.</li>
+<li>Explain how the total variation is partitioned into between-group and within-group components, and how the F statistic is calculated from them.</li>
+<li>Calculate the total, model and residual degrees of freedom of a one-way ANOVA (n − 1, k − 1 and n − k), and explain why they add up.</li>
+<li>Explain why sums of squares are divided by their degrees of freedom to give mean squares, and identify the two degrees of freedom of the F-distribution.</li>
+<li>Calculate missing entries in an ANOVA table (degrees of freedom, sums of squares, mean squares, F).</li>
+<li>Use R to fit a one-way ANOVA with <code>lm()</code> and obtain the ANOVA table.</li>
+<li>Use R to test whether the group means differ, and draw the appropriate conclusion.</li>
+<li>Interpret the coefficients of a model with a categorical explanatory variable: the reference level and the differences from it.</li>
+<li>Use R to obtain group means and the estimated differences between groups, with their uncertainty.</li>
+<li>Use diagnostic plots to judge whether the assumptions of a one-way ANOVA are reasonably met.</li>
+<li>Explain why testing many pairs of groups inflates the probability of a false positive, and use a correction for multiple comparisons (e.g.&nbsp;Bonferroni, Tukey HSD).</li>
+<li>Decide whether one-way ANOVA is appropriate for a described study design and response variable.</li>
+<li>Recognise a correct and complete statement of one-way ANOVA results.</li>
+</ol>
 </section>
-<section id="multiple-regression" class="level3">
-<h3 class="anchored" data-anchor-id="multiple-regression">Multiple regression</h3>
+<section id="multiple-regression-chapter-6" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-regression-chapter-6">Multiple regression (Chapter 6)</h3>
 <p>After this unit, students will be able to:</p>
-<ul>
-<li>Understand what is a question that multiple regression can help answer.</li>
-<li>Know the mathematical form of multiple regression models.</li>
-<li>Fit linear models with multiple explanatory variables.</li>
-<li>Assess if model assumptions are reasonably met using diagnostic plots.</li>
-<li>Assess if the group of explanatory variables significantly explain variation in the response.</li>
-<li>Describe which variables are associated with the response, and the direction of these associations.</li>
-<li>Measure the amount of variation explained by the model (R-squared, adjusted R-squared).</li>
-<li>Assess the relative importance of different explanatory variables.</li>
-<li>Make conditional predictions from multiple regression models.</li>
-<li>Understand what is collinearity, and how it affects multiple regression.</li>
-<li>Use R to fit, diagnose, and interpret multiple regression models.</li>
-<li>Communicate multiple regression results effectively using text, tables, and visualisations.</li>
-</ul>
-<hr>
+<ol type="1">
+<li>Identify biological questions that require a model with more than one explanatory variable.</li>
+<li>Write the multiple regression model as an equation, and explain what each coefficient represents.</li>
+<li>Use R to fit a multiple regression with <code>lm()</code>.</li>
+<li>Use diagnostic plots to judge whether the assumptions of a multiple regression are reasonably met.</li>
+<li>Calculate the model and residual degrees of freedom of a multiple regression, counting k − 1 degrees of freedom for a categorical explanatory variable with k levels, and use them in the F-test and in adjusted R².</li>
+<li>Use the overall F-test to judge whether the explanatory variables together explain variation in the response.</li>
+<li>Interpret each coefficient as the association between that explanatory variable and the response with the other explanatory variables held constant, including its direction and size.</li>
+<li>Use R to obtain R² and adjusted R², and explain why adjusted R² is needed when comparing models with different numbers of explanatory variables.</li>
+<li>Compare the importance of explanatory variables measured on different scales using standardised coefficients, and explain what is lost by standardising.</li>
+<li>Use <code>predict()</code> to make predictions for given values of all explanatory variables.</li>
+<li>Explain what collinearity is, detect it (e.g.&nbsp;correlations among explanatory variables, variance inflation factors), and describe its consequences for coefficient estimates and their uncertainty.</li>
+<li>Use the residual degrees of freedom of two nested models in an F-test comparing them.</li>
+<li>Explain what a confounding variable is, how including a measured confounder in a multiple regression reduces bias in the estimated effect of another variable, and why this cannot prove causation.</li>
+<li>Recognise a correct and complete statement of multiple regression results.</li>
+</ol>
 </section>
-<section id="interactions" class="level3">
-<h3 class="anchored" data-anchor-id="interactions">Interactions</h3>
+<section id="interactions-chapter-7" class="level3">
+<h3 class="anchored" data-anchor-id="interactions-chapter-7">Interactions (Chapter 7)</h3>
 <p>After this unit, students will be able to:</p>
-<ul>
-<li>Explain what an interaction between explanatory variables means biologically and mathematically.</li>
-<li>Fit models that include interaction terms.</li>
-<li>Interpret interaction coefficients correctly.</li>
-<li>Visualise and explain how effects depend on the values of other variables.</li>
-<li>Distinguish additive from non-additive biological effects.</li>
-<li>Judge when interactions are biologically meaningful and justified.</li>
-<li>Understand interactions in the context of both categorical and continuous explanatory variables, ANCOVA, two-way ANOVA, and multiple regression.</li>
-<li>Communicate results involving interactions clearly and accurately.</li>
-<li>Use R to fit, diagnose, interpret, and communicate models with interactions.</li>
-</ul>
-<hr>
+<ol type="1">
+<li>Explain what an interaction between two explanatory variables means, both biologically and in the model equation.</li>
+<li>Distinguish additive from interactive effects using graphs of data or of model predictions.</li>
+<li>Explain why one model with several explanatory variables (and their interaction) is preferable to several separate single-variable analyses.</li>
+<li>Use R to fit models with interactions between two categorical variables (two-way ANOVA), a categorical and a continuous variable (ANCOVA), and two continuous variables.</li>
+<li>Interpret interaction coefficients, including how the meaning of the main-effect coefficients changes when an interaction is in the model.</li>
+<li>Use R to calculate and plot how the effect of one explanatory variable depends on the value of another.</li>
+<li>Test whether an interaction is needed, and judge whether it is biologically meaningful.</li>
+<li>Calculate the degrees of freedom of main effects and interaction terms, and the residual degrees of freedom, from the number of parameters a model estimates.</li>
+<li>Recognise a correct and complete statement of results from a model with an interaction.</li>
+</ol>
 </section>
-<section id="generalised-linear-models-for-count-data" class="level3">
-<h3 class="anchored" data-anchor-id="generalised-linear-models-for-count-data">Generalised linear models for count data</h3>
+<section id="generalised-linear-models-for-count-data-chapter-8" class="level3">
+<h3 class="anchored" data-anchor-id="generalised-linear-models-for-count-data-chapter-8">Generalised linear models for count data (Chapter 8)</h3>
 <p>After this unit, students will be able to:</p>
-<ul>
-<li>Describe the kinds of biological questions and processes that involve count data.</li>
-<li>Recognise when, why, and how count data violate the assumptions of linear models.</li>
-<li>Explain why normal error assumptions are inappropriate for count data.</li>
-<li>Describe the key components of a generalised linear model (GLM): the linear predictor, the distribution family, and the link function.</li>
-<li>Fit Poisson regression models using <code>glm()</code>.</li>
-<li>Interpret model coefficients on the appropriate scale.</li>
-<li>Assess whether a Poisson model provides an adequate description of the data.</li>
-<li>Use R to fit, diagnose, and interpret GLMs for count data.</li>
-<li>Communicate results from count data analyses effectively.</li>
-</ul>
-<hr>
+<ol type="1">
+<li>Identify biological questions and study designs in which the response variable is a count.</li>
+<li>Explain why linear models with normal errors are often inappropriate for count data (counts are non-negative integers, and their variance tends to increase with the mean).</li>
+<li>Describe the three components of a generalised linear model: the linear predictor, the distribution family and the link function.</li>
+<li>Use R to fit a Poisson regression with <code>glm()</code>.</li>
+<li>Explain null and residual deviance as measures of fit for a GLM, analogous to sums of squares in a linear model.</li>
+<li>Check the assumptions of a Poisson GLM using diagnostic plots, recognising that QQ-plots of deviance residuals are interpreted differently from those of a linear model.</li>
+<li>Interpret coefficients on the log (link) scale, and back-transform them to multiplicative effects on the expected count.</li>
+<li>Use R to calculate predicted counts for given values of the explanatory variables.</li>
+<li>Use deviance-based tests to judge whether explanatory variables are associated with the response.</li>
+<li>Explain that in a chi-squared (likelihood ratio) test between nested GLMs, the degrees of freedom equal the difference in the number of estimated parameters.</li>
+<li>Detect overdispersion and select an appropriate response to it (e.g.&nbsp;a quasi-Poisson or negative binomial model).</li>
+<li>Recognise zero inflation in count data, and that it requires models beyond the Poisson GLM.</li>
+<li>Recognise a correct and complete statement of results from a Poisson regression.</li>
+</ol>
 </section>
-<section id="generalised-linear-models-for-binary-data" class="level3">
-<h3 class="anchored" data-anchor-id="generalised-linear-models-for-binary-data">Generalised linear models for binary data</h3>
+<section id="generalised-linear-models-for-binary-data-chapter-9" class="level3">
+<h3 class="anchored" data-anchor-id="generalised-linear-models-for-binary-data-chapter-9">Generalised linear models for binary data (Chapter 9)</h3>
 <p>After this unit, students will be able to:</p>
-<ul>
-<li>Identify binary response variables in biological datasets, and be familiar with common examples (e.g., presence–absence, success–failure) and the types of questions they can arise from.</li>
-<li>Explain why linear models are unsuitable for binary outcomes.</li>
-<li>Fit logistic regression models using <code>glm()</code>.</li>
-<li>Interpret model coefficients in terms of probabilities and odds.</li>
-<li>Visualise fitted relationships for binary data.</li>
-<li>Understand how logistic regression supports biological inference about presence–absence or success–failure outcomes.</li>
-<li>Use R to fit, diagnose, and interpret GLMs for binary data.</li>
-<li>Communicate results from binary data analyses effectively.</li>
-</ul>
-<hr>
+<ol type="1">
+<li>Identify binary response variables (e.g.&nbsp;presence–absence, success–failure) in described biological studies.</li>
+<li>Distinguish individual-level binary data from aggregated binomial data (number of successes out of a number of trials).</li>
+<li>Explain why linear regression on proportions, or Poisson regression on the number of successes, is unsuitable for binary and binomial responses.</li>
+<li>Explain the logit link and the relationship between probability, odds and log-odds.</li>
+<li>Convert between probabilities, odds and log-odds.</li>
+<li>Use R to fit a logistic regression with <code>glm()</code>.</li>
+<li>Use R to fit a binomial GLM to aggregated data, specifying the numbers of successes and failures.</li>
+<li>Interpret coefficients as changes in log-odds, and back-transform them to odds ratios.</li>
+<li>Use R to calculate predicted probabilities and plot the fitted relationship.</li>
+<li>Use deviance-based tests to judge whether explanatory variables are associated with the response.</li>
+<li>Check a binomial GLM before interpreting it, using the GLM checklist, and recognise which checks are hard to interpret for individual-level 0/1 data.</li>
+<li>Use the ratio of residual deviance to residual degrees of freedom to check aggregated binomial data for overdispersion, use a quasibinomial model as a pragmatic fix, and recognise that this check is not informative for individual-level binary data.</li>
+<li>Recognise separation in a logistic regression from its symptoms (e.g.&nbsp;very large coefficient estimates and standard errors).</li>
+<li>Recognise a correct and complete statement of results from a logistic regression.</li>
+</ol>
 </section>
-<section id="ordination-and-multivariate-data" class="level3">
-<h3 class="anchored" data-anchor-id="ordination-and-multivariate-data">Ordination and multivariate data</h3>
+<section id="ordination-and-multivariate-data-chapter-10" class="level3">
+<h3 class="anchored" data-anchor-id="ordination-and-multivariate-data-chapter-10">Ordination and multivariate data (Chapter 10)</h3>
 <p>After this unit, students will be able to:</p>
-<ul>
-<li>Recognise when biological questions involve many response variables simultaneously.</li>
-<li>Explain the goals of ordination methods.</li>
+<ol type="1">
+<li>Recognise when a biological question involves many response variables, and explain the limitations of analysing each one separately.</li>
+<li>Reshape multivariate data between wide and long format, and explain which format is needed for which task.</li>
+<li>Explain the aim of ordination: to summarise similarity among observations measured on many variables using a few axes.</li>
+<li>Explain why variables are centred, and usually scaled, before a PCA.</li>
+<li>Use R to perform a principal component analysis (PCA) and obtain the proportion of variation explained by each axis.</li>
+<li>Interpret PCA loadings and biplots to identify which variables contribute most to each axis.</li>
+<li>Choose a distance measure for NMDS appropriate to the data (e.g.&nbsp;Euclidean distance on scaled numeric variables).</li>
+<li>Use R to perform a non-metric multidimensional scaling (NMDS) and obtain its stress value.</li>
 <li>Interpret ordination plots in terms of similarities and differences among observations.</li>
-<li>Understand ordination as a tool for dimensionality reduction.</li>
-<li>Critically assess what information ordination methods do and do not provide.</li>
-<li>Use R to perform basic ordination analyses (i.e., PCA, NMDS).</li>
-<li>Communicate ordination results effectively using visualisations and text.</li>
-</ul>
-<hr>
+<li>Distinguish PCA from NMDS, and choose between them for a given dataset.</li>
+<li>Evaluate what an ordination does and does not show (e.g.&nbsp;it summarises patterns but does not by itself test hypotheses; tests need separate methods).</li>
+<li>Choose an appropriate approach to test whether groups differ in multivariate composition (MANOVA, PERMANOVA) and in multivariate spread (PERMDISP), and to relate an explanatory variable to an ordination (envfit, ordisurf).</li>
+<li>Use principal components as explanatory variables in a regression, as one way to deal with collinearity.</li>
+</ol>
 </section>
-<section id="mixed-models-and-what-next" class="level3">
-<h3 class="anchored" data-anchor-id="mixed-models-and-what-next">Mixed models and what next</h3>
-<section id="part-1-mixed-models" class="level4">
-<h4 class="anchored" data-anchor-id="part-1-mixed-models">Part 1: Mixed models</h4>
-<p>After completing this part, students will be able to:</p>
-<ul>
-<li>Recognise biological situations in which data are <strong>grouped, nested, or hierarchical</strong>.</li>
-<li>Explain why standard linear models may be inappropriate for grouped data.</li>
-<li>Describe the conceptual difference between <strong>fixed effects</strong> and <strong>random effects</strong>.</li>
-<li>Understand random effects as a way of modelling <strong>structured sources of variation</strong>.</li>
-<li>Interpret mixed models as extensions of linear models, rather than as fundamentally different tools.</li>
-<li>Identify common biological examples where mixed models are appropriate (e.g.&nbsp;repeated measures, individuals within populations, sites within regions).</li>
-<li>Interpret mixed model output at a conceptual level, focusing on biological meaning rather than technical detail.</li>
-<li>Appreciate the role of <strong>partial pooling</strong> in balancing information across groups.</li>
-<li>Recognise the limitations and assumptions of mixed models without needing to master implementation details.</li>
-<li>Use R to fit simple linear mixed models using the <code>lme4</code> package.</li>
-<li>Communicate results from mixed model analyses effectively, focusing on biological interpretation.</li>
-</ul>
-<hr>
+<section id="mixed-models-chapter-11.1" class="level3">
+<h3 class="anchored" data-anchor-id="mixed-models-chapter-11.1">Mixed models (Chapter 11.1)</h3>
+<p>After this unit, students will be able to:</p>
+<ol type="1">
+<li>Recognise grouped, nested or hierarchical data in biological study designs (e.g.&nbsp;repeated measures, individuals within populations, sites within regions).</li>
+<li>Explain why ignoring grouping in the data leads to pseudoreplication and overconfident conclusions.</li>
+<li>Explain why averaging the repeated measurements within each group before using <code>lm()</code> is sometimes acceptable but often throws away information.</li>
+<li>Recognise pseudoreplication when a model’s residual degrees of freedom are much larger than the number of independent units (e.g.&nbsp;individual plants) in the study.</li>
+<li>Distinguish fixed effects from random effects, and decide which is appropriate for a variable in a described study.</li>
+<li>Distinguish random intercept models from random slope models, and nested from crossed random effects, and write the corresponding <code>lmer()</code> formula.</li>
+<li>Explain partial pooling, and how it shrinks group-level estimates towards the overall mean.</li>
+<li>Use R to fit linear mixed models with random intercepts, and with random slopes, using <code>lmer()</code> from the <code>lme4</code> package.</li>
+<li>Use R output to obtain the fixed-effect estimates and the variance components.</li>
+<li>Interpret mixed model output in biological terms, including what the variance components say about variation among groups.</li>
+<li>Explain why degrees of freedom, and so p-values, for fixed effects in mixed models are not straightforward, and that several approximations exist (e.g.&nbsp;Satterthwaite’s method).</li>
+<li>Identify limitations and assumptions of mixed models in a described analysis.</li>
+<li>Recognise a correct and complete statement of results from a mixed model.</li>
+</ol>
 </section>
-<section id="part-2-what-next" class="level4">
-<h4 class="anchored" data-anchor-id="part-2-what-next">Part 2: What next?</h4>
-<p>After completing this part, students will be able to:</p>
-<ul>
-<li>Place the statistical models learned in BIO144 within a broader landscape of data analysis methods.</li>
-<li>Recognise when more advanced models may be required to address biological questions.</li>
-<li>Identify directions for further learning in statistics and data analysis.</li>
-<li>Understand that statistical modelling is an <strong>iterative and evolving process</strong>, not a fixed set of rules.</li>
-<li>Reflect critically on the limits of the models used in the course.</li>
-<li>Appreciate the importance of biological reasoning alongside statistical tools.</li>
-<li>Approach future quantitative methods courses and analyses with confidence and curiosity.</li>
-</ul>
-<hr>
+<section id="what-next-chapter-11.2" class="level3">
+<h3 class="anchored" data-anchor-id="what-next-chapter-11.2">What next? (Chapter 11.2)</h3>
+<p>After this unit, students will be able to:</p>
+<ol type="1">
+<li>Describe which kinds of data the methods in BIO144 can analyse: data that meet the assumptions of linear models, count and binary data using generalised linear models, grouped or repeated-measures data using mixed models, and many variables at once using ordination.</li>
+<li>Explain why data collected over time or across space often violate the assumption of independent observations, and so require specialised methods (time series analysis, spatial analysis).</li>
+<li>Recognise features of a research question or dataset that call for methods beyond BIO144, such as non-independent observations, non-linear relationships, abrupt changes in a relationship, many interrelated variables, time-to-event responses, or results from multiple studies.</li>
+<li>Match a described research situation to a suitable family of methods: time series analysis, spatial analysis, non-linear regression, breakpoint analysis, generalised additive models, structural equation modelling, machine learning, meta-analysis, survival analysis, non-parametric methods, power analysis or Bayesian statistics.</li>
+<li>Explain why the analysis, including the sample size needed (power analysis), should be planned when the study is designed.</li>
+<li>Explain why the choice of analysis should be driven by the research question rather than by the techniques available.</li>
+</ol>
 </section>
-</section>
-</section>
-<section id="review-l12" class="level2">
-<h2 class="anchored" data-anchor-id="review-l12">Review (L12)</h2>
-<p>No additional learning objectives.</p>
+<section id="review-planning-and-implementing-statistical-analyses-chapter-12" class="level3">
+<h3 class="anchored" data-anchor-id="review-planning-and-implementing-statistical-analyses-chapter-12">Review: planning and implementing statistical analyses (Chapter 12)</h3>
+<p>After this unit, students will be able to:</p>
+<ol type="1">
+<li>Write a planning sentence for a described study, stating the question, the type of response variable, the data structure, the explanatory variables, the planned model and the expected residual degrees of freedom.</li>
+<li>Choose a model (linear model, binomial GLM, Poisson GLM, mixed model or ordination) from the type of response variable, the explanatory variables and the data structure of a described study.</li>
+<li>Identify the experimental unit in a described study, and recognise pseudoreplication.</li>
+<li>Explain the roles of replication, randomisation, controls, blocking and balance in study design.</li>
+<li>Count the parameters a planned model will estimate, calculate the expected residual degrees of freedom, and judge whether they are enough.</li>
+<li>Explain how sample size affects the precision of estimates and the power of a study, and what a power analysis is for.</li>
+<li>Decide which terms to include in a model from the question and the design (variables of interest, planned interactions, design variables, potential confounders), and explain why trying many models or using stepwise selection gives misleading p-values.</li>
+<li>Check a fitted model before interpreting it, make explicit predictions from it, and plot the predictions together with the data.</li>
+<li>Recognise a report that gives both the statistical result and its biological meaning.</li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

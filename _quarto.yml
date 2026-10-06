@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "BIO144 Course Information (version 2026)"
+  title: "BIO144 Course Information (version 2027, draft)"
   author: "Owen Petchey"
   date: today
   reader-mode: true
@@ -23,6 +23,7 @@ book:
   chapters:
     - index.qmd
     - 1.1-general-information.qmd
+    - 1.2-previous-knowledge.qmd
     - 2.1-year-specific-information.qmd
     - 3.1-learning-objectives.qmd
     - 4.1-faqs.qmd

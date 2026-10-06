@@ -1,0 +1,86 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Revised draft for 2027; original 2026 wording is in original_2026/.
+# bloom and type tags are provisional; review_note flags items to check.
+
+unit: 10
+title: "Ordination and multivariate data"
+book_chapter: "10.1-ordination.qmd"
+course_info_page: "Unit10.qmd"
+status: reviewed           # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO10.1.1
+    text: "Recognise when a biological question involves many response variables, and explain the limitations of analysing each one separately."
+    bloom: [understand]
+    type: concept
+
+  - id: LO10.1.2
+    text: "Reshape multivariate data between wide and long format, and explain which format is needed for which task."
+    bloom: [apply]
+    type: analysis
+    review_note: "Added in full review (covered in book): check wording and examinability."
+
+  - id: LO10.1.3
+    text: "Explain the aim of ordination: to summarise similarity among observations measured on many variables using a few axes."
+    bloom: [understand]
+    type: concept
+
+  - id: LO10.1.4
+    text: "Explain why variables are centred, and usually scaled, before a PCA."
+    bloom: [understand]
+    type: concept
+    review_note: "Added in full review (covered in book): check wording and examinability."
+
+  - id: LO10.1.5
+    text: "Use R to perform a principal component analysis (PCA) and obtain the proportion of variation explained by each axis."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO10.1.6
+    text: "Interpret PCA loadings and biplots to identify which variables contribute most to each axis."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO10.1.7
+    text: "Choose a distance measure for NMDS appropriate to the data (e.g. Euclidean distance on scaled numeric variables)."
+    bloom: [apply, evaluate]
+    type: analysis
+    review_note: "Added in full review (covered in book): check wording and examinability. The chapter uses Euclidean distance only; consider whether other measures (e.g. Bray–Curtis for community data) should be covered."
+
+  - id: LO10.1.8
+    text: "Use R to perform a non-metric multidimensional scaling (NMDS) and obtain its stress value."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO10.1.9
+    text: "Interpret ordination plots in terms of similarities and differences among observations."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO10.1.10
+    text: "Distinguish PCA from NMDS, and choose between them for a given dataset."
+    bloom: [analyse, evaluate]
+    type: concept
+
+  - id: LO10.1.11
+    text: "Evaluate what an ordination does and does not show (e.g. it summarises patterns but does not by itself test hypotheses; tests need separate methods)."
+    bloom: [evaluate]
+    type: concept
+
+  - id: LO10.1.12
+    text: "Choose an appropriate approach to test whether groups differ in multivariate composition (MANOVA, PERMANOVA) and in multivariate spread (PERMDISP), and to relate an explanatory variable to an ordination (envfit, ordisurf)."
+    bloom: [analyse]
+    type: concept
+    review_note: "Added in full review (covered in book): check wording and examinability. The chapter also mentions MANOVA and ordisurf; decide which methods are examinable."
+
+  - id: LO10.1.13
+    text: "Use principal components as explanatory variables in a regression, as one way to deal with collinearity."
+    bloom: [apply]
+    type: analysis
+    review_note: "Added in full review (covered in book): check wording and examinability."
+

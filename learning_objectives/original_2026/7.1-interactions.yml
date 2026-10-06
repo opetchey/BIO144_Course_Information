@@ -1,0 +1,63 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Wording below is the ORIGINAL 2026 wording, not yet revised.
+# bloom and type tags are provisional; review_note flags revision needs.
+
+unit: 7
+title: "Interactions"
+book_chapter: "7.1-interactions.qmd"
+course_info_page: "Unit7.qmd"
+status: draft            # draft | reviewed | locked
+version: "2026-original"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO7.1.1
+    text: "Explain what an interaction between explanatory variables means biologically and mathematically."
+    bloom: [understand]
+    type: concept
+
+  - id: LO7.1.2
+    text: "Fit models that include interaction terms."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO7.1.3
+    text: "Interpret interaction coefficients correctly."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO7.1.4
+    text: "Visualise and explain how effects depend on the values of other variables."
+    bloom: [apply, understand]
+    type: analysis
+
+  - id: LO7.1.5
+    text: "Distinguish additive from non-additive biological effects."
+    bloom: [analyse]
+    type: concept
+
+  - id: LO7.1.6
+    text: "Judge when interactions are biologically meaningful and justified."
+    bloom: [evaluate]
+    type: analysis
+
+  - id: LO7.1.7
+    text: "Understand interactions in the context of both categorical and continuous explanatory variables, ANCOVA, two-way ANOVA, and multiple regression."
+    bloom: [understand]
+    type: concept
+    review_note: "Vague verb; rewrite with an observable verb."
+
+  - id: LO7.1.8
+    text: "Communicate results involving interactions clearly and accurately."
+    bloom: [create]
+    type: concept
+    review_note: "Producing written/visual communication is not assessed in the exam format; reword (e.g. recognise a correct statement) or mark as not examined."
+
+  - id: LO7.1.9
+    text: "Use R to fit, diagnose, interpret, and communicate models with interactions."
+    bloom: [apply]
+    type: analysis
+    review_note: "Combines several skills; consider splitting. Overlaps with objectives above."

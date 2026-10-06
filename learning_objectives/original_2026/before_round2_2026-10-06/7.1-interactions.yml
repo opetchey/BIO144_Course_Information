@@ -1,0 +1,63 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Revised draft for 2027; original 2026 wording is in original_2026/.
+# bloom and type tags are provisional; review_note flags items to check.
+
+unit: 7
+title: "Interactions"
+book_chapter: "7.1-interactions.qmd"
+course_info_page: "Unit7.qmd"
+status: draft            # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO7.1.1
+    text: "Explain what an interaction between two explanatory variables means, both biologically and in the model equation."
+    bloom: [understand]
+    type: concept
+
+  - id: LO7.1.2
+    text: "Distinguish additive from interactive effects using graphs of data or of model predictions."
+    bloom: [analyse]
+    type: concept
+
+  - id: LO7.1.3
+    text: "Explain why one model with several explanatory variables (and their interaction) is preferable to several separate single-variable analyses."
+    bloom: [understand]
+    type: concept
+    review_note: "Added in full review (covered in book): check wording and examinability."
+
+  - id: LO7.1.4
+    text: "Use R to fit models with interactions between two categorical variables (two-way ANOVA), a categorical and a continuous variable (ANCOVA), and two continuous variables."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO7.1.5
+    text: "Interpret interaction coefficients, including how the meaning of the main-effect coefficients changes when an interaction is in the model."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO7.1.6
+    text: "Use R to calculate and plot how the effect of one explanatory variable depends on the value of another."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO7.1.7
+    text: "Test whether an interaction is needed, and judge whether it is biologically meaningful."
+    bloom: [evaluate]
+    type: analysis
+
+  - id: LO7.1.8
+    text: "Calculate the degrees of freedom of main effects and interaction terms, and the residual degrees of freedom, from the number of parameters a model estimates."
+    bloom: [apply]
+    type: concept
+    review_note: "Covered in the main text (callout on degrees of freedom in the two-way ANOVA example). The parameter-counting explanation is only in Extras (not examinable). Check consistency with 5.1 (model df k − 1 vs 7.1 Extras counting k)."
+
+  - id: LO7.1.9
+    text: "Recognise a correct and complete statement of results from a model with an interaction."
+    bloom: [analyse]
+    type: concept
+

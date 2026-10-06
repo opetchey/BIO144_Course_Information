@@ -10,6 +10,15 @@ Welcome to Week 4 of BIO144!
 
 This week we will be covering Chapter 4 of [the course book](https://opetchey.github.io/BIO144_Course_Book/).
 
+## Learning objectives
+
+```{r}
+#| echo: false
+#| output: asis
+source("learning_objectives/lo.R")
+lo_list("4.1", "learning_objectives")
+```
+
 
 ## Lecture
 

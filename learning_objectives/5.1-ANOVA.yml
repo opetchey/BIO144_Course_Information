@@ -1,0 +1,83 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Revised draft for 2027; original 2026 wording is in original_2026/.
+# bloom and type tags are provisional; review_note flags items to check.
+
+unit: 5
+title: "One-way ANOVA"
+book_chapter: "5.1-ANOVA.qmd"
+course_info_page: "Unit5.qmd"
+status: reviewed            # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO5.1.1
+    text: "Explain one-way ANOVA as a linear model with a single categorical explanatory variable."
+    bloom: [understand]
+    type: concept
+
+  - id: LO5.1.2
+    text: "Explain how the total variation is partitioned into between-group and within-group components, and how the F statistic is calculated from them."
+    bloom: [understand]
+    type: concept
+
+  - id: LO5.1.3
+    text: "Calculate the total, model and residual degrees of freedom of a one-way ANOVA (n − 1, k − 1 and n − k), and explain why they add up."
+    bloom: [apply]
+    type: concept
+
+  - id: LO5.1.4
+    text: "Explain why sums of squares are divided by their degrees of freedom to give mean squares, and identify the two degrees of freedom of the F-distribution."
+    bloom: [understand]
+    type: concept
+    review_note: "Wording fixed 2027: model df now described as extra parameters compared with the intercept-only model (k − 1)."
+
+  - id: LO5.1.5
+    text: "Calculate missing entries in an ANOVA table (degrees of freedom, sums of squares, mean squares, F)."
+    bloom: [apply]
+    type: concept
+
+  - id: LO5.1.6
+    text: "Use R to fit a one-way ANOVA with `lm()` and obtain the ANOVA table."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO5.1.7
+    text: "Use R to test whether the group means differ, and draw the appropriate conclusion."
+    bloom: [apply, analyse]
+    type: analysis
+
+  - id: LO5.1.8
+    text: "Interpret the coefficients of a model with a categorical explanatory variable: the reference level and the differences from it."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO5.1.9
+    text: "Use R to obtain group means and the estimated differences between groups, with their uncertainty."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO5.1.10
+    text: "Use diagnostic plots to judge whether the assumptions of a one-way ANOVA are reasonably met."
+    bloom: [analyse, evaluate]
+    type: analysis
+
+  - id: LO5.1.11
+    text: "Explain why testing many pairs of groups inflates the probability of a false positive, and use a correction for multiple comparisons (e.g. Bonferroni, Tukey HSD)."
+    bloom: [understand, apply]
+    type: analysis
+    review_note: "Added in full review (covered in book): check wording and examinability."
+
+  - id: LO5.1.12
+    text: "Decide whether one-way ANOVA is appropriate for a described study design and response variable."
+    bloom: [evaluate]
+    type: concept
+
+  - id: LO5.1.13
+    text: "Recognise a correct and complete statement of one-way ANOVA results."
+    bloom: [analyse]
+    type: concept
+

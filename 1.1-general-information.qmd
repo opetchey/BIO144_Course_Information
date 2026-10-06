@@ -21,7 +21,7 @@ Please see the "Year specific information" section below for a detailed course s
 
 ## What should I already know?
 
-Please see the section in OLAT "Previous Knowledge".
+See the [Previous knowledge](1.2-previous-knowledge.html) chapter, which lists what you're expected to already know (and why), and links to self-tests you can use to check your recall.
 
 
 ## Expected workload
@@ -44,7 +44,7 @@ We will be using three computer programmes during class (as well as the usual su
 
 3. [Rstudio](https://posit.co/downloads/). We use RStudio to interact with R. Rstudio has lots of features that make working with R much much easier and enjoyable.
 
-If you need any help setting up your laptop with R and RStudio, please look at relevant section of the "Getting R & RStudio" section of the "Previous Knowledge" section of the course. If you still have problems, no worries... ask for help during the first practical.
+If you need any help setting up your laptop with R and RStudio, please look at the "Getting R & RStudio" section of the [BIO144 Previous Knowledge self-tests](https://owenpetchey.shinyapps.io/Unit0/) (see the [Previous knowledge](1.2-previous-knowledge.html) chapter for more). If you still have problems, no worries... ask for help during the first practical.
 
 ## RStudio server
 
@@ -168,11 +168,13 @@ A final assessment during the module examination period. Your performance in thi
 
 ***This information is draft for 2026 and may still be changed.***
 
-Further information:
+The BIO144 final exam and resit are governed by the programme level regulations that can be found on this web page: [https://www.biologie.uzh.ch/de/Studium/Bachelorstudium/Grundstudium/modulpruefung.html](https://www.biologie.uzh.ch/de/Studium/Bachelorstudium/Grundstudium/modulpruefung.html)
+
+In addition:
 
 * The exam will contain about 40 questions. Each will be one of three types: single choice, multiple choice, or numeric. Single choice is a question with several possible answer, of which only one is correct -- you indicate which. Multiple choice is a question with several possible answers; none, 1, 2, 3, or 4 may be correct -- you indicate which. Numeric requires you to enter a number to answer the question.
 * A mock exam will be available on OLAT. The mock exam is intended to give you experience with the types of questions that will be in the final examination. It will be similar in terms of the types of questions and structure, and is intended to be similar in difficulty.
-* During the exam you are allowed **three sheets of A4 paper** that you may put information on both sides of.
+* During the exam you are allowed **three sheets of A4 paper** that you may put information on both sides of. You can write on these sheets whatever you like, and they can be printed or handwritten. Do not bring more than three sheets of A4 paper. The limit is number of pieces of paper, not number of sides of paper that you put information on.
 * You are allowed to bring into the exam one translation dictionary (Übersetzungswörterbuch) (e.g., an Englisch–Deutsch-Wörterbuch / English–German dictionary). Examination staff should be allowed to inspect this resource. 
 * You will need to present your UZH card during the exam, to verify your identity.
 * You will take the exam on your laptop.
@@ -180,6 +182,7 @@ Further information:
 * Your laptop must connect to the internet via wifi.
 * You will take the exam in a special instance of OLAT from within the *Safe Exam Browser* that must be installed on your computer.
 * From within the Safe Exam Browser you will be able to use RStudio Server.
+* RStudio Server will, during the exam, be configured in "exam mode". You will not have access to your normal home folder. Access to your normal home folder will be restored after the exam. Rstudio Server will be configured so that Copilot cannot be used. You will be able to query and read R help files (e.g., using '?lm' to get help on the 'lm' function).
 * There will be a mandatory practice exam experience including use of the Safe Exam Browser. Details will be sent to you.
 * The exam is in English.
 * You must agree with an Honour Code on OLAT immediately before you take the exam. 
@@ -188,6 +191,8 @@ Further information:
 * Your working (e.g. any R code your write) is not assessed directly. It is assessed indirectly by whether you answer a question correctly.
 * During the exam, if you have any trouble importing the data, please immediately ask for help. 
 * When answering numeric questions, the default is to give your answer with precision of 2 decimal places. Some questions specify to give the answer to a different number of decimal places. Please be careful to take care of this.
+* You are allowed to use your phone when authenticating login to the exam environment and to RStudio server, but you are not allowed to use your phone for anything else during the exam. Phone use will be very carefully monitored.
+
 
 
 
@@ -269,6 +274,11 @@ In the final on-site exam you should use a UZH-network ("uzh" or "uzh-5ghz") bec
 ### Passkeys for authentication
 
 Passkeys for authentication do not work with SEB in general. This means that if you have a passkey for UZH-Login (Rstudio) or edu-ID-Login (OLAT), login for these may fail. Therefore, passkeys have to be removed for UZH-Login (Rstudio) & edu-ID-Login (OLAT). Please see the section below for instructions on how to do this (you must remove them from both accounts, UZH-Login and edu-ID-Login, and in both cases you must remove them in your authenticator app and on the Microsoft website).
+
+### Phone use during real exam
+
+You are allowed to use your phone when authenticating login to the exam environment and to RStudio server, but you are not allowed to use your phone for anything else during the exam. Phone use will be very carefully monitored.
+
 
 ### Check that you can use the Safe Exam Browser
 

@@ -1,0 +1,45 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Revised draft for 2027, written to match the content of book chapter 11.2.
+# bloom and type tags are provisional.
+
+unit: 11
+title: "What next?"
+book_chapter: "11.2-what-next.qmd"
+course_info_page: "Unit11.qmd"
+status: reviewed            # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO11.2.1
+    text: "Describe which kinds of data the methods in BIO144 can analyse: data that meet the assumptions of linear models, count and binary data using generalised linear models, grouped or repeated-measures data using mixed models, and many variables at once using ordination."
+    bloom: [understand]
+    type: concept
+
+  - id: LO11.2.2
+    text: "Explain why data collected over time or across space often violate the assumption of independent observations, and so require specialised methods (time series analysis, spatial analysis)."
+    bloom: [understand]
+    type: concept
+
+  - id: LO11.2.3
+    text: "Recognise features of a research question or dataset that call for methods beyond BIO144, such as non-independent observations, non-linear relationships, abrupt changes in a relationship, many interrelated variables, time-to-event responses, or results from multiple studies."
+    bloom: [analyse]
+    type: concept
+
+  - id: LO11.2.4
+    text: "Match a described research situation to a suitable family of methods: time series analysis, spatial analysis, non-linear regression, breakpoint analysis, generalised additive models, structural equation modelling, machine learning, meta-analysis, survival analysis, non-parametric methods, power analysis or Bayesian statistics."
+    bloom: [apply]
+    type: concept
+
+  - id: LO11.2.5
+    text: "Explain why the analysis, including the sample size needed (power analysis), should be planned when the study is designed."
+    bloom: [understand]
+    type: concept
+
+  - id: LO11.2.6
+    text: "Explain why the choice of analysis should be driven by the research question rather than by the techniques available."
+    bloom: [understand]
+    type: concept

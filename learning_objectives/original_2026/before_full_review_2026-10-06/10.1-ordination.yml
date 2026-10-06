@@ -1,0 +1,55 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Revised draft for 2027; original 2026 wording is in original_2026/.
+# bloom and type tags are provisional; review_note flags items to check.
+
+unit: 10
+title: "Ordination and multivariate data"
+book_chapter: "10.1-ordination.qmd"
+course_info_page: "Unit10.qmd"
+status: draft            # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO10.1.1
+    text: "Recognise when a biological question involves many response variables, and explain the limitations of analysing each one separately."
+    bloom: [understand]
+    type: concept
+
+  - id: LO10.1.2
+    text: "Explain the aim of ordination: to summarise similarity among observations measured on many variables using a few axes."
+    bloom: [understand]
+    type: concept
+
+  - id: LO10.1.3
+    text: "Use R to perform a principal component analysis (PCA) and obtain the proportion of variation explained by each axis."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO10.1.4
+    text: "Interpret PCA loadings and biplots to identify which variables contribute most to each axis."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO10.1.5
+    text: "Use R to perform a non-metric multidimensional scaling (NMDS) and obtain its stress value."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO10.1.6
+    text: "Interpret ordination plots in terms of similarities and differences among observations."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO10.1.7
+    text: "Distinguish PCA from NMDS, and choose between them for a given dataset."
+    bloom: [analyse, evaluate]
+    type: concept
+
+  - id: LO10.1.8
+    text: "Evaluate what an ordination does and does not show (e.g. it summarises patterns but does not by itself test hypotheses)."
+    bloom: [evaluate]
+    type: concept

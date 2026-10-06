@@ -1,0 +1,58 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Wording below is the ORIGINAL 2026 wording, not yet revised.
+# bloom and type tags are provisional; review_note flags revision needs.
+
+unit: 5
+title: "One-way ANOVA"
+book_chapter: "5.1-ANOVA.qmd"
+course_info_page: "Unit5.qmd"
+status: draft            # draft | reviewed | locked
+version: "2026-original"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO5.1.1
+    text: "Explain how ANOVA fits within the linear model framework."
+    bloom: [understand]
+    type: concept
+
+  - id: LO5.1.2
+    text: "Fit a one-way ANOVA model using `lm()`."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO5.1.3
+    text: "Interpret group means and differences between groups."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO5.1.4
+    text: "Explain the concept of variance partitioning."
+    bloom: [understand]
+    type: concept
+
+  - id: LO5.1.5
+    text: "Understand the connection between ANOVA and regression with categorical predictors."
+    bloom: [understand]
+    type: concept
+    review_note: "Vague verb; rewrite with an observable verb."
+
+  - id: LO5.1.6
+    text: "Decide when ANOVA is an appropriate modelling approach for biological data."
+    bloom: [evaluate]
+    type: concept
+
+  - id: LO5.1.7
+    text: "Perform ANOVA in R, assess model assumptions, and interpret results in a biological context."
+    bloom: [apply, analyse]
+    type: analysis
+    review_note: "Combines several skills; consider splitting."
+
+  - id: LO5.1.8
+    text: "Communicate ANOVA results effectively using text, tables, and visualisations."
+    bloom: [create]
+    type: concept
+    review_note: "Producing written/visual communication is not assessed in the exam format; reword (e.g. recognise a correct statement) or mark as not examined."

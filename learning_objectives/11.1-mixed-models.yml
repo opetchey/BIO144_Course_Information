@@ -1,0 +1,83 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Revised draft for 2027; original 2026 wording is in original_2026/.
+# bloom and type tags are provisional; review_note flags items to check.
+
+unit: 11
+title: "Mixed models"
+book_chapter: "11.1-mixed-models.qmd"
+course_info_page: "Unit11.qmd"
+status: reviewed            # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO11.1.1
+    text: "Recognise grouped, nested or hierarchical data in biological study designs (e.g. repeated measures, individuals within populations, sites within regions)."
+    bloom: [understand]
+    type: concept
+
+  - id: LO11.1.2
+    text: "Explain why ignoring grouping in the data leads to pseudoreplication and overconfident conclusions."
+    bloom: [understand]
+    type: concept
+
+  - id: LO11.1.3
+    text: "Explain why averaging the repeated measurements within each group before using `lm()` is sometimes acceptable but often throws away information."
+    bloom: [understand]
+    type: concept
+    review_note: "Added in full review (covered in book): check wording and examinability."
+
+  - id: LO11.1.4
+    text: "Recognise pseudoreplication when a model's residual degrees of freedom are much larger than the number of independent units (e.g. individual plants) in the study."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO11.1.5
+    text: "Distinguish fixed effects from random effects, and decide which is appropriate for a variable in a described study."
+    bloom: [analyse, evaluate]
+    type: concept
+
+  - id: LO11.1.6
+    text: "Distinguish random intercept models from random slope models, and nested from crossed random effects, and write the corresponding `lmer()` formula."
+    bloom: [understand, apply]
+    type: analysis
+    review_note: "Added in full review (covered in book): check wording and examinability."
+
+  - id: LO11.1.7
+    text: "Explain partial pooling, and how it shrinks group-level estimates towards the overall mean."
+    bloom: [understand]
+    type: concept
+
+  - id: LO11.1.8
+    text: "Use R to fit linear mixed models with random intercepts, and with random slopes, using `lmer()` from the `lme4` package."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO11.1.9
+    text: "Use R output to obtain the fixed-effect estimates and the variance components."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO11.1.10
+    text: "Interpret mixed model output in biological terms, including what the variance components say about variation among groups."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO11.1.11
+    text: "Explain why degrees of freedom, and so p-values, for fixed effects in mixed models are not straightforward, and that several approximations exist (e.g. Satterthwaite's method)."
+    bloom: [understand]
+    type: concept
+
+  - id: LO11.1.12
+    text: "Identify limitations and assumptions of mixed models in a described analysis."
+    bloom: [analyse]
+    type: concept
+
+  - id: LO11.1.13
+    text: "Recognise a correct and complete statement of results from a mixed model."
+    bloom: [analyse]
+    type: concept
+

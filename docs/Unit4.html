@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Unit 4 – BIO144 Course Information (version 2026)</title>
+<title>Unit 4 – BIO144 Course Information (version 2027, draft)</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">BIO144 Course Information (version 2026)</a> 
+      <a href="./">BIO144 Course Information (version 2027, draft)</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/opetchey/BIO144_Course_Information/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
@@ -129,6 +129,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./1.1-general-information.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">General information</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1.2-previous-knowledge.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Previous knowledge</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -239,6 +245,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#course-book" id="toc-course-book" class="nav-link" data-scroll-target="#course-book">Course book</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
   <li><a href="#lecture" id="toc-lecture" class="nav-link" data-scroll-target="#lecture">Lecture</a></li>
   <li><a href="#homework-practical-and-weekly-quiz" id="toc-homework-practical-and-weekly-quiz" class="nav-link" data-scroll-target="#homework-practical-and-weekly-quiz">Homework, Practical, and Weekly Quiz</a></li>
   </ul>
@@ -273,6 +280,27 @@ ul.task-list li input[type="checkbox"] {
 <section id="course-book" class="level2">
 <h2 class="anchored" data-anchor-id="course-book">Course book</h2>
 <p>This week we will be covering Chapter 4 of <a href="https://opetchey.github.io/BIO144_Course_Book/">the course book</a>.</p>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p><em>Version 2027.0-draft (reviewed): these learning objectives may still change.</em></p>
+<p>After this unit, students will be able to:</p>
+<ol type="1">
+<li>Explain what the correlation coefficient (r) and R² each measure, and how they differ.</li>
+<li>Explain R² as the proportion of the total sum of squares explained by the model, and calculate it from the sums of squares.</li>
+<li>Use R to obtain r and R² for a simple linear regression, and interpret their values.</li>
+<li>Identify the null hypothesis tested by the t-test of a regression slope.</li>
+<li>Explain what a p-value is, and calculate the t-statistic of a slope as its estimate divided by its standard error.</li>
+<li>Explain how the number of degrees of freedom changes the t-distribution, and why fewer residual degrees of freedom give wider confidence intervals and larger p-values for the same t-statistic.</li>
+<li>Use R to test whether the estimated slope is compatible with zero or another specified value, and draw the appropriate conclusion.</li>
+<li>Use the residual degrees of freedom (n − 2) to obtain the critical t-value for a confidence interval and the p-value for a slope, and identify the degrees of freedom in R output.</li>
+<li>Use R to obtain a 95% confidence interval for the slope and intercept, and interpret it.</li>
+<li>Distinguish a confidence band from a prediction band, and explain why the prediction band is wider.</li>
+<li>Use <code>predict()</code> to calculate the expected value of the response, with its confidence interval or prediction interval, for a new value of the explanatory variable.</li>
+<li>Interpret the slope and intercept in the biological units of the study, including whether the intercept is biologically meaningful.</li>
+<li>Recognise a correct and complete statement of regression results that reports the estimate, its uncertainty and the test result.</li>
+<li>Evaluate whether a regression analysis supports a stated biological claim, considering R² versus statistical significance, extrapolation beyond the data, model diagnostics, and correlation versus causation.</li>
+</ol>
 </section>
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">Lecture</h2>

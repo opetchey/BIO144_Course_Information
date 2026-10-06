@@ -1,0 +1,60 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Wording below is the ORIGINAL 2026 wording, not yet revised.
+# bloom and type tags are provisional; review_note flags revision needs.
+
+unit: 2
+title: "R and RStudio"
+book_chapter: "2.1-R-and-RStudio.qmd"
+course_info_page: "Unit2.qmd"
+status: draft            # draft | reviewed | locked
+version: "2026-original"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO2.1.1
+    text: "Navigate the RStudio interface and explain the purpose of scripts, the console, and the environment."
+    bloom: [remember, understand]
+    type: concept
+    review_note: "Combines several skills; consider splitting."
+
+  - id: LO2.1.2
+    text: "Run R code and understand basic R syntax."
+    bloom: [apply, understand]
+    type: analysis
+    review_note: "Vague verb; rewrite with an observable verb."
+
+  - id: LO2.1.3
+    text: "Import data into R and inspect its structure."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO2.1.4
+    text: "Know the many ways one can get help with R and RStudio."
+    bloom: [remember]
+    type: concept
+    review_note: "Vague verb; rewrite with an observable verb."
+
+  - id: LO2.1.5
+    text: "Understand what are and how to work with add-on packages in R."
+    bloom: [understand, apply]
+    type: analysis
+    review_note: "Vague verb; rewrite with an observable verb."
+
+  - id: LO2.1.6
+    text: "Perform basic data manipulation operations, including importing, viewing, and various manipulations."
+    bloom: [apply]
+    type: analysis
+    review_note: "Overlaps with importing objective; 'various manipulations' needs specifying."
+
+  - id: LO2.1.7
+    text: "Produce simple exploratory data visualisations."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO2.1.8
+    text: "Use scripts to support reproducible data analysis workflows."
+    bloom: [apply]
+    type: analysis

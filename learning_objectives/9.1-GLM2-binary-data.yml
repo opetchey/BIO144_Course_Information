@@ -1,0 +1,91 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Revised draft for 2027; original 2026 wording is in original_2026/.
+# bloom and type tags are provisional; review_note flags items to check.
+
+unit: 9
+title: "Generalised linear models for binary data"
+book_chapter: "9.1-GLM2-binary-data.qmd"
+course_info_page: "Unit9.qmd"
+status: reviewed            # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO9.1.1
+    text: "Identify binary response variables (e.g. presence–absence, success–failure) in described biological studies."
+    bloom: [understand]
+    type: concept
+
+  - id: LO9.1.2
+    text: "Distinguish individual-level binary data from aggregated binomial data (number of successes out of a number of trials)."
+    bloom: [understand]
+    type: concept
+    review_note: "Added in full review (covered in book): check wording and examinability."
+
+  - id: LO9.1.3
+    text: "Explain why linear regression on proportions, or Poisson regression on the number of successes, is unsuitable for binary and binomial responses."
+    bloom: [understand]
+    type: concept
+
+  - id: LO9.1.4
+    text: "Explain the logit link and the relationship between probability, odds and log-odds."
+    bloom: [understand]
+    type: concept
+
+  - id: LO9.1.5
+    text: "Convert between probabilities, odds and log-odds."
+    bloom: [apply]
+    type: concept
+
+  - id: LO9.1.6
+    text: "Use R to fit a logistic regression with `glm()`."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO9.1.7
+    text: "Use R to fit a binomial GLM to aggregated data, specifying the numbers of successes and failures."
+    bloom: [apply]
+    type: analysis
+    review_note: "Added in full review (covered in book): check wording and examinability."
+
+  - id: LO9.1.8
+    text: "Interpret coefficients as changes in log-odds, and back-transform them to odds ratios."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO9.1.9
+    text: "Use R to calculate predicted probabilities and plot the fitted relationship."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO9.1.10
+    text: "Use deviance-based tests to judge whether explanatory variables are associated with the response."
+    bloom: [apply, analyse]
+    type: analysis
+    review_note: "Check the test functions match the chapter."
+
+  - id: LO9.1.11
+    text: "Check a binomial GLM before interpreting it, using the GLM checklist, and recognise which checks are hard to interpret for individual-level 0/1 data."
+    bloom: [analyse, evaluate]
+    type: analysis
+    review_note: "New 2027: shared GLM checklist added to 9.1 ('Complication 2: model checking and dispersion')."
+
+  - id: LO9.1.12
+    text: "Use the ratio of residual deviance to residual degrees of freedom to check aggregated binomial data for overdispersion, use a quasibinomial model as a pragmatic fix, and recognise that this check is not informative for individual-level binary data."
+    bloom: [apply, analyse]
+    type: analysis
+
+  - id: LO9.1.13
+    text: "Recognise separation in a logistic regression from its symptoms (e.g. very large coefficient estimates and standard errors)."
+    bloom: [analyse]
+    type: concept
+    review_note: "Added in full review (covered in book): check wording and examinability."
+
+  - id: LO9.1.14
+    text: "Recognise a correct and complete statement of results from a logistic regression."
+    bloom: [analyse]
+    type: concept
+

@@ -1,0 +1,54 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Wording below is the ORIGINAL 2026 wording, not yet revised.
+# bloom and type tags are provisional; review_note flags revision needs.
+
+unit: 11
+title: "What next?"
+book_chapter: "11.2-what-next.qmd"
+course_info_page: "Unit11.qmd"
+status: draft            # draft | reviewed | locked
+version: "2026-original"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO11.2.1
+    text: "Place the statistical models learned in BIO144 within a broader landscape of data analysis methods."
+    bloom: [understand]
+    type: concept
+
+  - id: LO11.2.2
+    text: "Recognise when more advanced models may be required to address biological questions."
+    bloom: [analyse]
+    type: concept
+
+  - id: LO11.2.3
+    text: "Identify directions for further learning in statistics and data analysis."
+    bloom: [remember]
+    type: concept
+
+  - id: LO11.2.4
+    text: "Understand that statistical modelling is an **iterative and evolving process**, not a fixed set of rules."
+    bloom: [understand]
+    type: concept
+    review_note: "Vague verb; rewrite with an observable verb."
+
+  - id: LO11.2.5
+    text: "Reflect critically on the limits of the models used in the course."
+    bloom: [evaluate]
+    type: concept
+    review_note: "Not directly examinable as worded."
+
+  - id: LO11.2.6
+    text: "Appreciate the importance of biological reasoning alongside statistical tools."
+    bloom: [understand]
+    type: concept
+    review_note: "Vague verb; rewrite with an observable verb."
+
+  - id: LO11.2.7
+    text: "Approach future quantitative methods courses and analyses with confidence and curiosity."
+    bloom: []
+    type: concept
+    review_note: "Attitudinal; not examinable. Consider removing or marking as not examined."

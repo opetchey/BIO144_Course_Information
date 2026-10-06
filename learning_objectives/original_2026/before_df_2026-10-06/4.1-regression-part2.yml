@@ -1,0 +1,63 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+
+unit: 4
+title: "Simple linear regression – Part 2"
+book_chapter: "4.1-regression-part2.qmd"
+course_info_page: "Unit4.qmd"
+status: draft            # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO4.1.1
+    text: "Explain what the correlation coefficient (r) and R² each measure, and how they differ."
+    bloom: [understand]
+    type: concept        # concept | analysis (analysis = done in R on a dataset)
+
+  - id: LO4.1.2
+    text: "Use R to obtain r and R² for a simple linear regression, and interpret their values."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO4.1.3
+    text: "Identify the null hypothesis tested by the t-test of a regression slope."
+    bloom: [remember, understand]
+    type: concept
+
+  - id: LO4.1.4
+    text: "Use R to test whether the estimated slope is compatible with zero or another specified value, and draw the appropriate conclusion."
+    bloom: [apply, analyse]
+    type: analysis
+
+  - id: LO4.1.5
+    text: "Use R to obtain a 95% confidence interval for the slope and intercept, and interpret it."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO4.1.6
+    text: "Distinguish a confidence band from a prediction band, and explain why the prediction band is wider."
+    bloom: [understand, analyse]
+    type: concept
+
+  - id: LO4.1.7
+    text: "Use `predict()` to calculate the expected value of the response, with its confidence interval or prediction interval, for a new value of the explanatory variable."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO4.1.8
+    text: "Interpret the slope and intercept in the biological units of the study, including whether the intercept is biologically meaningful."
+    bloom: [apply, analyse]
+    type: analysis
+
+  - id: LO4.1.9
+    text: "Recognise a correct and complete statement of regression results that reports the estimate, its uncertainty and the test result."
+    bloom: [analyse]
+    type: concept
+
+  - id: LO4.1.10
+    text: "Evaluate whether a regression analysis supports a stated biological claim, considering R² versus statistical significance, extrapolation beyond the data, model diagnostics, and correlation versus causation."
+    bloom: [evaluate]
+    type: analysis

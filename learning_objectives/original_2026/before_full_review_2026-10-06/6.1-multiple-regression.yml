@@ -1,0 +1,83 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Revised draft for 2027; original 2026 wording is in original_2026/.
+# bloom and type tags are provisional; review_note flags items to check.
+
+unit: 6
+title: "Multiple regression"
+book_chapter: "6.1-multiple-regression.qmd"
+course_info_page: "Unit6.qmd"
+status: draft            # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO6.1.1
+    text: "Identify biological questions that require a model with more than one explanatory variable."
+    bloom: [understand]
+    type: concept
+
+  - id: LO6.1.2
+    text: "Write the multiple regression model as an equation, and explain what each coefficient represents."
+    bloom: [understand]
+    type: concept
+
+  - id: LO6.1.3
+    text: "Use R to fit a multiple regression with `lm()`."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO6.1.4
+    text: "Use diagnostic plots to judge whether the assumptions of a multiple regression are reasonably met."
+    bloom: [analyse, evaluate]
+    type: analysis
+
+  - id: LO6.1.5
+    text: "Use the overall F-test to judge whether the explanatory variables together explain variation in the response."
+    bloom: [apply, analyse]
+    type: analysis
+
+  - id: LO6.1.6
+    text: "Interpret each coefficient as the association between that explanatory variable and the response with the other explanatory variables held constant, including its direction and size."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO6.1.7
+    text: "Use R to obtain R² and adjusted R², and explain why adjusted R² is needed when comparing models with different numbers of explanatory variables."
+    bloom: [apply, understand]
+    type: analysis
+
+  - id: LO6.1.8
+    text: "Compare the relative importance of explanatory variables."
+    bloom: [evaluate]
+    type: analysis
+    review_note: "Specify the method used in the chapter (e.g. standardised coefficients, sums of squares)."
+
+  - id: LO6.1.9
+    text: "Use `predict()` to make predictions for given values of all explanatory variables."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO6.1.10
+    text: "Explain what collinearity is, detect it among explanatory variables, and describe its consequences for coefficient estimates and their uncertainty."
+    bloom: [understand, analyse]
+    type: analysis
+    review_note: "Specify the detection method used in the chapter (e.g. correlations, VIF)."
+
+  - id: LO6.1.11
+    text: "Recognise a correct and complete statement of multiple regression results."
+    bloom: [analyse]
+    type: concept
+
+  - id: LO6.1.12
+    text: "Calculate the model and residual degrees of freedom of a multiple regression, counting k − 1 degrees of freedom for a categorical explanatory variable with k levels, and use them in the F-test and in adjusted R²."
+    bloom: [apply]
+    type: concept
+    review_note: "Check 6.1: the model degrees of freedom are given as p, 'the number of explanatory variables', which holds only for continuous variables. The confidence interval text uses the t-distribution 'with n − p degrees of freedom', which should be n − p − 1 with p defined this way."
+
+  - id: LO6.1.13
+    text: "Use the residual degrees of freedom of two nested models in an F-test comparing them."
+    bloom: [apply]
+    type: analysis

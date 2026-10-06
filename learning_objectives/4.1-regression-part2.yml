@@ -1,0 +1,88 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+
+unit: 4
+title: "Simple linear regression – Part 2"
+book_chapter: "4.1-regression-part2.qmd"
+course_info_page: "Unit4.qmd"
+status: reviewed            # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO4.1.1
+    text: "Explain what the correlation coefficient (r) and R² each measure, and how they differ."
+    bloom: [understand]
+    type: concept
+
+  - id: LO4.1.2
+    text: "Explain R² as the proportion of the total sum of squares explained by the model, and calculate it from the sums of squares."
+    bloom: [understand, apply]
+    type: concept
+    review_note: "Added in full review (covered in book): check wording and examinability."
+
+  - id: LO4.1.3
+    text: "Use R to obtain r and R² for a simple linear regression, and interpret their values."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO4.1.4
+    text: "Identify the null hypothesis tested by the t-test of a regression slope."
+    bloom: [remember, understand]
+    type: concept
+
+  - id: LO4.1.5
+    text: "Explain what a p-value is, and calculate the t-statistic of a slope as its estimate divided by its standard error."
+    bloom: [understand, apply]
+    type: concept
+    review_note: "Added in full review (covered in book): check wording and examinability."
+
+  - id: LO4.1.6
+    text: "Explain how the number of degrees of freedom changes the t-distribution, and why fewer residual degrees of freedom give wider confidence intervals and larger p-values for the same t-statistic."
+    bloom: [understand]
+    type: concept
+    review_note: "Gap addressed 2027: 4.1 now shows t-distributions with 2, 5 and 30 df vs the normal, and refers back to the 3.1 critical-t table; figure titles fixed."
+
+  - id: LO4.1.7
+    text: "Use R to test whether the estimated slope is compatible with zero or another specified value, and draw the appropriate conclusion."
+    bloom: [apply, analyse]
+    type: analysis
+
+  - id: LO4.1.8
+    text: "Use the residual degrees of freedom (n − 2) to obtain the critical t-value for a confidence interval and the p-value for a slope, and identify the degrees of freedom in R output."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO4.1.9
+    text: "Use R to obtain a 95% confidence interval for the slope and intercept, and interpret it."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO4.1.10
+    text: "Distinguish a confidence band from a prediction band, and explain why the prediction band is wider."
+    bloom: [understand, analyse]
+    type: concept
+
+  - id: LO4.1.11
+    text: "Use `predict()` to calculate the expected value of the response, with its confidence interval or prediction interval, for a new value of the explanatory variable."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO4.1.12
+    text: "Interpret the slope and intercept in the biological units of the study, including whether the intercept is biologically meaningful."
+    bloom: [apply, analyse]
+    type: analysis
+
+  - id: LO4.1.13
+    text: "Recognise a correct and complete statement of regression results that reports the estimate, its uncertainty and the test result."
+    bloom: [analyse]
+    type: concept
+
+  - id: LO4.1.14
+    text: "Evaluate whether a regression analysis supports a stated biological claim, considering R² versus statistical significance, extrapolation beyond the data, model diagnostics, and correlation versus causation."
+    bloom: [evaluate]
+    type: analysis
+    review_note: "Gap addressed 2027: new 4.1 sections 'Extrapolation: predicting beyond the data', 'How big is the effect, and does it matter?' and 'Association is not causation'."
+

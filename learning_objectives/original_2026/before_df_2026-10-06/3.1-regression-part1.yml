@@ -1,0 +1,61 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Revised draft for 2027; original 2026 wording is in original_2026/.
+# bloom and type tags are provisional; review_note flags items to check.
+
+unit: 3
+title: "Simple linear regression – Part 1"
+book_chapter: "3.1-regression-part1.qmd"
+course_info_page: "Unit3.qmd"
+status: draft            # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO3.1.1
+    text: "Explain when simple linear regression is an appropriate tool for a biological question."
+    bloom: [understand]
+    type: concept
+
+  - id: LO3.1.2
+    text: "Write the simple linear regression model as an equation, and identify the intercept, slope and error term."
+    bloom: [understand]
+    type: concept
+
+  - id: LO3.1.3
+    text: "Explain the least squares principle by which the intercept and slope are estimated."
+    bloom: [understand]
+    type: concept
+
+  - id: LO3.1.4
+    text: "Calculate fitted values and residuals from a regression equation and data."
+    bloom: [apply]
+    type: concept
+
+  - id: LO3.1.5
+    text: "Describe how the error term is modelled: normally distributed, with mean zero and constant variance."
+    bloom: [understand]
+    type: concept
+
+  - id: LO3.1.6
+    text: "State the assumptions of simple linear regression."
+    bloom: [remember]
+    type: concept
+
+  - id: LO3.1.7
+    text: "Use R to fit a simple linear regression with `lm()` and obtain the estimated intercept and slope."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO3.1.8
+    text: "Use diagnostic plots to judge whether the assumptions of a linear regression are reasonably met, and identify which assumption is violated if not."
+    bloom: [analyse, evaluate]
+    type: analysis
+
+  - id: LO3.1.9
+    text: "Identify common problems in a regression (e.g. non-linearity, non-constant variance, influential observations) and select an appropriate remedy (e.g. a transformation)."
+    bloom: [analyse, evaluate]
+    type: analysis
+    review_note: "Check the list of problems and remedies matches the chapter."

@@ -1,0 +1,65 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Revised draft for 2027; original 2026 wording is in original_2026/.
+# bloom and type tags are provisional; review_note flags items to check.
+
+unit: 9
+title: "Generalised linear models for binary data"
+book_chapter: "9.1-GLM2-binary-data.qmd"
+course_info_page: "Unit9.qmd"
+status: draft            # draft | reviewed | locked
+version: "2027.0-draft"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO9.1.1
+    text: "Identify binary response variables (e.g. presence–absence, success–failure) in described biological studies."
+    bloom: [understand]
+    type: concept
+
+  - id: LO9.1.2
+    text: "Explain why linear models are unsuitable for binary response variables."
+    bloom: [understand]
+    type: concept
+
+  - id: LO9.1.3
+    text: "Explain the logit link and the relationship between probability, odds and log-odds."
+    bloom: [understand]
+    type: concept
+
+  - id: LO9.1.4
+    text: "Convert between probabilities, odds and log-odds."
+    bloom: [apply]
+    type: concept
+
+  - id: LO9.1.5
+    text: "Use R to fit a logistic regression with `glm()`."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO9.1.6
+    text: "Interpret coefficients as changes in log-odds, and back-transform them to odds ratios."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO9.1.7
+    text: "Use R to calculate predicted probabilities and plot the fitted relationship."
+    bloom: [apply]
+
+  - id: LO9.1.8
+    text: "Use deviance-based tests to judge whether explanatory variables are associated with the response."
+    bloom: [apply, analyse]
+    type: analysis
+    review_note: "Check the test functions match the chapter."
+
+  - id: LO9.1.9
+    text: "Recognise a correct and complete statement of results from a logistic regression."
+    bloom: [analyse]
+    type: concept
+
+  - id: LO9.1.10
+    text: "Use the ratio of residual deviance to residual degrees of freedom to check for overdispersion, and recognise when this check is not informative for binary data."
+    bloom: [apply, analyse]
+    type: analysis

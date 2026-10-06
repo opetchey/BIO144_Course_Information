@@ -1,0 +1,80 @@
+# Learning objectives: single source of truth.
+# Used to generate the learning objectives in the course book chapter
+# and on the course information website. Edit here only.
+# Wording below is the ORIGINAL 2026 wording, not yet revised.
+# bloom and type tags are provisional; review_note flags revision needs.
+
+unit: 6
+title: "Multiple regression"
+book_chapter: "6.1-multiple-regression.qmd"
+course_info_page: "Unit6.qmd"
+status: draft            # draft | reviewed | locked
+version: "2026-original"
+last_updated: "2026-10-06"
+stem: "After this unit, students will be able to:"
+
+objectives:
+  - id: LO6.1.1
+    text: "Understand what is a question that multiple regression can help answer."
+    bloom: [understand]
+    type: concept
+    review_note: "Vague verb; rewrite with an observable verb."
+
+  - id: LO6.1.2
+    text: "Know the mathematical form of multiple regression models."
+    bloom: [remember]
+    type: concept
+    review_note: "Vague verb; rewrite with an observable verb."
+
+  - id: LO6.1.3
+    text: "Fit linear models with multiple explanatory variables."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO6.1.4
+    text: "Assess if model assumptions are reasonably met using diagnostic plots."
+    bloom: [analyse, evaluate]
+    type: analysis
+
+  - id: LO6.1.5
+    text: "Assess if the group of explanatory variables significantly explain variation in the response."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO6.1.6
+    text: "Describe which variables are associated with the response, and the direction of these associations."
+    bloom: [analyse]
+    type: analysis
+
+  - id: LO6.1.7
+    text: "Measure the amount of variation explained by the model (R-squared, adjusted R-squared)."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO6.1.8
+    text: "Assess the relative importance of different explanatory variables."
+    bloom: [evaluate]
+    type: analysis
+
+  - id: LO6.1.9
+    text: "Make conditional predictions from multiple regression models."
+    bloom: [apply]
+    type: analysis
+
+  - id: LO6.1.10
+    text: "Understand what is collinearity, and how it affects multiple regression."
+    bloom: [understand]
+    type: concept
+    review_note: "Vague verb; rewrite with an observable verb."
+
+  - id: LO6.1.11
+    text: "Use R to fit, diagnose, and interpret multiple regression models."
+    bloom: [apply]
+    type: analysis
+    review_note: "Combines several skills; consider splitting. Overlaps with objectives above."
+
+  - id: LO6.1.12
+    text: "Communicate multiple regression results effectively using text, tables, and visualisations."
+    bloom: [create]
+    type: concept
+    review_note: "Producing written/visual communication is not assessed in the exam format; reword (e.g. recognise a correct statement) or mark as not examined."

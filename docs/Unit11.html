@@ -245,6 +245,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#course-book" id="toc-course-book" class="nav-link" data-scroll-target="#course-book">Course book</a></li>
+  <li><a href="#code-walkthrough" id="toc-code-walkthrough" class="nav-link" data-scroll-target="#code-walkthrough">Code walkthrough</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
   <li><a href="#lecture" id="toc-lecture" class="nav-link" data-scroll-target="#lecture">Lecture</a></li>
   <li><a href="#homework-practical-and-weekly-quiz" id="toc-homework-practical-and-weekly-quiz" class="nav-link" data-scroll-target="#homework-practical-and-weekly-quiz">Homework, Practical, and Weekly Quiz</a></li>
   </ul>
@@ -278,7 +280,42 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="course-book" class="level2">
 <h2 class="anchored" data-anchor-id="course-book">Course book</h2>
-<p>This week we will be covering Chapter 11 of <a href="https://opetchey.github.io/BIO144_Course_Book/">the course book</a>.</p>
+<p>This week we will be covering two chapters of the course book: <a href="https://opetchey.github.io/BIO144_Course_Book/11.1-mixed-models.html">Chapter 11.1: Mixed models</a> and <a href="https://opetchey.github.io/BIO144_Course_Book/11.2-what-next.html">Chapter 11.2: What next?</a>.</p>
+</section>
+<section id="code-walkthrough" class="level2">
+<h2 class="anchored" data-anchor-id="code-walkthrough">Code walkthrough</h2>
+<p>The R code of this week’s chapter is in a code walkthrough script, with a video walkthrough of it. Both are linked at the top of the course book chapter (the Mixed models chapter). Work through them before the practical: the last section of the script (“Practical toolbox”) shows code that this week’s practical uses but the chapter does not.</p>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>These learning objectives, together with the content of the course book chapter, define what you need to know for the exam.</p>
+<p><strong>Chapter 11.1: Mixed models</strong></p>
+<p>After this unit, students will be able to:</p>
+<ol type="1">
+<li>Recognise grouped, nested or hierarchical data in biological study designs (e.g.&nbsp;repeated measures, individuals within populations, sites within regions).</li>
+<li>Explain why ignoring grouping in the data leads to pseudoreplication and overconfident conclusions.</li>
+<li>Explain why averaging the repeated measurements within each group before using <code>lm()</code> is sometimes acceptable but often throws away information.</li>
+<li>Recognise pseudoreplication when a model’s residual degrees of freedom are much larger than the number of independent units (e.g.&nbsp;individual plants) in the study.</li>
+<li>Distinguish fixed effects from random effects, and decide which is appropriate for a variable in a described study.</li>
+<li>Distinguish random intercept models from random slope models, and nested from crossed random effects, and write the corresponding <code>lmer()</code> formula.</li>
+<li>Explain partial pooling, and how it shrinks group-level estimates towards the overall mean.</li>
+<li>Use R to fit linear mixed models with random intercepts, and with random slopes, using <code>lmer()</code> from the <code>lme4</code> package.</li>
+<li>Use R output to obtain the fixed-effect estimates and the variance components.</li>
+<li>Interpret mixed model output in biological terms, including what the variance components say about variation among groups.</li>
+<li>Explain why degrees of freedom, and so p-values, for fixed effects in mixed models are not straightforward, and that several approximations exist (e.g.&nbsp;Satterthwaite’s method).</li>
+<li>Identify limitations and assumptions of mixed models in a described analysis.</li>
+<li>Recognise a correct and complete statement of results from a mixed model.</li>
+</ol>
+<p><strong>Chapter 11.2: What next?</strong></p>
+<p>After this unit, students will be able to:</p>
+<ol type="1">
+<li>Describe which kinds of data the methods in BIO144 can analyse: data that meet the assumptions of linear models, count and binary data using generalised linear models, grouped or repeated-measures data using mixed models, and many variables at once using ordination.</li>
+<li>Explain why data collected over time or across space often violate the assumption of independent observations, and so require specialised methods (time series analysis, spatial analysis).</li>
+<li>Recognise features of a research question or dataset that call for methods beyond BIO144, such as non-independent observations, non-linear relationships, abrupt changes in a relationship, many interrelated variables, time-to-event responses, or results from multiple studies.</li>
+<li>Match a described research situation to a suitable family of methods: time series analysis, spatial analysis, non-linear regression, breakpoint analysis, generalised additive models, structural equation modelling, machine learning, meta-analysis, survival analysis, non-parametric methods, power analysis or Bayesian statistics.</li>
+<li>Explain why the analysis, including the sample size needed (power analysis), should be planned when the study is designed.</li>
+<li>Explain why the choice of analysis should be driven by the research question rather than by the techniques available.</li>
+</ol>
 </section>
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">Lecture</h2>

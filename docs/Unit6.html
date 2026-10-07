@@ -245,6 +245,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#course-book" id="toc-course-book" class="nav-link" data-scroll-target="#course-book">Course book</a></li>
+  <li><a href="#code-walkthrough" id="toc-code-walkthrough" class="nav-link" data-scroll-target="#code-walkthrough">Code walkthrough</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
   <li><a href="#lecture" id="toc-lecture" class="nav-link" data-scroll-target="#lecture">Lecture</a></li>
   <li><a href="#homework-practical-and-weekly-quiz" id="toc-homework-practical-and-weekly-quiz" class="nav-link" data-scroll-target="#homework-practical-and-weekly-quiz">Homework, Practical, and Weekly Quiz</a></li>
   </ul>
@@ -278,7 +280,32 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="course-book" class="level2">
 <h2 class="anchored" data-anchor-id="course-book">Course book</h2>
-<p>This week we will be covering Chapter 6 of <a href="https://opetchey.github.io/BIO144_Course_Book/">the course book</a>.</p>
+<p>This week we will be covering <a href="https://opetchey.github.io/BIO144_Course_Book/6.1-multiple-regression.html">Chapter 6: Multiple regression</a> of the course book.</p>
+</section>
+<section id="code-walkthrough" class="level2">
+<h2 class="anchored" data-anchor-id="code-walkthrough">Code walkthrough</h2>
+<p>The R code of this week’s chapter is in a code walkthrough script, with a video walkthrough of it. Both are linked at the top of the course book chapter. Work through them before the practical: the last section of the script (“Practical toolbox”) shows code that this week’s practical uses but the chapter does not.</p>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>These learning objectives, together with the content of the course book chapter, define what you need to know for the exam.</p>
+<p>After this unit, students will be able to:</p>
+<ol type="1">
+<li>Identify biological questions that require a model with more than one explanatory variable.</li>
+<li>Write the multiple regression model as an equation, and explain what each coefficient represents.</li>
+<li>Use R to fit a multiple regression with <code>lm()</code>.</li>
+<li>Use diagnostic plots to judge whether the assumptions of a multiple regression are reasonably met.</li>
+<li>Calculate the model and residual degrees of freedom of a multiple regression, counting k − 1 degrees of freedom for a categorical explanatory variable with k levels, and use them in the F-test and in adjusted R².</li>
+<li>Use the overall F-test to judge whether the explanatory variables together explain variation in the response.</li>
+<li>Interpret each coefficient as the association between that explanatory variable and the response with the other explanatory variables held constant, including its direction and size.</li>
+<li>Use R to obtain R² and adjusted R², and explain why adjusted R² is needed when comparing models with different numbers of explanatory variables.</li>
+<li>Compare the importance of explanatory variables measured on different scales using standardised coefficients, and explain what is lost by standardising.</li>
+<li>Use <code>predict()</code> to make predictions for given values of all explanatory variables.</li>
+<li>Explain what collinearity is, detect it (e.g.&nbsp;correlations among explanatory variables, variance inflation factors), and describe its consequences for coefficient estimates and their uncertainty.</li>
+<li>Use the residual degrees of freedom of two nested models in an F-test comparing them.</li>
+<li>Explain what a confounding variable is, how including a measured confounder in a multiple regression reduces bias in the estimated effect of another variable, and why this cannot prove causation.</li>
+<li>Recognise a correct and complete statement of multiple regression results.</li>
+</ol>
 </section>
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">Lecture</h2>

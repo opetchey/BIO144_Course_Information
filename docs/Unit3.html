@@ -245,6 +245,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#course-book" id="toc-course-book" class="nav-link" data-scroll-target="#course-book">Course book</a></li>
+  <li><a href="#code-walkthrough" id="toc-code-walkthrough" class="nav-link" data-scroll-target="#code-walkthrough">Code walkthrough</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
   <li><a href="#lecture" id="toc-lecture" class="nav-link" data-scroll-target="#lecture">Lecture</a></li>
   <li><a href="#homework-practical-and-weekly-quiz" id="toc-homework-practical-and-weekly-quiz" class="nav-link" data-scroll-target="#homework-practical-and-weekly-quiz">Homework, Practical, and Weekly Quiz</a></li>
   </ul>
@@ -278,7 +280,33 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="course-book" class="level2">
 <h2 class="anchored" data-anchor-id="course-book">Course book</h2>
-<p>This week we will be covering Chapter 3 of <a href="https://opetchey.github.io/BIO144_Course_Book/">the course book</a>.</p>
+<p>This week we will be covering <a href="https://opetchey.github.io/BIO144_Course_Book/3.1-regression-part1.html">Chapter 3: Simple linear regression – Part 1</a> of the course book.</p>
+</section>
+<section id="code-walkthrough" class="level2">
+<h2 class="anchored" data-anchor-id="code-walkthrough">Code walkthrough</h2>
+<p>The R code of this week’s chapter is in a code walkthrough script, with a video walkthrough of it. Both are linked at the top of the course book chapter. Work through them before the practical: the last section of the script (“Practical toolbox”) shows code that this week’s practical uses but the chapter does not.</p>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>These learning objectives, together with the content of the course book chapter, define what you need to know for the exam.</p>
+<p>After this unit, students will be able to:</p>
+<ol type="1">
+<li>Explain when simple linear regression is an appropriate tool for a biological question.</li>
+<li>Write the simple linear regression model as an equation, and identify the intercept, slope and error term.</li>
+<li>Explain the least squares principle by which the intercept and slope are estimated.</li>
+<li>Calculate fitted values and residuals from a regression equation and data.</li>
+<li>Explain what degrees of freedom are: the number of independent pieces of information left for estimating variation after the model parameters have been estimated, so that the residual degrees of freedom equal the number of observations minus the number of estimated parameters.</li>
+<li>Explain why the residual variance of a simple linear regression is estimated by dividing the residual sum of squares by n − 2, and calculate the residual degrees of freedom.</li>
+<li>Explain why few residual degrees of freedom are a problem: imprecise estimates of the residual variance, larger critical t-values and so wider confidence intervals and less power, a risk of fitting noise, and difficulty checking assumptions.</li>
+<li>Describe how the error term is modelled: normally distributed, with mean zero and constant variance.</li>
+<li>State the assumptions of simple linear regression.</li>
+<li>Use R to fit a simple linear regression with <code>lm()</code> and obtain the estimated intercept and slope.</li>
+<li>Use diagnostic plots to judge whether the assumptions of a linear regression are reasonably met, and identify which assumption is violated if not.</li>
+<li>Explain leverage and Cook’s distance, and identify influential observations.</li>
+<li>Identify common problems in a regression (e.g.&nbsp;non-linearity, non-constant variance, influential observations) and select an appropriate remedy (e.g.&nbsp;a transformation).</li>
+<li>Interpret the coefficients of a regression with a log-transformed response and/or explanatory variable (e.g.&nbsp;as proportional or multiplicative effects).</li>
+<li>Explain what makes a model linear (linear in its parameters), so that models with transformed variables can still be fitted with <code>lm()</code>.</li>
+</ol>
 </section>
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">Lecture</h2>

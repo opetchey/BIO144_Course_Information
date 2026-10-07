@@ -245,6 +245,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#course-book" id="toc-course-book" class="nav-link" data-scroll-target="#course-book">Course book</a></li>
+  <li><a href="#code-walkthrough" id="toc-code-walkthrough" class="nav-link" data-scroll-target="#code-walkthrough">Code walkthrough</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
   <li><a href="#lecture" id="toc-lecture" class="nav-link" data-scroll-target="#lecture">Lecture</a></li>
   <li><a href="#homework-practical-and-weekly-quiz" id="toc-homework-practical-and-weekly-quiz" class="nav-link" data-scroll-target="#homework-practical-and-weekly-quiz">Homework, Practical, and Weekly Quiz</a></li>
   </ul>
@@ -278,7 +280,32 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="course-book" class="level2">
 <h2 class="anchored" data-anchor-id="course-book">Course book</h2>
-<p>This week we will be covering Chapter 9 of <a href="https://opetchey.github.io/BIO144_Course_Book/">the course book</a>.</p>
+<p>This week we will be covering <a href="https://opetchey.github.io/BIO144_Course_Book/9.1-GLM2-binary-data.html">Chapter 9: Generalised linear models for binary data</a> of the course book.</p>
+</section>
+<section id="code-walkthrough" class="level2">
+<h2 class="anchored" data-anchor-id="code-walkthrough">Code walkthrough</h2>
+<p>The R code of this week’s chapter is in a code walkthrough script, with a video walkthrough of it. Both are linked at the top of the course book chapter. Work through them before the practical: the last section of the script (“Practical toolbox”) shows code that this week’s practical uses but the chapter does not.</p>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>These learning objectives, together with the content of the course book chapter, define what you need to know for the exam.</p>
+<p>After this unit, students will be able to:</p>
+<ol type="1">
+<li>Identify binary response variables (e.g.&nbsp;presence–absence, success–failure) in described biological studies.</li>
+<li>Distinguish individual-level binary data from aggregated binomial data (number of successes out of a number of trials).</li>
+<li>Explain why linear regression on proportions, or Poisson regression on the number of successes, is unsuitable for binary and binomial responses.</li>
+<li>Explain the logit link and the relationship between probability, odds and log-odds.</li>
+<li>Convert between probabilities, odds and log-odds.</li>
+<li>Use R to fit a logistic regression with <code>glm()</code>.</li>
+<li>Use R to fit a binomial GLM to aggregated data, specifying the numbers of successes and failures.</li>
+<li>Interpret coefficients as changes in log-odds, and back-transform them to odds ratios.</li>
+<li>Use R to calculate predicted probabilities and plot the fitted relationship.</li>
+<li>Use deviance-based tests to judge whether explanatory variables are associated with the response.</li>
+<li>Check a binomial GLM before interpreting it, using the GLM checklist, and recognise which checks are hard to interpret for individual-level 0/1 data.</li>
+<li>Use the ratio of residual deviance to residual degrees of freedom to check aggregated binomial data for overdispersion, use a quasibinomial model as a pragmatic fix, and recognise that this check is not informative for individual-level binary data.</li>
+<li>Recognise separation in a logistic regression from its symptoms (e.g.&nbsp;very large coefficient estimates and standard errors).</li>
+<li>Recognise a correct and complete statement of results from a logistic regression.</li>
+</ol>
 </section>
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">Lecture</h2>

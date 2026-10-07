@@ -245,6 +245,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#course-book" id="toc-course-book" class="nav-link" data-scroll-target="#course-book">Course book</a></li>
+  <li><a href="#code-walkthrough" id="toc-code-walkthrough" class="nav-link" data-scroll-target="#code-walkthrough">Code walkthrough</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
   <li><a href="#lecture" id="toc-lecture" class="nav-link" data-scroll-target="#lecture">Lecture</a></li>
   <li><a href="#homework-practical-and-weekly-quiz" id="toc-homework-practical-and-weekly-quiz" class="nav-link" data-scroll-target="#homework-practical-and-weekly-quiz">Homework, Practical, and Weekly Quiz</a></li>
   </ul>
@@ -278,7 +280,31 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="course-book" class="level2">
 <h2 class="anchored" data-anchor-id="course-book">Course book</h2>
-<p>This week we will be covering Chapter 10 of <a href="https://opetchey.github.io/BIO144_Course_Book/">the course book</a>.</p>
+<p>This week we will be covering <a href="https://opetchey.github.io/BIO144_Course_Book/10.1-ordination.html">Chapter 10: Ordination and multivariate data</a> of the course book.</p>
+</section>
+<section id="code-walkthrough" class="level2">
+<h2 class="anchored" data-anchor-id="code-walkthrough">Code walkthrough</h2>
+<p>The R code of this week’s chapter is in a code walkthrough script, with a video walkthrough of it. Both are linked at the top of the course book chapter. Work through them before the practical: the last section of the script (“Practical toolbox”) shows code that this week’s practical uses but the chapter does not.</p>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>These learning objectives, together with the content of the course book chapter, define what you need to know for the exam.</p>
+<p>After this unit, students will be able to:</p>
+<ol type="1">
+<li>Recognise when a biological question involves many response variables, and explain the limitations of analysing each one separately.</li>
+<li>Reshape multivariate data between wide and long format, and explain which format is needed for which task.</li>
+<li>Explain the aim of ordination: to summarise similarity among observations measured on many variables using a few axes.</li>
+<li>Explain why variables are centred, and usually scaled, before a PCA.</li>
+<li>Use R to perform a principal component analysis (PCA) and obtain the proportion of variation explained by each axis.</li>
+<li>Interpret PCA loadings and biplots to identify which variables contribute most to each axis.</li>
+<li>Choose a distance measure for NMDS appropriate to the data (e.g.&nbsp;Euclidean distance on scaled numeric variables).</li>
+<li>Use R to perform a non-metric multidimensional scaling (NMDS) and obtain its stress value.</li>
+<li>Interpret ordination plots in terms of similarities and differences among observations.</li>
+<li>Distinguish PCA from NMDS, and choose between them for a given dataset.</li>
+<li>Evaluate what an ordination does and does not show (e.g.&nbsp;it summarises patterns but does not by itself test hypotheses; tests need separate methods).</li>
+<li>Choose an appropriate approach to test whether groups differ in multivariate composition (MANOVA, PERMANOVA) and in multivariate spread (PERMDISP), and to relate an explanatory variable to an ordination (envfit, ordisurf).</li>
+<li>Use principal components as explanatory variables in a regression, as one way to deal with collinearity.</li>
+</ol>
 </section>
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">Lecture</h2>

@@ -1,13 +1,14 @@
 # Learning objectives: single source of truth.
 # Used to generate the learning objectives in the course book chapter
 # and on the course information website. Edit here only.
+# Locked 2026-10-06 (version 2027.0): do not renumber or remove IDs.
 
 unit: 4
 title: "Simple linear regression – Part 2"
 book_chapter: "4.1-regression-part2.qmd"
 course_info_page: "Unit4.qmd"
-status: reviewed            # draft | reviewed | locked
-version: "2027.0-draft"
+status: locked            # draft | reviewed | locked
+version: "2027.0"
 last_updated: "2026-10-06"
 stem: "After this unit, students will be able to:"
 
@@ -21,7 +22,6 @@ objectives:
     text: "Explain R² as the proportion of the total sum of squares explained by the model, and calculate it from the sums of squares."
     bloom: [understand, apply]
     type: concept
-    review_note: "Added in full review (covered in book): check wording and examinability."
 
   - id: LO4.1.3
     text: "Use R to obtain r and R² for a simple linear regression, and interpret their values."
@@ -37,13 +37,11 @@ objectives:
     text: "Explain what a p-value is, and calculate the t-statistic of a slope as its estimate divided by its standard error."
     bloom: [understand, apply]
     type: concept
-    review_note: "Added in full review (covered in book): check wording and examinability."
 
   - id: LO4.1.6
     text: "Explain how the number of degrees of freedom changes the t-distribution, and why fewer residual degrees of freedom give wider confidence intervals and larger p-values for the same t-statistic."
     bloom: [understand]
     type: concept
-    review_note: "Gap addressed 2027: 4.1 now shows t-distributions with 2, 5 and 30 df vs the normal, and refers back to the 3.1 critical-t table; figure titles fixed."
 
   - id: LO4.1.7
     text: "Use R to test whether the estimated slope is compatible with zero or another specified value, and draw the appropriate conclusion."
@@ -84,5 +82,4 @@ objectives:
     text: "Evaluate whether a regression analysis supports a stated biological claim, considering R² versus statistical significance, extrapolation beyond the data, model diagnostics, and correlation versus causation."
     bloom: [evaluate]
     type: analysis
-    review_note: "Gap addressed 2027: new 4.1 sections 'Extrapolation: predicting beyond the data', 'How big is the effect, and does it matter?' and 'Association is not causation'."
 

@@ -1,15 +1,15 @@
 # Learning objectives: single source of truth.
 # Used to generate the learning objectives in the course book chapter
 # and on the course information website. Edit here only.
-# Revised draft for 2027, written to match the content of book chapter 11.2.
-# bloom and type tags are provisional.
+# 2027 version, written to match the content of book chapter 11.2.
+# Locked 2026-10-06 (version 2027.0): do not renumber or remove IDs.
 
 unit: 11
 title: "What next?"
 book_chapter: "11.2-what-next.qmd"
 course_info_page: "Unit11.qmd"
-status: reviewed            # draft | reviewed | locked
-version: "2027.0-draft"
+status: locked            # draft | reviewed | locked
+version: "2027.0"
 last_updated: "2026-10-06"
 stem: "After this unit, students will be able to:"
 

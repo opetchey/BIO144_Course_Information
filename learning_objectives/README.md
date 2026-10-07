@@ -15,7 +15,11 @@ Fields per objective:
 - `type`: `concept` (answered from understanding) or `analysis` (requires using R on a dataset).
 
 The mapping of objectives to specific exam questions is confidential and is NOT kept here.
-- `review_note` (optional): what needs revising before the objective is locked.
+- `review_note` (optional): what needs revising before the objective is locked. All review notes were removed when the files were locked on 2026-10-06; they are archived in `original_2026/review_notes_at_locking_2026-10-06.tsv`.
+
+**Status:** all files were locked on 2026-10-06 (version 2027.0). From now on, do not renumber or remove IDs: practicals, quizzes and the (confidential) exam map refer to them. If an objective must be added, give it the next free number in its chapter.
+
+**Mapping to practicals and quizzes:** every quiz question and practical section in `BIO144_Practicals_WAs/Unit*.Rmd` carries a tag naming the objectives it serves (`# LO: ...` as the first line of a quiz chunk; `<!-- LO: ... -->` after a practical heading). Run `tools/lo_coverage.R` in that repository to get the objective-by-objective coverage table (`tools/lo_coverage.csv`).
 - `examinable` (optional, default true): set to false for objectives that are not examined.
 
 `original_2026/` holds the original 2026 wording, converted to this format, for reference.

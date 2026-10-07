@@ -1,15 +1,15 @@
 # Learning objectives: single source of truth.
 # Used to generate the learning objectives in the course book chapter
 # and on the course information website. Edit here only.
-# Revised draft for 2027; original 2026 wording is in original_2026/.
-# bloom and type tags are provisional; review_note flags items to check.
+# 2027 version; original 2026 wording is in original_2026/.
+# Locked 2026-10-06 (version 2027.0): do not renumber or remove IDs.
 
 unit: 5
 title: "One-way ANOVA"
 book_chapter: "5.1-ANOVA.qmd"
 course_info_page: "Unit5.qmd"
-status: reviewed            # draft | reviewed | locked
-version: "2027.0-draft"
+status: locked            # draft | reviewed | locked
+version: "2027.0"
 last_updated: "2026-10-06"
 stem: "After this unit, students will be able to:"
 
@@ -33,7 +33,6 @@ objectives:
     text: "Explain why sums of squares are divided by their degrees of freedom to give mean squares, and identify the two degrees of freedom of the F-distribution."
     bloom: [understand]
     type: concept
-    review_note: "Wording fixed 2027: model df now described as extra parameters compared with the intercept-only model (k − 1)."
 
   - id: LO5.1.5
     text: "Calculate missing entries in an ANOVA table (degrees of freedom, sums of squares, mean squares, F)."
@@ -69,7 +68,6 @@ objectives:
     text: "Explain why testing many pairs of groups inflates the probability of a false positive, and use a correction for multiple comparisons (e.g. Bonferroni, Tukey HSD)."
     bloom: [understand, apply]
     type: analysis
-    review_note: "Added in full review (covered in book): check wording and examinability."
 
   - id: LO5.1.12
     text: "Decide whether one-way ANOVA is appropriate for a described study design and response variable."

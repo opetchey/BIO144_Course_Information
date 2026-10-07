@@ -1,12 +1,13 @@
 # Course-level learning objectives: single source of truth.
-# Revised draft for 2027. Original 2026 wording: BIO144_Course_Information/3.1-learning-objectives.qmd
+# 2027 version. Original 2026 wording: BIO144_Course_Information/3.1-learning-objectives.qmd
 # Objectives are ordered as the steps of an analysis: question, model choice, planning, data, fitting, checking, interpreting, evaluating, reporting.
 # `chapters` lists the chapters whose objectives build towards each course-level objective.
+# Locked 2026-10-06 (version 2027.0): do not renumber or remove IDs.
 
 course: "BIO144"
 title: "Data Analysis in Biology"
-status: reviewed            # draft | reviewed | locked
-version: "2027.0-draft"
+status: locked            # draft | reviewed | locked
+version: "2027.0"
 last_updated: "2026-10-06"
 stem: "After successfully completing BIO144, students will be able to:"
 

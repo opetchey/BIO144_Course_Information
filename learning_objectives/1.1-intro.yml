@@ -1,16 +1,16 @@
 # Learning objectives: single source of truth.
 # Used to generate the learning objectives in the course book chapter
 # and on the course information website. Edit here only.
-# Revised draft for 2027, checked against the Week 1 lecture slides
+# 2027 version, checked against the Week 1 lecture slides
 # (assets/Week1_lecture_slides.pdf) and the draft chapter _1.1-intro_DRAFT-2027.qmd.
-# bloom and type tags are provisional.
+# Locked 2026-10-06 (version 2027.0): do not renumber or remove IDs.
 
 unit: 1
 title: "Introduction"
 book_chapter: "1.1-intro.qmd"
 course_info_page: "Unit1.qmd"
-status: reviewed           # draft | reviewed | locked
-version: "2027.0-draft"
+status: locked            # draft | reviewed | locked
+version: "2027.0"
 last_updated: "2026-10-06"
 stem: "After this unit, students will be able to:"
 

@@ -1,0 +1,47 @@
+file	id	review_note
+10.1-ordination.yml	LO10.1.2	Added in full review (covered in book): check wording and examinability.
+10.1-ordination.yml	LO10.1.4	Added in full review (covered in book): check wording and examinability.
+10.1-ordination.yml	LO10.1.7	Added in full review (covered in book): check wording and examinability. The chapter uses Euclidean distance only; consider whether other measures (e.g. Bray–Curtis for community data) should be covered.
+10.1-ordination.yml	LO10.1.12	Added in full review (covered in book): check wording and examinability. The chapter also mentions MANOVA and ordisurf; decide which methods are examinable.
+10.1-ordination.yml	LO10.1.13	Added in full review (covered in book): check wording and examinability.
+11.1-mixed-models.yml	LO11.1.3	Added in full review (covered in book): check wording and examinability.
+11.1-mixed-models.yml	LO11.1.6	Added in full review (covered in book): check wording and examinability.
+12.1-review.yml	LO12.1.1	New 2027: chapter 12 previously had no learning objectives.
+12.1-review.yml	LO12.1.2	New 2027: chapter 12 previously had no learning objectives.
+12.1-review.yml	LO12.1.3	New 2027: chapter 12 previously had no learning objectives. Content added 2027 ('Designing the study so that it is easy to analyse').
+12.1-review.yml	LO12.1.4	New 2027: chapter 12 previously had no learning objectives. Content added 2027.
+12.1-review.yml	LO12.1.5	New 2027: chapter 12 previously had no learning objectives.
+12.1-review.yml	LO12.1.6	New 2027: chapter 12 previously had no learning objectives. Content added 2027 ('How many observations?').
+12.1-review.yml	LO12.1.7	New 2027: chapter 12 previously had no learning objectives. Content added 2027 ('Deciding which terms go into the model'). AIC confirmed as not covered (Owen, 2026-10-06).
+12.1-review.yml	LO12.1.8	New 2027: chapter 12 previously had no learning objectives.
+12.1-review.yml	LO12.1.9	New 2027: chapter 12 previously had no learning objectives.
+2.1-R-and-RStudio.yml	LO2.1.6	Added in full review: covered in the main text of 2.1 (working with categorical variables) and 5.1 (relevel()).
+2.1-R-and-RStudio.yml	LO2.1.7	Check the list of manipulations and functions matches the chapter.
+2.1-R-and-RStudio.yml	LO2.1.9	Gap addressed 2027: new 2.1 section 'Finding and fixing errors'.
+3.1-regression-part1.yml	LO3.1.5	Partly addressed: 3.1 now has a short definition of residual degrees of freedom (new section). Check it is used consistently in later chapters (e.g. 5.1 explains via the mean).
+3.1-regression-part1.yml	LO3.1.7	New content added to 3.1 (section 'Degrees of freedom, and why having few of them is a problem').
+3.1-regression-part1.yml	LO3.1.12	Added in full review (covered in book): check wording and examinability.
+3.1-regression-part1.yml	LO3.1.13	Book covers non-linearity, non-constant variance, outliers and transformations (log, square root). Check the list matches.
+3.1-regression-part1.yml	LO3.1.14	Gap addressed 2027: new 3.1 section 'Interpreting a model with log-transformed variables'.
+3.1-regression-part1.yml	LO3.1.15	Added in full review (covered in book): check wording and examinability.
+4.1-regression-part2.yml	LO4.1.2	Added in full review (covered in book): check wording and examinability.
+4.1-regression-part2.yml	LO4.1.5	Added in full review (covered in book): check wording and examinability.
+4.1-regression-part2.yml	LO4.1.6	Gap addressed 2027: 4.1 now shows t-distributions with 2, 5 and 30 df vs the normal, and refers back to the 3.1 critical-t table; figure titles fixed.
+4.1-regression-part2.yml	LO4.1.14	Gap addressed 2027: new 4.1 sections 'Extrapolation: predicting beyond the data', 'How big is the effect, and does it matter?' and 'Association is not causation'.
+5.1-ANOVA.yml	LO5.1.4	Wording fixed 2027: model df now described as extra parameters compared with the intercept-only model (k − 1).
+5.1-ANOVA.yml	LO5.1.11	Added in full review (covered in book): check wording and examinability.
+6.1-multiple-regression.yml	LO6.1.5	Fixed 2027: 6.1 now defines p as parameters beyond the intercept (k − 1 for a categorical variable) and uses n − p − 1 for the CI.
+6.1-multiple-regression.yml	LO6.1.12	In the book this appears in the collinearity section (assessing the importance of a variable in the presence of collinearity).
+6.1-multiple-regression.yml	LO6.1.13	New content added 2027: 6.1 section 'Confounding: why we include other explanatory variables'.
+7.1-interactions.yml	LO7.1.3	Added in full review (covered in book): check wording and examinability.
+7.1-interactions.yml	LO7.1.8	Covered in the main text (callout in the two-way ANOVA example). 7.1 Extras now notes that its parameter count includes the intercept, unlike ANOVA-table df (k − 1).
+8.1-GLM1-count-data.yml	LO8.1.5	Added in full review (covered in book): check wording and examinability.
+8.1-GLM1-count-data.yml	LO8.1.6	Addressed 2027: shared GLM checklist (_glm-checklist.qmd) added to 8.1 and 9.1.
+8.1-GLM1-count-data.yml	LO8.1.9	Check the test functions match the chapter.
+8.1-GLM1-count-data.yml	LO8.1.11	Detection (residual deviance / residual degrees of freedom) is covered in the chapter. Check the remedies match the chapter.
+8.1-GLM1-count-data.yml	LO8.1.12	Added in full review (covered in book): check wording and examinability.
+9.1-GLM2-binary-data.yml	LO9.1.2	Added in full review (covered in book): check wording and examinability.
+9.1-GLM2-binary-data.yml	LO9.1.7	Added in full review (covered in book): check wording and examinability.
+9.1-GLM2-binary-data.yml	LO9.1.10	Check the test functions match the chapter.
+9.1-GLM2-binary-data.yml	LO9.1.11	New 2027: shared GLM checklist added to 9.1 ('Complication 2: model checking and dispersion').
+9.1-GLM2-binary-data.yml	LO9.1.13	Added in full review (covered in book): check wording and examinability.

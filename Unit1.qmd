@@ -34,9 +34,7 @@ Go to this web page for a tool to record your reaction times: <a href="https://h
   Link to Reaction Time Tool
 </a>
 
-The resulting dataset can be access and or downloaded from this web page: <a href="https://tinyurl.com/ye255bdm" target="_blank">
-  Link to Reaction Time Dataset
-</a>
+After the lecture, the class dataset will be available as `reaction_times_2027.csv` at this link (the Unit 1 practical shows how to download it straight into your RStudio project): <https://raw.githubusercontent.com/opetchey/BIO144_Practicals_WAs/refs/heads/main/assets/datasets/reaction_times_2027.csv>
 
 
 ## Homework, Practical, and Weekly Quiz

@@ -44,7 +44,7 @@ We will be using three computer programmes during class (as well as the usual su
 
 3. [Rstudio](https://posit.co/downloads/). We use RStudio to interact with R. Rstudio has lots of features that make working with R much much easier and enjoyable.
 
-If you need any help setting up your laptop with R and RStudio, please look at the "Getting R & RStudio" section of the [BIO144 Previous Knowledge self-tests](https://owenpetchey.shinyapps.io/Unit0/) (see the [Previous knowledge](1.2-previous-knowledge.html) chapter for more). If you still have problems, no worries... ask for help during the first practical.
+If you need any help setting up your laptop with R and RStudio, please look at the "Getting R & RStudio" section of the [BIO144 Previous Knowledge self-tests](https://rstudio.mnf.uzh.ch:3939/content/6902b39f-65cc-4952-9a24-17cca0fe3ae2) (see the [Previous knowledge](1.2-previous-knowledge.html) chapter for more). If you still have problems, no worries... ask for help during the first practical.
 
 ## RStudio server
 

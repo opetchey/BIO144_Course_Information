@@ -38,11 +38,11 @@ This will be useful to review before the course starts, but will also be recappe
 
 ## Notation
 
-An overview of the notation used throughout the course is in the ["Notation and some definitions"](1.1-intro.html#notation-and-some-definitions) section. Most of it is also conventional statistical notation you'll have seen elsewhere. If you have questions about it, use the Discussion Forum, or ask during the first or second practical (i.e. before lecture 3, when we start using it).
+An overview of the notation used throughout the course is in the ["Notation and some definitions"](https://opetchey.github.io/BIO144_Course_Book/1.1-intro.html#notation-and-some-definitions) section of Chapter 1 of the course book. Most of it is also conventional statistical notation you'll have seen elsewhere. If you have questions about it, use the Discussion Forum, or ask during the first or second practical (i.e. before lecture 3, when we start using it).
 
 ## Checking and practising this material
 
-To check your recall of the material above, and to get set up with and comfortable using R and RStudio, work through the [BIO144 Previous Knowledge self-tests](https://owenpetchey.shinyapps.io/Unit0/) <!-- TODO Owen: confirm this URL once Unit0.Rmd is deployed to shinyapps.io / the RStudio server, and update if the app name differs from "Unit0" -->. It has:
+To check your recall of the material above, and to get set up with and comfortable using R and RStudio, work through the [BIO144 Previous Knowledge self-tests](https://rstudio.mnf.uzh.ch:3939/content/6902b39f-65cc-4952-9a24-17cca0fe3ae2). It has:
 
 * **Self-tests** covering the topics above: basic statistics, distributions, probability distributions, data visualisation, important terms and concepts, and basic statistical tests.
 * **Getting R & RStudio**: help installing R and RStudio, if you don't have them already.

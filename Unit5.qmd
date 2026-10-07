@@ -9,7 +9,23 @@ Welcome to Week 5 of BIO144!
 
 ## Course book
 
-This week we will be covering Chapter 5 of [the course book](https://opetchey.github.io/BIO144_Course_Book/).
+This week we will be covering [Chapter 5: One-way ANOVA](https://opetchey.github.io/BIO144_Course_Book/5.1-ANOVA.html) of the course book.
+
+## Code walkthrough
+
+The R code of this week's chapter is in a code walkthrough script, with a video walkthrough of it. Both are linked at the top of the course book chapter. Work through them before the practical: the last section of the script ("Practical toolbox") shows code that this week's practical uses but the chapter does not.
+
+## Learning objectives
+
+These learning objectives, together with the content of the course book chapter, define what you need to know for the exam.
+
+```{r}
+#| echo: false
+#| output: asis
+source("learning_objectives/lo.R")
+lo_list("5.1", "learning_objectives")
+```
+
 
 
 ## Lecture

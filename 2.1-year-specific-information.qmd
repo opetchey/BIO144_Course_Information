@@ -1,56 +1,49 @@
 
 # Year specific information {.unnumbered}
 
-## 2026 Detailed schedule
+<!-- 2027 DRAFT, TO CHECK (Owen): schedule built from the UZH spring semester 2027 lecture period (22 Feb – 4 Jun 2027) and public holidays. Check the dates against the official UZH calendar, and fill in rooms and exam dates. Remove this comment when checked. -->
 
-Lecture: Monday, 8:00-9:45am)
-Practical: Thurs or Fri. 1-3pm)
+## 2027 Detailed schedule
 
-Week beginning | Content |
+Lecture: Monday, 8:00–9:45.
+Practical: Thursday or Friday, 13:00–14:45.
+
+| Week beginning | Content |
 | --- | --- |
-| Feb. 16 | U1 Introduction, review, demonstration |
-| Feb. 23 | U2 R & RStudio |
-| Mar. 2 | U3 Regression part 1 |
-| Mar. 9 | U4 Regression part 2 |
-| Mar. 16 | U5 Analysis of variance |
-| Mar. 23 | U6 Multiple regression |
-| Mar. 30 | U7 Interactions |
-| Apr. 6 | -- No lecture, no practicals |
-| Apr. 13 | U8 Count data |
-| Apr. 20 | -- No lecture, review / catch-up practicals |
-| Apr. 27 | U9 Binary data |
-| May 4 | U10 Ordination |
-| May 11 | U11 Mixed models & What next? |
-| May 18 | U12 Review |
-| May 25 | -- No lecture, review / catch-up practicals |
+| Feb. 22 | U1 Introduction, review, demonstration |
+| Mar. 1 | U2 R & RStudio |
+| Mar. 8 | U3 Regression part 1 |
+| Mar. 15 | U4 Regression part 2 |
+| Mar. 22 | U5 Analysis of variance (no Friday practical: Good Friday, 26 March) |
+| Mar. 29 | -- Easter break: no lecture, no practicals |
+| Apr. 5 | U6 Multiple regression |
+| Apr. 12 | U7 Interactions |
+| Apr. 19 | U8 Count data (lecture in the morning as usual; Sechseläuten in the afternoon) |
+| Apr. 26 | U9 Binary data |
+| May 3 | U10 Ordination (no Thursday practical: Ascension, 6 May) |
+| May 10 | U11 Mixed models & What next? |
+| May 17 | -- No lecture (Whit Monday, 17 May); review / catch-up practicals |
+| May 24 | U12 Review |
+| May 31 | -- No lecture; review / catch-up practicals |
 
+If your practical day falls on a holiday (Good Friday or Ascension), please come to the practical on the other day that week.
 
+## 2027 Locations
 
+Lectures are in [TO CHECK: room].
 
+Practicals are in [TO CHECK: room].
 
-## 2026 Locations
+## 2027 Assessment
 
-Lectures are in Y15-G-40.
+**Mandatory practice examination experience (Probeprüfung)**: [TO CHECK: date and time, to be communicated].
 
-Practicals are in Y24-G-45.
+**Final Examination date and time**: Please see the Studium Biology, Modulprüfungen im Grundstudium web page and the links therein for the examination dates and other important examination information.
 
-## 2026 Assessment
+## 2027 Exam viewing
 
-**Mandatory practice examination experience**: Date and time to be communicated
+If you did not get a 4.0 or higher, you will receive an invitation to view your examination paper. The location will be announced with the invitation email.
 
-**Final Examination date and time**: Please see this Studium Biology, Modulprufungen im Grundstudium web page and the links therein for the examination dates and other important examination information.
+Viewing of the final exam: [TO CHECK: date and time], location to be announced by email.
 
- 
-
-
-## 2026 Exam viewing
-
-
-If you did not get a 4.0 or higher, you will receive and invitation to view your examination paper. The date and times are already known (see below). The location will be announced with the invitation email.
-
-Viewing of the final exam: 26th June, 9-11am, location to be announced by email.
-
-Viewing of the final exam: 10th September, 1-3pm, location to be announced by email.
-
-
-
+Viewing of the resit exam: [TO CHECK: date and time], location to be announced by email.

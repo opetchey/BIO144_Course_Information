@@ -9,7 +9,7 @@ This course will help you develop a solid foundation in answering biological que
 
 ## Course schedule
 
-The course runs during the 14-week spring semester. The course has 12 weeks of new content, and 2 weeks of self-study (no new content). Each of the 12 weeks of new content has a set of learning objectives. Each week has four parts: a lecture, homework, a practical session, and a practice quiz.
+The course runs during the spring semester. The course has 12 weeks of new content, and some weeks with no new content (the Easter break, and weeks for self-study, review and catch-up; see the detailed schedule). Each of the 12 weeks of new content has a set of learning objectives. Each week has four parts: a lecture, homework, a practical session, and a practice quiz.
  
 Lectures are on Monday mornings, 8:00 - 9:45. Practical sessions are on Thursday or Friday afternoons, 13:00 - 14:45.
 
@@ -17,7 +17,7 @@ You'll be assigned to a practical session on either Thursday or Friday. If at an
 
 Please see the "Year specific information" section below for a detailed course schedule.
 
-**Please note that the day of the last practical session in the last week of the course (usually last Friday of May) is the last day that we can guarantee that you will be able to get help with any problems you have with the course content. After that, we will not be available to help you with content-related questions. We of course remain available to answer questions about the examination arrangements.**
+**Please note that the day of the last practical session in the last week of the course (usually the last Friday of the semester; see the detailed schedule) is the last day that we can guarantee that you will be able to get help with any problems you have with the course content. After that, we will not be available to help you with content-related questions. We of course remain available to answer questions about the examination arrangements.**
 
 ## What should I already know?
 
@@ -34,7 +34,7 @@ Please bring your laptop to class. There are some power outlets in the lecture t
 
 ## Software
 
-We will be using three computer programmes during class (as well as the usual suspects, such as an internet browser etc.). Please make sure you have them:
+You can use R and RStudio either on your own laptop or through a web browser on the UZH RStudio Server (see below). The final exam uses RStudio Server, so whichever you choose, make sure you can log in to RStudio Server and work there. If you want to work on your own laptop, please make sure you have these programmes:
 
 1. A spreadsheet programme, such as Microsoft Excel, Apple Numbers, or OpenOffice.
 
@@ -48,7 +48,7 @@ If you need any help setting up your laptop with R and RStudio, please look at t
 
 ## RStudio server
 
-In the final exam you will have to use RStudio server. You are welcome to use it during the course also. You can access it at the following URL: <https://rstudio.mnf.uzh.ch/>. You can log in with your UZH username and password.
+You can use RStudio Server during the course instead of (or as well as) R and RStudio on your own laptop, and **you will have to use it in the final exam**. Access it at <https://rstudio.mnf.uzh.ch/> and log in with your UZH username and password. The Unit 1 practical starts by checking that everyone can log in.
 
 ## What to do each week
 
@@ -102,7 +102,7 @@ Some other nice (though optional) texts that you might find interesting.
 
 Various datasets are used in the course.
 
-**Datasets used in the homework and practical** are available as a zip file here: [zip file of all the datasets here](https://github.com/opetchey/BIO144/raw/master/3_datasets/all_datasets_bio144.zip), which you will then need to unpack before use.
+**Datasets used in the homework and practicals** are all in one place: the [practical datasets folder](https://github.com/opetchey/BIO144_Practicals_WAs/tree/main/assets/datasets) (this is "the usual place" mentioned in the practicals). You can download them all at once as a [zip file](https://github.com/opetchey/BIO144_Practicals_WAs/raw/refs/heads/main/assets/bio144_practical_datasets.zip), which you will then need to unpack before use. Most practicals also show you code to download the dataset you need straight into your RStudio project.
 
 **Datasets used in the course book** are available in a different zip file, which is provided in the course book (Preface).
 
@@ -166,7 +166,7 @@ A final assessment during the module examination period. Your performance in thi
 
 **Examination date and time:** Please see the Studium Biology, Modulprufungen im Grundstudium web page and the links therein for the examination dates and other important examination information.
 
-***This information is draft for 2026 and may still be changed.***
+***This information is for 2027.***
 
 The BIO144 final exam and resit are governed by the programme level regulations that can be found on this web page: [https://www.biologie.uzh.ch/de/Studium/Bachelorstudium/Grundstudium/modulpruefung.html](https://www.biologie.uzh.ch/de/Studium/Bachelorstudium/Grundstudium/modulpruefung.html)
 
@@ -244,10 +244,7 @@ The course instructors and the TAs try to get to know each of you during the cou
 
 ## Example solution scripts
 
-Some example solution scripts can be found here at the link below. However, in 2026 these are not necessarily up to date, so please beware. Also, please control your use of these example scripts carefully. Students in previous years have said they felt that they sometimes looked at the solutions to early or too quickly. They are provided because many students over many years have asked for them.
-
-<https://github.com/opetchey/BIO144/tree/master/6_example_scripts>
-
+For some practicals there are example solutions. They are in the [example solutions folder](https://github.com/opetchey/BIO144_Practicals_WAs/tree/main/example_solutions) of the practicals repository (download an .html file and open it in your browser). Please control your use of them carefully: try the practical yourself first. Students in previous years have said they sometimes looked at the solutions too early or too quickly. They are provided because many students over many years have asked for them.
 
 ## Lecture podcasts
 

@@ -50,7 +50,7 @@ format:
     fig-height: 5
     fig-align: center
   pdf:
-    keep-tex: true
+    keep-tex: false
     documentclass: book
     classoption:
       - 8pt

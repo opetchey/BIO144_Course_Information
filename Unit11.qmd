@@ -8,7 +8,26 @@ Welcome to Week 11 of BIO144!
 
 ## Course book
 
-This week we will be covering Chapter 11 of [the course book](https://opetchey.github.io/BIO144_Course_Book/).
+This week we will be covering two chapters of the course book: [Chapter 11.1: Mixed models](https://opetchey.github.io/BIO144_Course_Book/11.1-mixed-models.html) and [Chapter 11.2: What next?](https://opetchey.github.io/BIO144_Course_Book/11.2-what-next.html).
+
+## Code walkthrough
+
+The R code of this week's chapter is in a code walkthrough script, with a video walkthrough of it. Both are linked at the top of the course book chapter (the Mixed models chapter). Work through them before the practical: the last section of the script ("Practical toolbox") shows code that this week's practical uses but the chapter does not.
+
+## Learning objectives
+
+These learning objectives, together with the content of the course book chapter, define what you need to know for the exam.
+
+```{r}
+#| echo: false
+#| output: asis
+source("learning_objectives/lo.R")
+cat("**Chapter 11.1: Mixed models**\n\n")
+lo_list("11.1", "learning_objectives")
+cat("**Chapter 11.2: What next?**\n\n")
+lo_list("11.2", "learning_objectives")
+```
+
 
 
 ## Lecture

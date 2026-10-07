@@ -1,0 +1,75 @@
+# Render the course information website (HTML only) and publish it to
+# GitHub Pages every time something is pushed to the main branch.
+#
+# One-time setup on GitHub: Settings > Pages > Build and deployment >
+# Source: "GitHub Actions".
+#
+# Note: the course book reads the learning objectives from this repository.
+# After changing them, also re-run the course book's workflow
+# (course book repository > Actions > "Render and publish course book" >
+# "Run workflow").
+
+name: Render and publish course information
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install R packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::rmarkdown
+            any::knitr
+            any::yaml
+            any::tidyverse
+            any::patchwork
+
+      - name: Render the website (HTML only)
+        run: quarto render --to html
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the rendered website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

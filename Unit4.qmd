@@ -1,20 +1,11 @@
 
 # Unit 4 {.unnumbered}
 
-
 ## Introduction
 
 Welcome to Week 4 of BIO144!
 
-## Course book
-
-This week we will be covering [Chapter 4: Simple linear regression – Part 2](https://opetchey.github.io/BIO144_Course_Book/4.1-regression-part2.html) of the course book.
-
-## Code walkthrough
-
-The R code of this week's chapter is in a code walkthrough script, with a video walkthrough of it. Both are linked at the top of the course book chapter. Work through them before the practical: the last section of the script ("Practical toolbox") shows code that this week's practical uses but the chapter does not.
-
-## Learning objectives
+## Learning objectives for the week
 
 These learning objectives, together with the content of the course book chapter, define what you need to know for the exam.
 
@@ -25,12 +16,27 @@ source("learning_objectives/lo.R")
 lo_list("4.1", "learning_objectives")
 ```
 
+## Book chapter
+
+This week we will be covering [Chapter 4: Simple linear regression – Part 2](https://opetchey.github.io/BIO144_Course_Book/4.1-regression-part2.html) of the course book.
+
+## Video and code walkthrough
+
+Each chapter of the course book has a code walkthrough: an R script with the code of the chapter, with comments explaining each step, and a video in which Owen works through the script. Use them to learn the R code you need this week. Work through them before the practical, ideally running the script line by line while you watch the video. The last section of the script ("Practical toolbox") shows code that the practical uses but the chapter does not.
+
+**Script:** [walkthrough_ch04_regression_part2.R](https://opetchey.github.io/BIO144_Course_Book/walkthroughs/walkthrough_ch04_regression_part2.R)
+
+To download the script straight into your RStudio project folder (for example on RStudio Server), run this line in the Console:
+
+`download.file("https://opetchey.github.io/BIO144_Course_Book/walkthroughs/walkthrough_ch04_regression_part2.R", destfile = "walkthrough_ch04_regression_part2.R")`
+
+**Video:** coming soon. <!-- VIDEO PLACEHOLDER: replace "coming soon." with the link, e.g. [Watch the video walkthrough](https://youtu.be/XXXX) -->
 
 ## Lecture
 
 Please attend the lecture. If for any reason you can't, please watch the podcast, which is available on OLAT.
 
-
+*Optional:* some ideas for how you could prepare for the lecture (no preparation is also fine) are in [Preparing for lectures](1.1-general-information.qmd#preparing-for-lectures).
 
 ## Homework, Practical, and Weekly Quiz
 

@@ -4,28 +4,20 @@
 
 ## Introduction
 
-Welcome to Week 1 of BIO144! Week 1 is a bit different from other weeks because its focuses on introducing how the course is going to work, collecting some data for us to use, and reviewing some material that it would be good for you to remember from previous courses (or learn here if you don't know it yet!)
+Welcome to Week 1 of BIO144! Week 1 is a bit different from other weeks because it focuses on introducing how the course is going to work, collecting some data for us to use, and reviewing some material that it would be good for you to remember from previous courses (or learn here if you don't know it yet!)
 
 In subsequent weeks we will focus more on the data analysis concepts and practice.
 
-However, just like all weeks, there is:
+As in every week, there are:
 
-* A chapter of the course book.
+* Learning objectives for the week.
+* A chapter of the course book (and the associated video and code walkthrough).
 * A "lecture" on Monday.
 * Some homework to ideally do between Monday and the practical on Thursday or Friday.
 * A practical session on Thursday or Friday.
 * A weekly quiz to check your understanding.
 
-
-## Course book
-
-This week we will be covering [Chapter 1: Introduction](https://opetchey.github.io/BIO144_Course_Book/1.1-intro.html) of the course book.
-
-## Code walkthrough
-
-The R code of this week's chapter is in a code walkthrough script, with a video walkthrough of it. Both are linked at the top of the course book chapter. Work through them before the practical: the last section of the script ("Practical toolbox") shows code that this week's practical uses but the chapter does not.
-
-## Learning objectives
+## Learning objectives for the week
 
 These learning objectives, together with the content of the course book chapter, define what you need to know for the exam.
 
@@ -36,13 +28,27 @@ source("learning_objectives/lo.R")
 lo_list("1.1", "learning_objectives")
 ```
 
+## Book chapter
 
+This week we will be covering [Chapter 1: Introduction](https://opetchey.github.io/BIO144_Course_Book/1.1-intro.html) of the course book.
+
+## Video and code walkthrough
+
+Each chapter of the course book has a code walkthrough: an R script with the code of the chapter, with comments explaining each step, and a video in which Owen works through the script. Use them to learn the R code you need this week. Work through them before the practical, ideally running the script line by line while you watch the video. The last section of the script ("Practical toolbox") shows code that the practical uses but the chapter does not.
+
+**Script:** [walkthrough_ch01_intro.R](https://opetchey.github.io/BIO144_Course_Book/walkthroughs/walkthrough_ch01_intro.R)
+
+To download the script straight into your RStudio project folder (for example on RStudio Server), run this line in the Console:
+
+`download.file("https://opetchey.github.io/BIO144_Course_Book/walkthroughs/walkthrough_ch01_intro.R", destfile = "walkthrough_ch01_intro.R")`
+
+**Video:** coming soon. <!-- VIDEO PLACEHOLDER: replace "coming soon." with the link, e.g. [Watch the video walkthrough](https://youtu.be/XXXX) -->
 
 ## Lecture
 
-[Here are the slides for the lecture.](assets/Week1_lecture_slides.pdf).
+[Here are the slides for the lecture.](assets/Week1_lecture_slides.pdf)
 
-In the lecture you'll be asked to record some reaction time data about yourself. Use this google form to record the data: <a href="https://forms.gle/woeVDysV48CbcorB7" target="_blank">
+In the lecture you'll be asked to record some reaction time data about yourself. Use this google form to record the data: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwwH10I2muWwbfMlVVBQDxHhmWfsUH6pC_WkDozu8GH2a5sA/viewform" target="_blank">
   Link to Reaction Time Data Form
 </a>
 
@@ -52,6 +58,7 @@ Go to this web page for a tool to record your reaction times: <a href="https://h
 
 After the lecture, the class dataset will be available as `reaction_times_2027.csv` at this link (the Unit 1 practical shows how to download it straight into your RStudio project): <https://raw.githubusercontent.com/opetchey/BIO144_Practicals_WAs/refs/heads/main/assets/datasets/reaction_times_2027.csv>
 
+*Optional:* some ideas for how you could prepare for the lecture (no preparation is also fine) are in [Preparing for lectures](1.1-general-information.qmd#preparing-for-lectures).
 
 ## Homework, Practical, and Weekly Quiz
 

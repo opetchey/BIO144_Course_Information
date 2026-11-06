@@ -9,13 +9,11 @@ This course will help you develop a solid foundation in answering biological que
 
 ## Course schedule
 
-The course runs during the spring semester. The course has 12 weeks of new content, and some weeks with no new content (the Easter break, and weeks for self-study, review and catch-up; see the detailed schedule). Each of the 12 weeks of new content has a set of learning objectives. Each week has four parts: a lecture, homework, a practical session, and a practice quiz.
- 
-Lectures are on Monday mornings, 8:00 - 9:45. Practical sessions are on Thursday or Friday afternoons, 13:00 - 14:45.
+The course runs during the spring semester. The course has 12 weeks of new content, and some weeks with no new content (the Easter break, and weeks for self-study, review and catch-up; see the [detailed schedule](2.1-year-specific-information.qmd#detailed-schedule)). Each of the 12 weeks of new content has a set of learning objectives. Each week has four parts: a lecture, homework, a practical session, and a practice quiz.
 
 You'll be assigned to a practical session on either Thursday or Friday. If at any point you wish to change afternoons permanently, contact `studienkoordination@biol.uzh.ch`. If you want to swap days for just one or two weeks, please do so without asking.
 
-Please see the "Year specific information" section below for a detailed course schedule.
+The days and times of the lectures and practicals, and the week-by-week plan, are in the [detailed schedule](2.1-year-specific-information.qmd#detailed-schedule) (on the Year specific information page).
 
 **Please note that the day of the last practical session in the last week of the course (usually the last Friday of the semester; see the detailed schedule) is the last day that we can guarantee that you will be able to get help with any problems you have with the course content. After that, we will not be available to help you with content-related questions. We of course remain available to answer questions about the examination arrangements.**
 
@@ -64,6 +62,16 @@ You can use RStudio Server during the course instead of (or as well as) R and RS
 
 
 
+## Preparing for lectures (optional) {#preparing-for-lectures}
+
+You do not need to prepare for lectures: they are designed to work for everyone, including if you arrive without having looked at anything. If you would like to get a bit more out of them, here are some ideas. Pick whatever suits you that week. Any of these, including none, is fine.
+
+* **No preparation.** Just come along. The lecture introduces the ideas from scratch, and the course book chapter is there afterwards.
+* **A little preparation.** Skim the week's course book chapter (10–15 minutes): look at the learning objectives, the headings and the figures. Then the lecture will feel more familiar, and you will notice what is new to you.
+* **More preparation.** Read the chapter, and perhaps run some of the code walkthrough script. Make a note of anything that is unclear. If a question is still open after the lecture, ask it in the practical or on the discussion forum.
+
+Whatever you do before the lecture, the most useful thing afterwards is to work through the chapter, the code walkthrough and the practical.
+
 ## Course texts
 
 The required content of the course is all available in the course book: [BIO144 Course Book](https://opetchey.github.io/BIO144_Course_Book/). The lectures will help you understand the content of the book. The homework and practicals will also help you learn the material. Practice quizzes will help you check your learning, and prepare for the final exam. All of this will also help you develop your skills in R, which will also be required in the final exam. 
@@ -72,7 +80,7 @@ There is other optional reading that we may suggest to you during the course. Th
 
 Optional reading comes from the following books. Also each chapter of the course book suggest reading to further your understanding.
 
-* [*Linear Regression, Seminar für Statistik, ETH Zürich*(2008 / 2013) Werner Stahel.](https://github.com/opetchey/BIO144/raw/master/9_assets/Stahel_LinReg.pdf) And here is an [English version of that text](https://github.com/opetchey/BIO144/raw/master/9_assets/Stahel_LinReg_EN.pdf).
+* [*Linear Regression, Seminar für Statistik, ETH Zürich*(2008 / 2013) Werner Stahel.](assets/Stahel_LinReg.pdf) And here is an [English version of that text](assets/Stahel_LinReg_EN.pdf).
 * [*Getting Started with R, An introduction for biologists* (2017, Second Edition) Beckerman, Childs & Petchey.](https://academic.oup.com/book/27290) (**DO NOT USE THE FIRST EDITION!**). The link is to the book on the Oxford University Press website; full access to the book will require you have a UZH ip address (i.e. are on the UZH network or VPN into it).
 * [Insights from Data](https://academic.oup.com/book/39565) with R, by Petchey, et al. (Same access information as the previous book in this list).
 * *The New Statistics with R, An Introduction for Biologists* (2015, First Edition) Hector. [Ebook via UZH library.](https://academic.oup.com/book/32474)

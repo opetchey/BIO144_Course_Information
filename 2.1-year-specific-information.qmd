@@ -1,32 +1,32 @@
 
 # Year specific information {.unnumbered}
 
-<!-- 2027 DRAFT, TO CHECK (Owen): schedule built from the UZH spring semester 2027 lecture period (22 Feb – 4 Jun 2027) and public holidays. Check the dates against the official UZH calendar, and fill in rooms and exam dates. Remove this comment when checked. -->
+<!-- 2027 schedule taken from scheduling/FS2027_schedule.xlsx (UZH semester dates, course catalogue and MNF exam list). Still TO CHECK (Owen): rooms, Probeprüfung date, exam viewing dates, and whether a Thursday practical can be held on 3 June. -->
 
-## 2027 Detailed schedule
+## 2027 Detailed schedule {#detailed-schedule}
 
-Lecture: Monday, 8:00–9:45.
-Practical: Thursday or Friday, 13:00–14:45.
+* **Lecture:** Monday, 13:00–14:45.
+* **Practical:** Thursday (Practical A) or Friday (Practical B), 13:00–15:00.
 
-| Week beginning | Content |
-| --- | --- |
-| Feb. 22 | U1 Introduction, review, demonstration |
-| Mar. 1 | U2 R & RStudio |
-| Mar. 8 | U3 Regression part 1 |
-| Mar. 15 | U4 Regression part 2 |
-| Mar. 22 | U5 Analysis of variance (no Friday practical: Good Friday, 26 March) |
-| Mar. 29 | -- Easter break: no lecture, no practicals |
-| Apr. 5 | U6 Multiple regression |
-| Apr. 12 | U7 Interactions |
-| Apr. 19 | U8 Count data (lecture in the morning as usual; Sechseläuten in the afternoon) |
-| Apr. 26 | U9 Binary data |
-| May 3 | U10 Ordination (no Thursday practical: Ascension, 6 May) |
-| May 10 | U11 Mixed models & What next? |
-| May 17 | -- No lecture (Whit Monday, 17 May); review / catch-up practicals |
-| May 24 | U12 Review |
-| May 31 | -- No lecture; review / catch-up practicals |
+| Week beginning | Content | Notes |
+| --- | --- | --- |
+| Feb. 22 | U1 Introduction | |
+| Mar. 1 | U2 R and RStudio | |
+| Mar. 8 | U3 Regression part 1 | |
+| Mar. 15 | U4 Regression part 2 | |
+| Mar. 22 | U5 Analysis of variance | No Friday practical (Good Friday, 26 March): Friday group, please come on Thursday 25 March. |
+| Mar. 29 | -- Spring break | No lecture, no practicals. |
+| Apr. 5 | U6 Multiple regression | |
+| Apr. 12 | U7 Interactions | |
+| Apr. 19 | -- Self-study week 1 | No lecture (Sechseläuten, Monday afternoon). Practicals on Thursday and Friday are open sessions for catch-up and questions. |
+| Apr. 26 | U8 Count data | |
+| May 3 | U9 Binary data | No Thursday practical (Ascension, 6 May): Thursday group, please come on Friday 7 May. |
+| May 10 | U10 Ordination | |
+| May 17 | -- Self-study week 2 | No lecture (Whit Monday, 17 May). Practicals on Thursday and Friday are open sessions for catch-up and questions. |
+| May 24 | U11 Mixed models and What next? | |
+| May 31 | U12 Review | Only the Friday practical (4 June) takes place this week: Thursday group, please come on Friday. |
 
-If your practical day falls on a holiday (Good Friday or Ascension), please come to the practical on the other day that week.
+If you miss a practical because it falls on a holiday, you can also catch up in the open sessions of the self-study weeks. For ideas of what to do in the self-study weeks, see [Self study weeks](1.1-general-information.qmd#self-study-weeks).
 
 ## 2027 Locations
 
@@ -38,7 +38,11 @@ Practicals are in [TO CHECK: room].
 
 **Mandatory practice examination experience (Probeprüfung)**: [TO CHECK: date and time, to be communicated].
 
-**Final Examination date and time**: Please see the Studium Biology, Modulprüfungen im Grundstudium web page and the links therein for the examination dates and other important examination information.
+**Final examination**: Friday 18 June 2027, 10:00–12:00, in lecture halls (Hörsäle) Y04-G-30, Y24-G-45, Y24-G-55 and Y15-G-60.
+
+**Resit examination**: Thursday 26 August 2027, 14:15–16:15, in lecture hall (Hörsaal) Y24-G-45. Register for the resit in the student portal; the registration deadline is published in the course catalogue under "Organisation".
+
+These dates are from the faculty's list of written module examinations (version of 6 October 2026). Please also check the Studium Biology, Modulprüfungen im Grundstudium web page and the links therein for the official examination dates and other important examination information.
 
 ## 2027 Exam viewing
 

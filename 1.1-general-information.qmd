@@ -244,7 +244,7 @@ The course instructors and the TAs try to get to know each of you during the cou
 
 ## Example solution scripts
 
-For some practicals there are example solutions. They are in the [example solutions folder](https://github.com/opetchey/BIO144_Practicals_WAs/tree/main/example_solutions) of the practicals repository (download an .html file and open it in your browser). Please control your use of them carefully: try the practical yourself first. Students in previous years have said they sometimes looked at the solutions too early or too quickly. They are provided because many students over many years have asked for them.
+Every practical has an example solution script (an R script with comments). It is linked from the last tab ("Solutions") of that week's homework, practical and weekly quiz page, and all of them are in the [solutions folder](https://github.com/opetchey/BIO144_Practicals_WAs/tree/main/solutions) of the practicals repository. Each shows one way to solve the practical, not the only way. Please control your use of them carefully: try the practical yourself first, ideally with other students. Students in previous years have said they sometimes looked at the solutions too early or too quickly. They are provided because many students over many years have asked for them.
 
 ## Lecture podcasts
 

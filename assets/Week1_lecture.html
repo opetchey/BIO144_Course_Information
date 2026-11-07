@@ -34,6 +34,7 @@
   --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.3); color-scheme:dark}
 
 *,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
 html,body{margin:0;height:100%;background:var(--bg);color:var(--ink)}
 body{font-family:var(--f-body);overflow:hidden;-webkit-font-smoothing:antialiased}
 a{color:var(--blue)}
@@ -934,6 +935,8 @@ let cur=0;
 /* ---------- scale the 1600x900 stage to the window ---------- */
 function fit(){const s=Math.min(innerWidth/1600,innerHeight/900);stage.style.transform=`scale(${s})`;}
 addEventListener('resize',fit);fit();
+/* keep the stage from being scrolled by focus */
+const vp=$('#viewport');vp.addEventListener('scroll',()=>{vp.scrollTop=0;vp.scrollLeft=0;});addEventListener('scroll',()=>scrollTo(0,0));
 
 /* ---------- sections bar ---------- */
 const SECT=['Why','The course','Together','AI','RStudio','Your data','Live demo','Next'];

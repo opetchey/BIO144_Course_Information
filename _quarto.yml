@@ -4,6 +4,8 @@ project:
   resources:
     - assets/Week1_lecture.html
     - assets/Week1_lecture_slides.pdf
+    - assets/Week11_lecture.html
+    - assets/Week11_lecture_slides.pdf
 
 book:
   title: "BIO144 Course Information (version 2027, draft)"

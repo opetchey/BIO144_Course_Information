@@ -46,7 +46,10 @@ To download the script straight into your RStudio project folder (for example on
 
 ## Lecture
 
-[Here are the slides for the lecture.](assets/Week1_lecture_slides.pdf)
+The lecture slides are available in two versions:
+
+* [Interactive slides (HTML)](assets/Week1_lecture.html){target="_blank"}: open in a web browser. Use the arrow keys to move through the slides, and press F for full screen. Some slides have parts you can tap or click.
+* [Slides as a PDF](assets/Week1_lecture_slides.pdf){download="BIO144_Week1_lecture_slides.pdf"}: for downloading, printing or making notes on.
 
 In the lecture you'll be asked to record some reaction time data about yourself. Use this google form to record the data: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwwH10I2muWwbfMlVVBQDxHhmWfsUH6pC_WkDozu8GH2a5sA/viewform" target="_blank">
   Link to Reaction Time Data Form

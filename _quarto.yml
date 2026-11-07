@@ -1,6 +1,9 @@
 project:
   type: book
   output-dir: docs
+  resources:
+    - assets/Week1_lecture.html
+    - assets/Week1_lecture_slides.pdf
 
 book:
   title: "BIO144 Course Information (version 2027, draft)"

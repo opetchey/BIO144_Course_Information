@@ -1,0 +1,22 @@
+# Homework, Practicals, and Weekly Quizzes {.unnumbered}
+
+This page lists the Homework, Practical, and Weekly Quiz page for every Unit, so you can find them all in one place. The same link is also at the bottom of each Unit page.
+
+These pages are on the UZH RStudio Connect server. You need to be on a UZH network to open them, so if you are not on campus, connect to the UZH VPN first.
+
+| Unit | Topic | Homework, Practical, and Weekly Quiz |
+|:-----|:------|:-------------------------------------|
+| [Unit 1](Unit1.html) | Introduction | [Unit 1 page](https://rstudio.mnf.uzh.ch:3939/content/1913b078-b142-457f-8f08-8d66cc562490) |
+| [Unit 2](Unit2.html) | R and RStudio | [Unit 2 page](https://rstudio.mnf.uzh.ch:3939/content/415e9279-c26a-4756-8570-fb1f9daab65c) |
+| [Unit 3](Unit3.html) | Simple linear regression – Part 1 | [Unit 3 page](https://rstudio.mnf.uzh.ch:3939/content/b448ba8b-4d13-4e69-83ed-4250a8bada0c) |
+| [Unit 4](Unit4.html) | Simple linear regression – Part 2 | [Unit 4 page](https://rstudio.mnf.uzh.ch:3939/content/d6c3f6eb-c513-44c8-af74-d3db7f4d00a7) |
+| [Unit 5](Unit5.html) | One-way ANOVA | [Unit 5 page](https://rstudio.mnf.uzh.ch:3939/content/550e6fb0-423a-4087-9bb2-49e9be0a86c7) |
+| [Unit 6](Unit6.html) | Multiple regression | [Unit 6 page](https://rstudio.mnf.uzh.ch:3939/content/63692bfe-bf6e-442f-a216-b676b85bb663) |
+| [Unit 7](Unit7.html) | Interactions | [Unit 7 page](https://rstudio.mnf.uzh.ch:3939/content/bfebafca-fa87-4852-9df8-c715bf8439fe) |
+| [Unit 8](Unit8.html) | Generalised linear models for count data | [Unit 8 page](https://rstudio.mnf.uzh.ch:3939/content/6c82eb18-dd0f-4fab-a464-b37b710c4c65) |
+| [Unit 9](Unit9.html) | Generalised linear models for binary data | [Unit 9 page](https://rstudio.mnf.uzh.ch:3939/content/0385940d-cbc4-4c60-9bb7-fb54316459b4) |
+| [Unit 10](Unit10.html) | Ordination and multivariate data | [Unit 10 page](https://rstudio.mnf.uzh.ch:3939/content/131990d2-3b5d-40cb-b673-b13e0b6f1a26) |
+| [Unit 11](Unit11.html) | Mixed models; What next? | [Unit 11 page](https://rstudio.mnf.uzh.ch:3939/content/f916093b-9fa2-4dde-977a-3eec00e5c9cf) |
+| [Unit 12](Unit12.html) | Review: planning and implementing statistical analyses | [Unit 12 page](https://rstudio.mnf.uzh.ch:3939/content/fa0a83c4-fec9-4557-9f34-d0f36a41cf62) |
+
+The self-tests for the knowledge you should already have when you start the course are on the [Previous knowledge](1.2-previous-knowledge.html) page.

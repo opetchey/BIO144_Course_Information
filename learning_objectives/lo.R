@@ -38,7 +38,7 @@ lo_md <- function(chapter, dir, show_stem = TRUE, show_ids = FALSE, show_bloom =
 lo_list <- function(chapter, dir, ...) cat(lo_md(chapter, dir, ...), "\n\n")
 
 lo_callout <- function(chapter, dir, title = "Learning objectives", collapse = FALSE, ...) {
-  cat("\n::: {.callout-note", if (collapse) ' collapse="true"', "}\n", sep = "")
+  cat("\n::: {.callout-note .learning-objectives", if (collapse) ' collapse="true"', "}\n", sep = "")
   cat("## ", title, "\n\n", sep = "")
   cat(lo_md(chapter, dir, ...), "\n")
   cat("\nThese learning objectives, together with the content of this chapter, define what you need to know for the exam.\n")

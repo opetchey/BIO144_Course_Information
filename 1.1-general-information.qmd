@@ -188,10 +188,10 @@ In addition:
 * You will take the exam on your laptop.
 * You will need to use your laptop continuously during the two hours of the exam. Some power outlets are available, but best is to make sure you have enough battery power to last the exam.
 * Your laptop must connect to the internet via wifi.
-* You will take the exam in a special instance of OLAT from within the *Safe Exam Browser* that must be installed on your computer.
-* From within the Safe Exam Browser you will be able to use RStudio Server.
+* You will take the exam in a special instance of OLAT. Access to and use of prohibited materials and tools (such as generative AI) will be strictly controlled. How the exam setup works will be announced by late May.
+* During the exam you will use RStudio Server.
 * RStudio Server will, during the exam, be configured in "exam mode". You will not have access to your normal home folder. Access to your normal home folder will be restored after the exam. Rstudio Server will be configured so that Copilot cannot be used. You will be able to query and read R help files (e.g., using '?lm' to get help on the 'lm' function).
-* There will be a mandatory practice exam experience including use of the Safe Exam Browser. Details will be sent to you.
+* There will be a mandatory practice exam experience (Probeprüfung) in the same setup as the final exam. Details will be sent to you.
 * The exam is in English.
 * You must agree with an Honour Code on OLAT immediately before you take the exam. 
 * You will sit the exam in a lecture theater on the Irchel Campus.
@@ -264,11 +264,10 @@ In mid to late May there will be a mandatory practice exam experience. This is t
 
 The most important aims of the Probeprüfung are:
 
-1. Check you can use the Safe Exam Browser on your computer, and if not to fix any issues before the examination.
-2. Check that you can log in to the exam environment.
-3. Check that you can log in to RStudio server from within the exam environment.
+1. Check that you can log in to the exam environment.
+2. Check that you can log in to RStudio Server from within the exam environment.
 
-Please note that you can do 1. and 2. independent of the Probeprüfung, and you are encouraged to do so. You can make a [SEB-Testlauf with details here](https://www.zi.uzh.ch/de/support/e-learning-and-examination/students/online-exams/seb-test-runs.html). You can make a [SEB Funktionstest with details here -- search for BIO144](https://www.zi.uzh.ch/de/support/e-learning-and-examination/students/online-exams/exam-overview.html).
+Access to and use of prohibited materials and tools (such as generative AI) will be strictly controlled in the final exam. How the exam setup works, and anything you need to prepare on your computer or accounts beforehand, will be announced by late May, together with instructions and troubleshooting tips.
 
 [ZI information about online exams -- very useful for you to read and understand.](https://www.zi.uzh.ch/en/support/e-learning-and-examination/students/online-exams)
 
@@ -276,13 +275,30 @@ Please note that you can do 1. and 2. independent of the Probeprüfung, and you 
 
 In the final on-site exam you should use a UZH-network ("uzh" or "uzh-5ghz") because these are the most reliable. Therefore, to best replicate final exam conditions, it is recommended to use these networks also for the Probeprüfung. If you wish to not use one of these for the Probeprüfung (e.g., so you can be off-site for the Probeprüfung), everything should still work.
 
+### Phone use during real exam
+
+You are allowed to use your phone when authenticating login to the exam environment and to RStudio server, but you are not allowed to use your phone for anything else during the exam. Phone use will be very carefully monitored.
+
+
+<!--
+2027: kept for reference in case the Safe Exam Browser (SEB) is used after all (Owen, Nov 2026: very unlikely).
+Previous aims, SEB checks, passkey advice and login troubleshooting:
+
+The most important aims of the Probeprüfung are:
+
+1. Check you can use the Safe Exam Browser on your computer, and if not to fix any issues before the examination.
+2. Check that you can log in to the exam environment.
+3. Check that you can log in to RStudio server from within the exam environment.
+
+Please note that you can do 1. and 2. independent of the Probeprüfung, and you are encouraged to do so. You can make a [SEB-Testlauf with details here](https://www.zi.uzh.ch/de/support/e-learning-and-examination/students/online-exams/seb-test-runs.html). You can make a [SEB Funktionstest with details here - - search for BIO144](https://www.zi.uzh.ch/de/support/e-learning-and-examination/students/online-exams/exam-overview.html).
+
+[ZI information about online exams - - very useful for you to read and understand.](https://www.zi.uzh.ch/en/support/e-learning-and-examination/students/online-exams)
+
 ### Passkeys for authentication
 
 Passkeys for authentication do not work with SEB in general. This means that if you have a passkey for UZH-Login (Rstudio) or edu-ID-Login (OLAT), login for these may fail. Therefore, passkeys have to be removed for UZH-Login (Rstudio) & edu-ID-Login (OLAT). Please see the section below for instructions on how to do this (you must remove them from both accounts, UZH-Login and edu-ID-Login, and in both cases you must remove them in your authenticator app and on the Microsoft website).
 
-### Phone use during real exam
 
-You are allowed to use your phone when authenticating login to the exam environment and to RStudio server, but you are not allowed to use your phone for anything else during the exam. Phone use will be very carefully monitored.
 
 
 ### Check that you can use the Safe Exam Browser
@@ -347,9 +363,4 @@ Then:
 
 1. Restart the mock exam from the exam overview page.
 2. Try logging in to RStudio again.
-
-
-
-
-
-
+-->
